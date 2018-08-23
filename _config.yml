@@ -1,0 +1,18 @@
+title: OpenDoc Template
+remote_theme: opengovsg/opendoc-theme
+timezone: Asia/Singapore
+plugins:
+  - jekyll-seo-tag
+  - jekyll-coffeescript
+elastic_search:
+  index: pd
+  doctype: bare
+environment: DEV
+google_analytics: UA-113717369-6
+server_LOCAL: https://opendoc.sg
+server_DEV: https://opendoc.sg
+section_order:
+
+styling_options:
+  primary_brand_color: '#444'
+  logo_path: /assets/logo.png
