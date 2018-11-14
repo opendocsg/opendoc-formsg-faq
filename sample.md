@@ -1,10 +1,9 @@
 ---
 layout: none
-title: Speech by Mr Heng Swee Keat, Minister for Finance at the Singapore Manufacturing Federation (SMF) Awards and 86th Anniversary Dinner, 26 September 2018, 8:00pm at Resorts World Sentosa
-tags: [speech]
+title: Sample page
 ---
 
-## Singapore Manufacturing Federation (SMF) Awards and 86th Anniversary Dinner
+# This is a Sample Page
 
 Speech by Mr Heng Swee Keat, Minister for Finance at the Singapore Manufacturing Federation (SMF) Awards and 86th Anniversary Dinner, 26 September 2018, 8:00pm at Resorts World Sentosa
 
@@ -24,7 +23,7 @@ Ladies and gentlemen
 
 5. Indeed, SMF has come a long way and has a very rich history of championing Singapore’s manufacturing sector, since its inception in 1932. Over the past 86 years, you have worked tirelessly to help Singapore companies innovate, increase productivity, transform and expand overseas. SMF is the first Trade Association and Chamber to partner IMDA in the SME Go Digital Programme. I am glad to hear from Douglas the many initiatives that SMF is leading, such as the training internships and Asean portal, under your Strategic Roadmap 2020. I am confident that SMF will continue to play a leadership role in the manufacturing industry. The Government will, on our part, continue to strongly support your work.
 
-### Manufacturing as key growth engine
+## Manufacturing as key growth engine
 
 6. The manufacturing sector is a key engine of economic growth.
 
@@ -52,7 +51,7 @@ a. US-China trade tensions continue to unfold. i. In my conversations with busin
 
 ii. Our businesses will need to watch the trade war with caution, and continue to innovate, transform and build resilience.
 
-### Spirit of leadership
+## Spirit of leadership
 
 9. Amidst these challenges, there are opportunities. I am confident that our manufacturing sector can overcome these challenges, and remain attractive to the world as a manufacturing hub. But this will not happen if we are slow or make incremental changes. We must act fast, embrace technology, transform our businesses, develop our talent, and be relevant to markets in the region and beyond.
 
@@ -127,7 +126,7 @@ iii. I just launched the Networked Trade Platform, or the NTP, this morning. Thi
 
 d. Even as the Government and SMF provide broad frameworks and opportunities for cooperation, it is up to each firm to choose to step forward and build connections. This is not a zero-sum game. If firms across the region can work together, especially those with complementary capabilities, all of us will stand to benefit, and have a better chance of competing globally. In fact, our collaborations can also be with firms from all over the world. 
 
-### Conclusion  
+## Conclusion  
 
 15. In closing, the manufacturing landscape is going to see major changes in the coming years – from disruptive technologies, the     structural changes in all economies will undergo and the shift of economic centre of gravity to Asia. 
 

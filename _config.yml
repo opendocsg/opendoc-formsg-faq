@@ -1,11 +1,12 @@
 title: OpenDoc Template
-remote_theme: opengovsg/opendoc-theme
-timezone: Asia/Singapore
-elastic_search:
-  index: template
-  doctype: bare
-environment: DEV
+remote_theme: opendocsg/opendoc-theme
+repository: opendocsg/opendoc-template
+baseurl: ''
+server_PROD: https://search.opendoc.sg
+server_DEV: https://search-staging.opendoc.sg
 section_order:
+  - Getting started with OpenDoc
+  - Sample page
 styling_options:
   primary_brand_color: '#444'
   logo_path: /assets/logo.png
