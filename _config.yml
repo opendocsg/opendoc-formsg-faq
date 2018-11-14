@@ -10,3 +10,4 @@ section_order:
 styling_options:
   primary_brand_color: '#444'
   logo_path: /assets/logo.png
+  opendoc_logo_path: /assets/images/logo-full.png
