@@ -1,19 +1,18 @@
 title: OpenDoc Template
-remote_theme: opendocsg/opendoc-theme
+remote_theme: opendocsg/opendoc-theme@v2
 timezone: Asia/Singapore
-repository: opendocsg/opendoc-supreme-court-practice-directions
+repository: opendocsg/<<your-new-repo>> ------> UPDATE REPO NAME
 plugins:
-  - jekyll-seo-tag
   - jekyll-include-cache
 baseurl: ''
 server_PROD: https://search.opendoc.sg
 server_DEV: https://search-staging.opendoc.sg
 google_analytics: --------> COPY GA ID HERE
-section_order:
-  - Getting started with OpenDoc
-  - Sample page
+order:
+  - README.md
+  - sample.md
 styling_options:
-  primary_brand_color: '#444'
-  logo_path: /assets/logo.png
+  primary_brand_color: '#444' ------> CHANGE TO YOUR THEME COLOR
+  logo_path: /assets/logo.png -------> UPDATE LOGO PATH
   opendoc_logo_path: /assets/images/logo-full.png
   feedback_url: --------> COPY FEEDBACK URL HERE
