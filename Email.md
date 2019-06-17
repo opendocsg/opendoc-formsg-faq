@@ -1,4 +1,8 @@
-# Email
+# Email Mode
+
+## What is Email mode?
+
+Email mode 
 
 ## What classification of data can FormSG handle?
 
