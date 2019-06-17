@@ -1,8 +1,12 @@
-# General
+# Introduction
 
-## What is FormSG?!
+## What is FormSG?
 
 FormSG is a form builder tool for government to self-service and create online forms that capture classified data, with the goal of replacing paper forms. Till date, it has replaced thousands of paper forms and are used by over 70 agencies such as MOM, MOE, PA and SportSG. Thousands of public officers are already on it. There is no onboarding process. Officers with @gov.sg emails can sign up.
+
+## How does it work?
+
+FormSG has two different modes. Email mode and Storage mode. 
 
 ## How does FormSG handle classified data?
 
