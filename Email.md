@@ -2,7 +2,13 @@
 
 ## What is Email mode?
 
-Email mode 
+FormSG does not store your form responses. Each time a user submits a response, an email of the response is sent to emails that you specify. You may specify multiple emails that are comma-separated. You may also specify shared inboxes or non-government emails, for example:  
+![FormSG FAQ Email Responses](https://s3-ap-southeast-1.amazonaws.com/misc.form.gov.sg/faq-email-responses.png "FormSG FAQ Email Responses")
+
+
+## How does the data collation tool work? 
+
+
 
 ## What classification of data can FormSG handle?
 
