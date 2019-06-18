@@ -30,4 +30,4 @@ If your per-entry data is Restricted, but the whole collection of data is Confid
 
 ## What sensitivity of data (based on Information Sensitivity Framework or ISF) can Email mode handle? 
 
-Email mode can handle up to Sensitive Normal. The semantics of Sensitive High are still being deliberated and we will push for FormSG to be able to handle Sensitive High s soon as the discussion around Sensitive High has concluded.
+Email mode can handle up to Sensitive Normal. The semantics of Sensitive High are still being deliberated and we will push for FormSG to be able to handle Sensitive High as soon as the discussion around Sensitive High has concluded.
