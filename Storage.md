@@ -4,19 +4,19 @@
 
 FormSG does not store your responses in the clear. In Storage mode, form responses are encrypted, before being sent to our server for storage. Here's how it works:
 
-1. You create a form using Storage mode, and is prompted to download a form password which you have to keep safe:
+1) You create a form using Storage mode, and is prompted to download a form password which you have to keep safe:
 
 ![FormSG FAQ Storage Create Form](https://s3-ap-southeast-1.amazonaws.com/misc.form.gov.sg/faq-storage-createform.png "FormSG FAQ Storage Create Form")
 
-2. When user submits your form, responses gets encrypted on user's browser before being sent to our server for storage:
+2) When user submits your form, responses gets encrypted on user's browser before being sent to our server for storage:
 
 ![FormSG FAQ Storage Encrypted](https://s3-ap-southeast-1.amazonaws.com/misc.form.gov.sg/faq-storage-encrypted.png "FormSG FAQ Storage Encrypted")
 
-3. When you want to retrieve responses, visit the Results tab, and enter your form password in order to download encrypted responses have them decrypted on your browser with the form password you provide:
+3) When you want to retrieve responses, visit the Results tab, and enter your form password in order to download encrypted responses have them decrypted on your browser with the form password you provide:
 
 ![FormSG FAQ Storage View Response](https://s3-ap-southeast-1.amazonaws.com/misc.form.gov.sg/faq-storage-viewresponses.png "FormSG FAQ Storage View Response")
 
-4. You may then view your responses one-by-one or click the Download button to export all responses to an Excel.
+4) You may then view your responses one-by-one or click the Download button to export all responses to an Excel.
 
 ## What are the benefits of this mode over Email mode? 
 
