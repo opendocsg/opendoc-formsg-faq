@@ -1,4 +1,4 @@
-# Usage
+# Help
 
 ## My form is having issues receiving responses, or there is a bug I want to report.
 
