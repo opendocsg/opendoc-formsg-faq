@@ -6,7 +6,7 @@ FormSG does not store your form responses. Each time a user submits a response, 
 
 ![FormSG FAQ Email Responses](https://s3-ap-southeast-1.amazonaws.com/misc.form.gov.sg/faq-email-responses.png "FormSG FAQ Email Responses")
 
-If there is a need to aggregate emails into an Excel sheet, you may use our Data Collation Tool to do so. You can access the Data Collation Tool on the Intranet at https://form.app.gov.sg or on the Internet at https://collate.form.gov.sg.
+If there is a need to aggregate emails into an Excel sheet, you may use our Data Collation Tool to do so. You can access the Data Collation Tool on the Intranet at https://form.app.gov.sg or on the Internet at [https://collate.form.gov.sg](https://collate.form.gov.sg).
 
 ## How does the Data Collation Tool work? 
 

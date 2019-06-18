@@ -30,6 +30,10 @@ FormSG is free to use.
 
 Forms that enable SingPass (SP) or CorpPass (CP) authentication will however have to pay for these external services. For more information on SPCP refer to the [SPCP section](/SPCP.html).
 
+## Does FormSG have a maintenance window?
+
+We do not have a maintenance window and is up 24/7. Occasionally (once a few months) we might have a short planned downtime for trickier updates such as database migrations or schema edits, but we will notify you in advance, and only do those updates in periods of low usage.
+
 ## I am not part of the government. Can I use FormSG?
 
 Today we enable government agencies and select government related organisations, such as public hospitals, to use FormSG. If you are part of a private sector organisation that is keen on using FormSG, we have plans to release an open-source version in 2020. If you are part of a government related organisation, you may write in to formsg@tech.gov.sg to request for your organisation's email domain to be whitelisted.
@@ -58,4 +62,17 @@ There are many features of FormSG and the best way to learn about them is to [lo
 - CorpPass login
 - Encrypted responses via Storage mode
 
+## FormSG forms are only accessible on the Internet. How about Intranet forms?
+
+The goal of FormSG is to replace citizen-facing paper forms. For Intranet forms, you may find SharePoint or PSST useful (we don't know much about them though, you may want to ask around). Alternatively, you may email your FormSG form link as a QR code to officers so they may fill in forms from their own mobile devices.
+
+We will experiment with bringing FormSG to the Intranet late 2019 / early 2020.
+
+## What is FormSG’s infrastructure like?
+
+We have our NodeJS web servers hosted on AWS Singapore zone. Our NoSQL database that stores only form fields and not form data is managed by Mongo Atlas, and also hosted on AWS Singapore zone. We use AWS SES to send out mails, which are not open mail relays, have valid SPF and DKIM records, and encrypts form data before sending them over to government SG-Mail. Our web servers are protected with Cloudflare SSL, their Anti-DDoS protection and Web Application Firewall. We use Pingdom for website performance and availability monitoring, and have AWS CloudWatch alarms. Our Data Collation Tool is built with vanilla Javascript and hosted on top of Nectar on the Intranet, and is an S3 static site on the Internet.
+
+## Where do I keep up to date with product updates, or ask questions on how to use FormSG?
+
+We post product updates on FormSG’s Workplace@Facebook group. Please search for "form.gov.sg" on Workplace and apply to join. You'd be surprised how active our Workplace@Facebook group is, where questions get answered by the FormSG team and the community in minutes if not hours. :) 
 
