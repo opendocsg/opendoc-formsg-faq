@@ -8,6 +8,22 @@ FormSG does not store your form responses. Each time a user submits a response, 
 
 If there is a need to aggregate emails into an Excel sheet, you may use our Data Collation Tool to do so. You can access the Data Collation Tool on the Intranet at https://form.app.gov.sg or on the Internet at [https://collate.form.gov.sg](https://collate.form.gov.sg).
 
+## Email reliability
+
+## Will my emails be blocked? 
+
+Emails typically will not be blocked. But they can be blocked at various points explained below.
+
+- When a user clicks Submit on his form, the response first goes to our server. Before reaching our server, we have a web application firewall that might detect for malicious content in forms and might block the submission. A user will then see a "Please try again later" message on the form.
+
+- If the form passes the web application firewall, it goes to our server, and we email it to your government email (SGMail) without storing it on our servers. If the government email does not exist then your response will bounce and the user will see a "Please try again later" message on the form.
+
+- If the government email exists, it proceeds to SGMail servers. Before it enters SGMail, it will arrive at SGMail's firewall. This firewall will block out emails if there are attachments with non-whitelisted file extensions, for e.g. ".abc" or ".mov". We are not aware of the full list of file extensions that SGMail whitelists, but most of the file extensions that are whitelisted can be viewed here: https://go.gov.sg/email-cwl. If your email gets blocked due to non-whitelisted attachment file extensions, you will receive a mail hygiene notification. You may contact SPEAR (spear@tech.gov.sg) within 1 month from receiving the mail hygiene notification to retrieve the dropped mail. 
+
+## How do I recover my mail when I receive a mail hygiene notification?
+
+You may recover your blocked email within 1 month if you email SPEAR (spear@tech.gov.sg) and attach the mail hygiene notification. If you have any queries you may also contact us at formsg@tech.gov.sg and we will assist you ASAP.
+
 ## How does the Data Collation Tool work? 
 
 The Data Collation Tool can only aggregate Outlook emails. You may export your email responses from Outlook to a .pst file (which is the arhchive format), and upload the .pst file to our tool. Our tool will process your .pst file into an Excel of collated responses for you to download. You may visit [here](https://collate.form.gov.sg/#instructions) to view screenshots of how to use the tool.

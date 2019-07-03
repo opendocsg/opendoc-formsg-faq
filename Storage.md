@@ -1,5 +1,7 @@
 # Storage Mode
 
+## Note that storage mode is not yet available. And will only be available end 2019. We plan to move onto the Intranet first before launching this mode.
+
 ## What is Storage mode?
 
 FormSG does not store your responses in the clear. In Storage mode, form responses are encrypted, before being sent to our server for storage. Here's how it works:
@@ -24,13 +26,13 @@ The key benefit here is convenience. You no longer have to manage emails, and no
 
 ## What features are not available yet? 
 
-We have yet to progressively roll out Storage mode to all users. All users should have access to the feature by early August 2019. Certain features you have on Email mode will not be available yet. They include: Attachment field, Table style field, SingPass/CorpPass/MyInfo and Auto-acknowledgement emails. We will progressively roll them out towards the end of 2019.
+On initial roll out certain features you have on Email mode will not be available yet. They include: Attachment field, Table style field, SingPass/CorpPass/MyInfo and Auto-acknowledgement emails. We will progressively roll them out.
 
 ## This form password sounds important. What if I lose it? 
 
 Note that the form password has to be kept safely by you. Our server will not be able to recover the form password for you if you lose it. This is a key security benefit, because that means if our server were to be compromised, the attacker will not have the form password to unlock your encrypted responses, and will only see gibberish. 
 
-If you really do lose your form password, you will lose past responses. Unfortunately, there is no way for us to retrieve the form password for you. It is advised you promptly duplicate the form, and publish the new form with a new form password to continue gathering responses from your users.
+If you really do lose your form password, you will lose past responses. Unfortunately, there is no way for us to retrieve the form password for you. It is advised you promptly duplicate the form, and publish the new form with a new form password to continue gathering responses from your users. We are actively discussing with agencies to see if a backup password can be stored by the relevant parties in agencies.
 
 ## How should I keep my form password safe? 
 
@@ -43,10 +45,6 @@ To purge encrypted data from our server, all you have to do is destroy/delete/fo
 ## What if my form password has been accidentally circulated? 
 
 A first step is to first download the data, then create a new form with a new form password and continue gathering responses from this new form. Then send us an email to assist you in deleting the responses from the old form with the leaked form password.
-
-## How can I prevent leaving data in the clear on my Internet machine? 
-
-Instead of downloading data into the default Downloads folder, you might want to plug in your encrypted thumbdrive and download directly into the thumbdrive instead. This prevents your data in the clear persisting on an Internet machine, which might be a concern especially if your Internet machine is shared.
 
 ## What classification of data (based on RCST) can Storage mode handle?
 
