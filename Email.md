@@ -12,11 +12,13 @@ If there is a need to aggregate emails into an Excel sheet, you may use our Data
 
 ## Will my emails be blocked? 
 
-Emails typically will not be blocked. But they can be blocked at various points explained below.
+If emails are non-malicious, they typically will not be blocked. There are two junctures where they might be blocked, but the form submitter will know about it and will be able to retry:
 
-- When a user clicks Submit on his form, the response first goes to our server. Before reaching our server, we have a web application firewall that might detect for malicious content in forms and might block the submission. A user will then see a "Please try again later" message on the form.
+- When a user clicks Submit on his form, the response first goes to our server. Before reaching our server, we have a web application firewall that detects for malicious content and might block the submission. If blocked, a user will see a "Please try again later" message on the form.
 
 - If the form passes the web application firewall, it goes to our server, and we email it to your government email (SGMail) without storing it on our servers. If the government email does not exist then your response will bounce and the user will see a "Please try again later" message on the form.
+
+From here on out, if the email is blocked, your user will not be aware. But there is still a way for you as the form creator to retrieve the blocked responses: 
 
 - If the government email exists, it proceeds to SGMail servers. Before it enters SGMail, it will arrive at SGMail's firewall. This firewall will block out emails if there are attachments with non-whitelisted file extensions, for e.g. ".abc" or ".mov". We are not aware of the full list of file extensions that SGMail whitelists, but most of the file extensions that are whitelisted can be viewed here: https://go.gov.sg/email-cwl. If your email gets blocked due to non-whitelisted attachment file extensions, you will receive a mail hygiene notification. You may contact SPEAR (spear@tech.gov.sg) within 1 month from receiving the mail hygiene notification to retrieve the dropped mail. 
 

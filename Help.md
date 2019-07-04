@@ -6,7 +6,7 @@ Promptly email formsg@tech.gov.sg with your form link, screenshots of the proble
 
 ## I’ve signed up for an account but have not received the one-time password (OTP) needed to log in. What do I do?
 
-Because of the firewalls that emails have to jump through to land in your government mailbox, it might take up to a few minutes to receive the OTP. If you still have not received it after a while, you might want to check other folders that is not your Inbox because of forwarding rules you might have previously set to route FormSG emails to. If you still cannot find that OTP, check your Junk folder. If it is still not there, kindly click the "Resend" button on the sign-in page to receive a new OTP. 
+Because of the firewalls that emails have to jump through to land in your government mailbox, it might take up to a few minutes to receive the OTP. If you still have not received it after a while, you might want to check other folders that is not your Inbox because of forwarding rules you might have previously set to route FormSG emails to. If you still cannot find that OTP, check your Junk folder. If it is still not there, kindly click the "Resend" button on the sign-in page to receive a new OTP.
 
 ## I am having issues with the Data Collation Tool. What do I do?
 
