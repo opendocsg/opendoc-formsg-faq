@@ -7,7 +7,7 @@ plugins:
 baseurl: ''
 server_PROD: https://search.opendoc.sg
 server_DEV: https://search-staging.opendoc.sg
-google_analytics:  #----> Optional, Google analytics ID
+google_analytics: UA-113717369-13
 order: #----> Optional, order of documents
   - Introduction.md
   - Help.md
