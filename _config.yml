@@ -14,6 +14,7 @@ order: #----> Optional, order of documents
   - Email.md
   - Storage.md
   - SPCP.md
+  - Tips.md
 styling_options:
   primary_brand_color: '#2f60ce'
   logo_path: /assets/logo-horizontal-color.svg
