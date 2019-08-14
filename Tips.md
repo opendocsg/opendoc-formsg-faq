@@ -83,18 +83,18 @@ When you implement a new logic, you should test it yourself via the preview page
 
 By default, the logo will display your agency's logo. However, you can modify this logo tot your own custom logo by changing the logo URRL. You also have the option to remove the logo. If you need to host your logo and get a URL, you can use imgbb to upload the logo and get a link to insert to the logo url box.
 
-![FormSG FAQ Logo 1](https://s3-ap-southeast-1.amazonaws.com/misc.form.gov.sg/forms-faq-tips/faq-logo1.png "FormSG FAQ Logo 1)
+![FormSG FAQ Logo 1](https://s3-ap-southeast-1.amazonaws.com/misc.form.gov.sg/forms-faq-tips/faq-logo1.png "FormSG FAQ Logo 1")
 
-![FormSG FAQ Logo 2](https://s3-ap-southeast-1.amazonaws.com/misc.form.gov.sg/forms-faq-tips/faq-logo2.png "FormSG FAQ Logo 2)
+![FormSG FAQ Logo 2](https://s3-ap-southeast-1.amazonaws.com/misc.form.gov.sg/forms-faq-tips/faq-logo2.png "FormSG FAQ Logo 2")
 
-![FormSG FAQ Logo 3](https://s3-ap-southeast-1.amazonaws.com/misc.form.gov.sg/forms-faq-tips/faq-logo3.png "FormSG FAQ Logo 3)
+![FormSG FAQ Logo 3](https://s3-ap-southeast-1.amazonaws.com/misc.form.gov.sg/forms-faq-tips/faq-logo3.png "FormSG FAQ Logo 3")
 
-![FormSG FAQ Logo 4](https://s3-ap-southeast-1.amazonaws.com/misc.form.gov.sg/forms-faq-tips/faq-logo4.png "FormSG FAQ Logo 4)
+![FormSG FAQ Logo 4](https://s3-ap-southeast-1.amazonaws.com/misc.form.gov.sg/forms-faq-tips/faq-logo4.png "FormSG FAQ Logo 4")
 
-![FormSG FAQ Logo 5](https://s3-ap-southeast-1.amazonaws.com/misc.form.gov.sg/forms-faq-tips/faq-logo5.png "FormSG FAQ Logo 5)
+![FormSG FAQ Logo 5](https://s3-ap-southeast-1.amazonaws.com/misc.form.gov.sg/forms-faq-tips/faq-logo5.png "FormSG FAQ Logo 5")
 
-![FormSG FAQ Logo Upload 1](https://s3-ap-southeast-1.amazonaws.com/misc.form.gov.sg/forms-faq-tips/faq-upload-logo1.png "FormSG FAQ Logo Upload 1)
+![FormSG FAQ Logo Upload 1](https://s3-ap-southeast-1.amazonaws.com/misc.form.gov.sg/forms-faq-tips/faq-upload-logo1.png "FormSG FAQ Logo Upload 1")
 
-![FormSG FAQ Logo Upload 2](https://s3-ap-southeast-1.amazonaws.com/misc.form.gov.sg/forms-faq-tips/faq-upload-logo2.png "FormSG FAQ Logo Upload 2)
+![FormSG FAQ Logo Upload 2](https://s3-ap-southeast-1.amazonaws.com/misc.form.gov.sg/forms-faq-tips/faq-upload-logo2.png "FormSG FAQ Logo Upload 2")
 
-![FormSG FAQ Logo Upload 3](https://s3-ap-southeast-1.amazonaws.com/misc.form.gov.sg/forms-faq-tips/faq-upload-logo3.png "FormSG FAQ Logo Upload 3)
+![FormSG FAQ Logo Upload 3](https://s3-ap-southeast-1.amazonaws.com/misc.form.gov.sg/forms-faq-tips/faq-upload-logo3.png "FormSG FAQ Logo Upload 3")
