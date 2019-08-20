@@ -21,15 +21,15 @@ Most issues that you might be facing with collating your data can be solved by f
 
 A first step you can do is to add your new email or colleagues' emails as Collaborators to the form. You may do so by clicking on the (+) icon at the top right corner of your form:
 
-![FormSG FAQ Add Collaborators](https://s3-ap-southeast-1.amazonaws.com/misc.form.gov.sg/faq-add-collab.png "FormSG FAQ Add Collaborators")
+![FormSG FAQ Add Collaborators](https://s3-ap-southeast-1.amazonaws.com/misc.form.gov.sg/faq-collaborator.png "FormSG FAQ Add Collaborators")
 
-Collaborators have the same rights as form creators, except they cannot delete the form. 
+Collaborators have the same rights as form creators, except they cannot delete the form.
 
 After this is done, you can request a transfer of ownership for the form by emailing us at formsg@tech.gov.sg with the forms you want to transfer, and the new email you want to transfer them to.
 
 ## My forms are particularly sensitive and I do not want other public officers to see them on the Examples tab.
 
-Note that only forms that are active, and have at least 10 responses will be searchable on the Examples tab. And that the Examples tab is only viewable by authenticated public officers, not the general public. Furthermore, only your form fields are viewable, not your form data. 
+Note that only forms that are active, and have at least 10 responses will be searchable on the Examples tab. And that the Examples tab is only viewable by authenticated public officers, not the general public. Furthermore, only your form fields are viewable, not your form data.
 
 But if there is still a need to unlist your form from the Examples tab because the form fields alone are already sensitive to be viewed by fellow public officers, then you may get your MIC to write in to us at formsg@tech.gov.sg with your form links and reasons to unlist them.
 

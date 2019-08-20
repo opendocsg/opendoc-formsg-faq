@@ -54,4 +54,4 @@ When you implement a new logic, you should test it yourself via the preview page
 
 By default, the logo will display your agency's logo. However, you can modify this logo tot your own custom logo by changing the logo URRL. You also have the option to remove the logo. If you need to host your logo and get a URL, you can use imgbb to upload the logo and get a link to insert to the logo url box.
 
-![FormSG FAQ Logo](https://s3-ap-southeast-1.amazonaws.com/misc.form.gov.sg/forms-faq-tips/faq-logo.png "FormSG FAQ Logo")
+![FormSG FAQ Logo](https://s3-ap-southeast-1.amazonaws.com/misc.form.gov.sg/faq-logo.png "FormSG FAQ Logo")
