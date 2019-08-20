@@ -42,7 +42,7 @@ You may want to insert *headers* with *title* with *description* to establish ne
 
 Note that for different feature fields like email, date, checkbox, dropdown, radio button, the title is in a different font size compare with the description. The questions are also numbered in a running sequence.
 
-![FormSG FAQ Create Section](https://s3-ap-southeast-1.amazonaws.com/misc.form.gov.sg/faq-section.png "FormSG FAQ Create Section 1")
+![FormSG FAQ Create Section](https://s3-ap-southeast-1.amazonaws.com/misc.form.gov.sg/faq-section.png "FormSG FAQ Create Section")
 
 ## How do I know if the logic for the form is correct?
 
