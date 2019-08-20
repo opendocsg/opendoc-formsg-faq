@@ -20,13 +20,13 @@ Use *checkbox* to create your question. Other options such as *dropdown*, *radio
 
 For 5 or less choices, you can use a *radio* button feature.
 
-![FormSG FAQ Radio Button](https://s3-ap-southeast-1.amazonaws.com/misc.form.gov.sg/forms-faq-tips/faq-radio.png "FormSG FAQ Radio Button")
+![FormSG FAQ Radio Button](https://s3-ap-southeast-1.amazonaws.com/misc.form.gov.sg/faq-radio.png "FormSG FAQ Radio Button")
 
 ## How to set up the question with >5 choices?
 
 For greater than 5 choices, you can use a *dropdown* or *checkbox* to create your question.
 
-![FormSG FAQ Dropdown](https://s3-ap-southeast-1.amazonaws.com/misc.form.gov.sg/forms-faq-tips/faq-dropdown.png "FormSG FAQ Dropdown")
+![FormSG FAQ Dropdown](https://s3-ap-southeast-1.amazonaws.com/misc.form.gov.sg/faq-dropdown.png "FormSG FAQ Dropdown")
 
 ## How to split responses in *table-style* question in Excel?
 
@@ -34,7 +34,7 @@ For greater than 5 choices, you can use a *dropdown* or *checkbox* to create you
 2. Select the entire column of the *table-style* responses
 3. Go to the Data tab and choose *Text to Columns > Delimit by comma (,)*.
 
-![FormSG FAQ Excel Split Response](https://s3-ap-southeast-1.amazonaws.com/misc.form.gov.sg/forms-faq-tips/faq-excel.png "FormSG FAQ Excel Split Response")
+![FormSG FAQ Excel Split Response](https://s3-ap-southeast-1.amazonaws.com/misc.form.gov.sg/faq-excel.png "FormSG FAQ Excel Split Response")
 
 ## How to make a new section?
 
@@ -42,13 +42,13 @@ You may want to insert *headers* with *title* with *description* to establish ne
 
 Note that for different feature fields like email, date, checkbox, dropdown, radio button, the title is in a different font size compare with the description. The questions are also numbered in a running sequence.
 
-![FormSG FAQ Create Section](https://s3-ap-southeast-1.amazonaws.com/misc.form.gov.sg/forms-faq-tips/faq-section.png "FormSG FAQ Create Section 1")
+![FormSG FAQ Create Section](https://s3-ap-southeast-1.amazonaws.com/misc.form.gov.sg/faq-section.png "FormSG FAQ Create Section 1")
 
 ## How do I know if the logic for the form is correct?
 
 When you implement a new logic, you should test it yourself via the preview page. Make sure all logics make sense for your user before you deploy your form.
 
-![FormSG FAQ Logic](https://s3-ap-southeast-1.amazonaws.com/misc.form.gov.sg/forms-faq-tips/faq-logic.png "FormSG FAQ Logic")
+![FormSG FAQ Logic](https://s3-ap-southeast-1.amazonaws.com/misc.form.gov.sg/faq-logic.png "FormSG FAQ Logic")
 
 ## How can I change the default logo displayed on FormSG form?
 
