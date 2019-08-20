@@ -14,7 +14,7 @@ Add *long Text* or *short Text* on form, provide instructions and URL (Link) to 
 
 Use *checkbox* to create your question. Other options such as *dropdown*, *radio* button will only allow respondent to choose 1 option.
 
-![FormSG FAQ Checkbox](https://s3-ap-southeast-1.amazonaws.com/misc.form.gov.sg/faq-checkbox.png"FormSG FAQ Checkbox")
+![FormSG FAQ Checkbox](https://s3-ap-southeast-1.amazonaws.com/misc.form.gov.sg/faq-checkbox.png "FormSG FAQ Checkbox")
 
 ## How to set up a question with <5 choices?
 
