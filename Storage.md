@@ -20,29 +20,29 @@ FormSG does not store your responses in the clear. In Storage mode, form respons
 
 4) You may then view your responses one-by-one or click the Download button to export all responses to an Excel.
 
-## What are the benefits of this mode over Email mode? 
+## What are the benefits of this mode over Email mode?
 
 The key benefit here is convenience. You no longer have to manage emails, and no longer have to manually aggregate emails into Excel using the Data Collation Tool. If your form has high volume such as tens of thousands of responses or more, it can be quite painful to manage those responses in your mailbox.
 
-## What features are not available yet? 
+## What features are not available yet?
 
 On initial roll out certain features you have on Email mode will not be available yet. They include: Attachment field, Table style field, SingPass/CorpPass/MyInfo and Auto-acknowledgement emails. We will progressively roll them out.
 
-## This form password sounds important. What if I lose it? 
+## This form password sounds important. What if I lose it?
 
-Note that the form password has to be kept safely by you. Our server will not be able to recover the form password for you if you lose it. This is a key security benefit, because that means if our server were to be compromised, the attacker will not have the form password to unlock your encrypted responses, and will only see gibberish. 
+Note that the form password has to be kept safely by you. Our server will not be able to recover the form password for you if you lose it. This is a key security benefit, because that means if our server were to be compromised, the attacker will not have the form password to unlock your encrypted responses, and will only see gibberish.
 
 If you really do lose your form password, you will lose past responses. Unfortunately, there is no way for us to retrieve the form password for you. It is advised you promptly duplicate the form, and publish the new form with a new form password to continue gathering responses from your users. We are actively discussing with agencies to see if a backup password can be stored by the relevant parties in agencies.
 
-## How should I keep my form password safe? 
+## How should I keep my form password safe?
 
 It is recommended you at least pass the password to one other colleague just in case. You may email yourself the password. Or store it in a third-party password manager tool. And most importantly, it is advised you regularly log in to decrypt your form responses to make sure you still have the form password.
 
-## What if I want to purge the encrypted data on the FormSG server? 
+## What if I want to purge the encrypted data on the FormSG server?
 
 To purge encrypted data from our server, all you have to do is destroy/delete/forget your form password. Because our server only stores gibberish, without the form password, your data is as good as being purged.
 
-## What if my form password has been accidentally circulated? 
+## What if my form password has been accidentally circulated?
 
 A first step is to first download the data, then create a new form with a new form password and continue gathering responses from this new form. Then send us an email to assist you in deleting the responses from the old form with the leaked form password.
 
@@ -50,6 +50,6 @@ A first step is to first download the data, then create a new form with a new fo
 
 Storage mode can handle up to Restricted. If there is a need to handle up to Confidential, you may consider using [Email mode](/Email.html).
 
-## What sensitivity of data (based on Information Sensitivity Framework or ISF) can Storage mode handle? 
+## What sensitivity of data (based on Information Sensitivity Framework or ISF) can Storage mode handle?
 
 Storage mode can handle up to Sensitive Normal. The semantics of Sensitive High are still being deliberated and we will push for FormSG to be able to handle Sensitive High as soon as the discussion around Sensitive High has concluded.
