@@ -8,7 +8,7 @@ The primary goal of FormSG is to replace Internet citizen-facing paper forms. Ho
 
 ## How do I route responses to different emails based on form option selected? 
 
-This might apply for an enquiry form. If user chooses "Complaint" response should route to Complaints Department, but if user chooses "IT" response should route to IT Department. There's no such feature on FormSG, but you might set mail forwarding rules on your email. For example, one such rule can detect "Complaint" in the form response email, and forward this to the Complaints Department automatically.
+This might apply for an enquiry form. If user chooses "Complaint" response should route to Complaints Department, but if user chooses "IT" response should route to IT Department. There's no such feature on FormSG, but you can set mail forwarding rules on your email. For example, one such rule can detect "Complaint" in the form response email, and forward this to the Complaints Department automatically.
 
 ## My form is really long. Why can't users save draft?
 
@@ -88,11 +88,11 @@ If emails are non-malicious, they typically will not be blocked. There are two j
 
 From here on out, if the email is blocked, your user will not be aware. But there is still a way for you as the form creator to retrieve the blocked responses:
 
-- If the government email exists, it proceeds to SGMail servers. Before it enters SGMail, it will arrive at SGMail's firewall. This firewall will block out emails if there are attachments with non-whitelisted file extensions, for e.g. ".abc" or ".mov". We are not aware of the full list of file extensions that SGMail whitelists, but most of the file extensions that are whitelisted can be viewed here: https://go.gov.sg/email-cwl. If your email gets blocked due to non-whitelisted attachment file extensions, you will receive a mail hygiene notification. You may contact SPEAR (spear@tech.gov.sg) within 1 month from receiving the mail hygiene notification to retrieve the dropped mail.
+- If the government email exists, it proceeds to SGMail servers. Before it enters SGMail, it will arrive at SGMail's firewall. This firewall will block out emails if there are attachments with non-whitelisted file extensions, for e.g. ".abc" or ".mov". We are not aware of the full list of file extensions that SGMail whitelists, but most of the file extensions that are whitelisted can be viewed here on [our spreadsheet](https://go.gov.sg/email-cwl). If your email gets blocked due to non-whitelisted attachment file extensions, you will receive a mail hygiene notification. You may contact SPEAR (spear@tech.gov.sg) within 1 month from receiving the mail hygiene notification to retrieve the dropped mail.
 
 ## How do I recover my mail when I receive a mail hygiene notification?
 
-You may recover your blocked email within 1 month if you email SPEAR (spear@tech.gov.sg) and attach the mail hygiene notification. If you have any queries you may also contact us at formsg@tech.gov.sg and we will assist you ASAP.
+You may recover your blocked email within 1 month if you email SPEAR (spear@tech.gov.sg) and attach the mail hygiene notification.
 
 ## What is Storage mode?
 
@@ -137,5 +137,3 @@ To purge encrypted data from our server, all you have to do is destroy/delete/fo
 ## What if my form password has been accidentally circulated?
 
 A first step is to first download the data, then create a new form with a new form password and continue gathering responses from this new form. Then send us an email to assist you in deleting the responses from the old form with the leaked form password.
-
-
