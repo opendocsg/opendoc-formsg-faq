@@ -1,4 +1,4 @@
-# READ THIS FIRST!
+# READ THIS FIRST
 
 This is a 5 minute read that helps you understand most of the in-and-outs of FormSG.
 
