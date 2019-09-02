@@ -54,7 +54,6 @@ On Storage mode, FormSG can handle up to Restricted.
 
 FormSG is still undergoing an information sensitivity review. We have many safeguards in place, chief of which is the fact that we don't store data, and can likely support Sensitive High.
 
-
 ## What are some features of FormSG?
 
 There are many features of FormSG and the best way to learn about them is to [log in](https://form.gov.sg/#!/signin) and explore the tool. Here's a brief list of some of the features available:
@@ -81,7 +80,7 @@ Some of our forms have more than 300 questions. To make it easier to fill in, fo
 
 Some of our forms already have a high number of responses. National Day Parade Ticket Application 2019 was hosted on FormSG, which had hundreds of thousands of applications in a week.
 
-## Who do I ask for help?
+## Who do you ask for help?
 
 The fastest way to get help is to join our [Workplace@Facebook group](https://onepublicservice.facebook.com/groups/299464690543915/) and post a question there. Our group name is form.gov.sg. Fellow form creators and ourselves will readily respond within hours if not minutes. 
 
