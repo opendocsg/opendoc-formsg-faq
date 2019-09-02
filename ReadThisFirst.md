@@ -1,4 +1,4 @@
-# Read This First
+# READ THIS FIRST!
 
 This is a 5 minute read that helps you understand most of the in-and-outs of FormSG.
 
@@ -16,9 +16,9 @@ Unlike most form builders out there, FormSG does not store your data. This means
 
 Email mode: Form responses are sent directly into your specified email(s), and our server never stores a copy of it. 
 
-Storage mode (Coming Soon!): Responses are end-to-end encrypted. On form creation, private key is generated on the client and never seen by our server. On form submission, response is encrypted on the client first, before being sent to our server for storage.
+Storage mode (Coming Soon!): Responses are stored, but end-to-end encrypted. On form creation, private key is generated on the client and never seen by our server. On form submission, response is encrypted on the client first, before being sent to our server for storage.
 
-## Is FormSG IM / AIAS / DSS compliant?
+## Is FormSG IM8 / AIAS / DSS compliant?
 
 Yes we are compliant with IM8, AIAS policy, and DSS. If you have concerns on our compliance, kindly contact us via our [Support Form](https://go.gov.sg/formsg-support), and mention the specific clause you have concerns on.
 
@@ -26,23 +26,36 @@ Yes we are compliant with IM8, AIAS policy, and DSS. If you have concerns on our
 
 Yes, officers can build any number of forms to collect any number of submissions for free. 
 
-The only exception is having to pay for SingPass or CorpPass authentication. If your agency has a high volume of SPCP transactions each month, the price per login can be low. At the base tier, the price of SPCP is about $0.25 per login, with a fixed fee of about $2,000/month. For pricing info, pls contact SPCP rep maya_roosevelt@tech.gov.sg.
+The only exception is having to pay for SingPass or CorpPass authentication. If your agency has a high volume of SPCP transactions each month, the price per login can be low. At the base tier, the price of SPCP is about $0.25 per login, with a fixed fee of about $2,000/month. For pricing info, contact SPCP rep maya_roosevelt@tech.gov.sg.
+
+## How do you enable SingPass or CorpPass?
+
+All you have to do is enter an e-service ID on the Settings tab of your form to enable SPCP:
+
+![FormSG FAQ E-service ID](https://s3-ap-southeast-1.amazonaws.com/misc.form.gov.sg/faq-singpass.png "FormSG FAQ E-service ID")
+
+An e-service ID is a unique billing ID given by the SingPass/CorpPass office to your department's finance team. An invalid e-service ID will yield a 138 error for SingPass and 328 error for CorpPass. If you don’t already have an e-service ID, you can either ask your agency IT department to find an e-service ID to reuse, or contact SPCP rep maya_roosevelt@tech.gov.sg to create a new one. When testing your e-service ID you may log in to our UAT server, https://uat.form.gov.sg and create test forms there. Note that accounts and forms are separate on UAT and Live servers and cannot be transferred over.
+
+To track number of submissions at your e-service ID you may visit the Billing Panel tab on the top right of your forms dashboard:
+
+![FormSG FAQ Billing Panel E-service ID](https://s3-ap-southeast-1.amazonaws.com/misc.form.gov.sg/faq-billing-eservice.png "FormSG FAQ Billing Panel E-service ID")
 
 ## Is FormSG really up 24/7?
 
-Yes, we are up 24/7. There is no planned maintenance window. New features are constantly deployed without downtime. Because we do not charge for the service we do not have an SLA, but have a measured uptime 99.999% since we launched. The exception is SingPass and CorpPass, which do have planned maintenance, with which you can contact SPCP rep to find out more.
+Yes, we are up 24/7. There is no planned maintenance window. New features are constantly deployed without downtime. Because we do not charge for the service we do not have an SLA, but have a measured uptime of 99.999% since we launched. The exception is SingPass and CorpPass, which do have planned maintenance, with which you can contact SPCP rep maya_roosevelt@tech.gov.sg to find out more.
 
-## What kind of data classification (RCST) can FormSG handle?
+## What data classification (RCST) can FormSG handle?
 
 On Email mode, FormSG can handle up to Restricted per entry, and Confidential for the collection of data. This is because FormSG is a Restricted system that can manage Restricted data flowing through it, but ultimately data is stored in your government email, or SGMail, which is a Confidential system that lets you store Confidential collections of data. If however you specify a non-government email to send responses to, then you are not recommended to accept data that is classified Confidential.
 
 On Storage mode, FormSG can handle up to Restricted. 
 
-## What kind of information sensitivity (ISF) can FormSG handle?
+## What information sensitivity (ISF) can FormSG handle?
 
-FormSG can handle up to Sensitive-Normal for both modes, and is pending Sensitive-High.
+FormSG is still undergoing an information sensitivity review. We have many safeguards in place, chief of which is the fact that we don't store data, and can likely support Sensitive High.
 
-## What are the features of FormSG?
+
+## What are some features of FormSG?
 
 There are many features of FormSG and the best way to learn about them is to [log in](https://form.gov.sg/#!/signin) and explore the tool. Here's a brief list of some of the features available:
 - Fields: Short text, Long text, Header, Statement, Email, Number, Dropdown, Radio, Checkbox, Yes/No, Date, Rating, NRIC, Decimal
@@ -70,8 +83,8 @@ Some of our forms already have a high number of responses. National Day Parade T
 
 ## Who do I ask for help?
 
-The fastest way to get help is to join our Workplace@Facebook group and post a question there. Our group name is form.gov.sg. Fellow form creators and ourselves will readily respond within hours if not minutes. 
+The fastest way to get help is to join our [Workplace@Facebook group](https://onepublicservice.facebook.com/groups/299464690543915/) and post a question there. Our group name is form.gov.sg. Fellow form creators and ourselves will readily respond within hours if not minutes. 
 
-You may also consult your agency reps for help, which we will publish soon.
+You may also consult your agency reps for help. We will publish a list of reps soon.
 
 For bug reports or technical issues happening to your live form, please fill in our [Support Form](https://go.gov.sg/formsg-support).
