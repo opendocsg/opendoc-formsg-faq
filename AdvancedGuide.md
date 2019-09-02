@@ -1,4 +1,22 @@
-# Help
+# Advanced Guide
+
+
+## FormSG forms are only accessible on the Internet. How about Intranet forms?
+
+The goal of FormSG is to replace citizen-facing paper forms. For Intranet forms, you may find SharePoint or PSST useful (we don't know much about them though, you may want to ask around). Alternatively, you may email your FormSG form link as a QR code to officers so they may fill in forms from their own mobile devices.
+
+We will experiment with bringing FormSG to the Intranet late 2019 / early 2020.
+
+## What is FormSG’s infrastructure like?
+
+We have our NodeJS web servers hosted on AWS Singapore zone. Our NoSQL database that stores only form fields and not form data is managed by Mongo Atlas, and also hosted on AWS Singapore zone. We use AWS SES to send out mails, which are not open mail relays, have valid SPF and DKIM records, and encrypts form data before sending them over to government SG-Mail. Our web servers are protected with Cloudflare SSL, their Anti-DDoS protection and Web Application Firewall. We use Pingdom for website performance and availability monitoring, and have AWS CloudWatch alarms. Our Data Collation Tool is built with vanilla Javascript and hosted on top of Nectar on the Intranet, and is an S3 static site on the Internet.
+
+## Where do I keep up to date with product updates, or ask questions on how to use FormSG?
+
+We post product updates on FormSG’s Workplace@Facebook group. Please search for "form.gov.sg" on Workplace and apply to join. You'd be surprised how active our Workplace@Facebook group is, where questions get answered by the FormSG team and the community in minutes if not hours. :) 
+
+
+
 
 ## My form is having issues receiving responses, or there is a bug I want to report.
 

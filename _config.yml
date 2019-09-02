@@ -9,12 +9,8 @@ server_PROD: https://search.opendoc.sg
 server_DEV: https://search-staging.opendoc.sg
 google_analytics:  #----> Optional, Google analytics ID
 order: #----> Optional, order of documents
-  - Introduction.md
-  - Help.md
-  - Email.md
-  - Storage.md
-  - SPCP.md
-  - Tips.md
+  - ReadThisFirst.md
+  - AdvancedGuide.md
 styling_options:
   primary_brand_color: '#2f60ce'
   logo_path: /assets/logo-horizontal-color.svg
