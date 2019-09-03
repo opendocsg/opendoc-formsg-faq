@@ -26,7 +26,7 @@ Yes we are compliant with IM8, AIAS policy, and DSS. If you have concerns on our
 
 Yes, officers can build any number of forms to collect any number of submissions for free. 
 
-The only exception is having to pay for SingPass or CorpPass authentication. If your agency has a high volume of SPCP transactions each month, the price per login can be low. At the base tier, the price of SPCP is about $0.25 per login, with a fixed fee of about $2,000/month. For pricing info, contact SPCP rep maya_roosevelt@tech.gov.sg.
+The only exception is having to pay for SingPass or CorpPass authentication. If your agency has a high volume of SPCP transactions each month, the price per login can be low. At the base tier, the price of SPCP is about $0.25 per login, with a fixed fee of about $2,000/month. For pricing info, contact SPCP rep [maya_roosevelt@tech.gov.sg](mailto:maya_roosevelt@tech.gov.sg).
 
 ## How do you enable SingPass or CorpPass?
 
@@ -34,7 +34,7 @@ All you have to do is enter an e-service ID on the Settings tab of your form to 
 
 ![FormSG FAQ E-service ID](https://s3-ap-southeast-1.amazonaws.com/misc.form.gov.sg/faq-singpass.png "FormSG FAQ E-service ID")
 
-An e-service ID is a unique billing ID given by the SingPass/CorpPass office to your department's finance team. An invalid e-service ID will yield a 138 error for SingPass and 328 error for CorpPass. If you don’t already have an e-service ID, you can either ask your agency IT department to find an e-service ID to reuse, or contact SPCP rep maya_roosevelt@tech.gov.sg to create a new one. When testing your e-service ID you may log in to our UAT server, https://uat.form.gov.sg and create test forms there. Note that accounts and forms are separate on UAT and Live servers and cannot be transferred over.
+An e-service ID is a unique billing ID given by the SingPass/CorpPass office to your department's finance team. An invalid e-service ID will yield a 138 error for SingPass and 328 error for CorpPass. If you don’t already have an e-service ID, you can either ask your agency IT department to find an e-service ID to reuse, or contact SPCP rep [maya_roosevelt@tech.gov.sg](mailto:maya_roosevelt@tech.gov.sg) to create a new one. When testing your e-service ID you may log in to our UAT server, https://uat.form.gov.sg and create test forms there. Note that accounts and forms are separate on UAT and Live servers and cannot be transferred over.
 
 To track number of submissions at your e-service ID you may visit the Billing Panel tab on the top right of your forms dashboard:
 
@@ -42,7 +42,7 @@ To track number of submissions at your e-service ID you may visit the Billing Pa
 
 ## Is FormSG really up 24/7?
 
-Yes, we are up 24/7. There is no planned maintenance window. New features are constantly deployed without downtime. Because we do not charge for the service we do not have an SLA, but have a measured uptime of 99.999% since we launched. The exception is SingPass and CorpPass, which do have planned maintenance, with which you can contact SPCP rep maya_roosevelt@tech.gov.sg to find out more.
+Yes, we are up 24/7. There is no planned maintenance window. New features are constantly deployed without downtime. Because we do not charge for the service we do not have an SLA, but have a measured uptime of 99.999% since we launched. The exception is SingPass and CorpPass, which do have planned maintenance, with which you can contact SPCP rep [maya_roosevelt@tech.gov.sg](mailto:maya_roosevelt@tech.gov.sg) to find out more.
 
 ## What data classification (RCST) can FormSG handle?
 
