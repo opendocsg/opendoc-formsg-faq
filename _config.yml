@@ -10,14 +10,10 @@ server_DEV: https://search-staging.opendoc.sg
 offline: false
 google_analytics: UA-113717369-13
 order: #----> Optional, order of documents
-  - Introduction.md
-  - Help.md
-  - Email.md
-  - Storage.md
-  - SPCP.md
-  - Tips.md
+  - ReadThisFirst.md
+  - AdvancedGuide.md
 styling_options:
   primary_brand_color: '#2f60ce'
   logo_path: /assets/logo-horizontal-color.svg
   opendoc_logo_path: /assets/images/logo-full.png
-  feedback_url: mailto:formsg@tech.gov.sg
+  feedback_url: https://go.gov.sg/formsg-support
