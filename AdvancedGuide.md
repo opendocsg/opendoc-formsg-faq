@@ -22,11 +22,11 @@ Because the smallest unit you can attach per attachment field is 1 MB, you can h
 
 ## I am leaving the organisation or switching over to a new email. How do I transfer ownership of my forms?
 
-Note that you might not need to transfer ownership of your form. You may simply add your colleague as a collaborator. 
+Note that you might not need to transfer ownership of your form. You may simply add your colleague as a collaborator. Collaborators have the same rights as form creators, except they cannot delete the form.
 
 ![FormSG FAQ Add Collaborators](https://s3-ap-southeast-1.amazonaws.com/misc.form.gov.sg/faq-collaborator.png "FormSG FAQ Add Collaborators")
 
-Collaborators have the same rights as form creators, except they cannot delete the form.
+If you have already lost access to your old email and can no longer edit your form, you may file a [Support Form](https://go.gov.sg/formsg-support) request to transfer ownership to another email.
 
 ## My forms are particularly sensitive and I do not want other public officers to see them on the Examples tab.
 
