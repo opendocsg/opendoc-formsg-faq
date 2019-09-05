@@ -137,3 +137,8 @@ To purge encrypted data from our server, all you have to do is destroy/delete/fo
 ## What if my form password has been accidentally circulated?
 
 A first step is to first download the data, then create a new form with a new form password and continue gathering responses from this new form. Then send us an email to assist you in deleting the responses from the old form with the leaked form password.
+
+## How do I suggest changes to this user guide?
+
+Our user guide is hosted by [OpenDoc](https://opendoc.sg) and is written in [Markdown](https://www.markdownguide.org/), which is a laymen-friendly language. The code for our user guide is open-sourced, and you may visit our [Github repository](https://github.com/opendocsg/opendoc-formsg-faq), and send us a [Pull Request](https://help.github.com/en/articles/creating-a-pull-request) if you have corrections or suggestions to the guide.
+
