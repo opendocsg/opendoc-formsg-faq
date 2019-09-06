@@ -13,7 +13,7 @@ What you can see, feel or smell:
 What goes on behind the scenes:
 - Clean up pop-up code
 
-## 27 Aug 2019: Beta Image field, take down Examples
+## 27 Aug 2019: Beta Image field, temporarily take down Examples
 
 What you can see, feel or smell: 
 - Image field which allows images to be embedded on forms released for closed beta testing
@@ -59,7 +59,7 @@ What goes on behind the scenes:
 - Only send used form data to the client, to speed up forms and decrease risk of unintended metadata exposure
 - Increased automation in our deployment pipeline by auto-purging caches
 
-## 30 Jul 2019: Remain logged into SingPass
+## 30 Jul 2019: Remain logged in to SingPass
 
 What you can see, feel or smell: 
 - Form submitters can now choose to remain logged in to SingPass indefinitely, which does not apply to forms with MyInfo fields
@@ -77,7 +77,7 @@ What goes on behind the scenes:
 - Fix security finding relating to regex for government email login
 - Update versions of software dependencies
 
-## 19 Jul 2019: Custom form inactive message, GCC preperations for FormSG for Intranet
+## 19 Jul 2019: Custom form inactive message, GCC preperations for FormSG Intranet
 
 What you can see, feel or smell: 
 - Form editors can now customise message to display when their forms are inactive
