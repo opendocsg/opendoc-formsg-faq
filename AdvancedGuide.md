@@ -38,6 +38,18 @@ But if there is still a need to unlist your form from the Examples tab because t
 
 Unfortunately, symbols such as brackets "(" are not allowed on form titles yet. You may substitute this with dashes, e.g. License Application - For Companies.
 
+## Is there an address field? How can I auto-populate one?
+
+You may create a Postal code field with Short Text that validates 6 characters, together with a few more fields for block and unit numbers. If verified addresses are needed, you may enable SingPass on your form, and drag in a Registered Address MyInfo field.
+
+## How long does the OTP take to send? For how long do I remain logged in for?
+
+The OTP is sent immediately, but might take a while to arrive in your government email due to the potentially multiple firewalls the email has to go through. OTPs expire in 15 minutes, after which you have to resend another one. After logging in, you will remain logged in for 24 hours. This means you need not have both Intranet and Internet devices at all times; you can log in to your Internet device before you leave your office, and for 24 hours be able to create forms from one Internet device.
+
+## How do I restrict access to fill in my form to selected users?
+
+The unguessable form link acts as a password. You can circulate the form link to only users that you intend to gather responses from. As long as you don't add the form link to public channels such as on your agency's Internet website, the form link will not be indexed by search engines. If the form link ends up widely circulated with non-authorised users submitting the form, you may then filter off such non-authorised submissions.
+
 ## When should I use a radio button vs a dropdown field? 
 
 For 6 or fewer choices, it is advised to use a radio button, as there are only a few options to display:
@@ -116,9 +128,9 @@ FormSG does not store your responses in the clear. In Storage mode, form respons
 
 The key benefit here is convenience. You no longer have to manage emails, and no longer have to manually aggregate emails into Excel using the Data Collation Tool. If your form has high volume such as tens of thousands of responses or more, it can be quite painful to manage those responses in your mailbox.
 
-## What features are not available yet?
+## When is Storage mode coming out?
 
-On initial roll out certain features you have on Email mode will not be available yet. They include: Attachment field, Table style field, SingPass/CorpPass/MyInfo and Auto-acknowledgement emails. We will progressively roll them out.
+With Storage mode, responses will be in the clear on an Internet device, which is not ideal. Hence we are first moving FormSG to the Intranet first before launching Storage mode. Storage mode is expected to be launched end of 2019.
 
 ## This form password sounds important. What if I lose it?
 
@@ -136,4 +148,8 @@ To purge encrypted data from our server, all you have to do is destroy/delete/fo
 
 ## What if my form password has been accidentally circulated?
 
-A first step is to first download the data, then create a new form with a new form password and continue gathering responses from this new form. Then send us an email to assist you in deleting the responses from the old form with the leaked form password.
+A first step is to download the data, then create a new form with a new form password and continue gathering responses from this new form. Then send us an email to assist you in deleting the responses from the old form with the leaked form password.
+
+## How do I suggest changes to this user guide?
+
+Our user guide is hosted by [OpenDoc](https://opendoc.sg) and is written in [Markdown](https://www.markdownguide.org/), which is a laymen-friendly language. The code for our user guide is open-sourced, and you may visit our [Github repository](https://github.com/opendocsg/opendoc-formsg-faq), and send us a [Pull Request](https://help.github.com/en/articles/creating-a-pull-request) if you have corrections or suggestions to the guide.

@@ -10,6 +10,7 @@ server_DEV: https://search-staging.opendoc.sg
 offline: false
 google_analytics: UA-113717369-13
 order: #----> Optional, order of documents
+  - Updates.md
   - ReadThisFirst.md
   - AdvancedGuide.md
 styling_options:
