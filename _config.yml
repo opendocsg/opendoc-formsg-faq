@@ -9,6 +9,7 @@ server_PROD: https://search.opendoc.sg
 server_DEV: https://search-staging.opendoc.sg
 google_analytics:  #----> Optional, Google analytics ID
 order: #----> Optional, order of documents
+  - Updates.md
   - ReadThisFirst.md
   - AdvancedGuide.md
 styling_options:

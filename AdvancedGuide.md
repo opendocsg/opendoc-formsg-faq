@@ -38,6 +38,18 @@ But if there is still a need to unlist your form from the Examples tab because t
 
 Unfortunately, symbols such as brackets "(" are not allowed on form titles yet. You may substitute this with dashes, e.g. License Application - For Companies.
 
+## Is there an address field? How can I auto-populate one?
+
+You may create a Postal code field with Short Text that validates 6 characters, together with a few more fields for block and unit numbers. If verified addresses are needed, you may enable SingPass on your form, and drag in a Registered Address MyInfo field.
+
+## How long does the OTP take to send? For how long do I remain logged in for?
+
+The OTP is sent immediately, but might take a while to arrive in your government email due to the potentially multiple firewalls the email has to go through. OTPs expire in 15 minutes, after which you have to resend another one. After logging in, you will remain logged in for 24 hours. This means you need not have both Intranet and Internet devices at all times; you can log in to your Internet device before you leave your office, and for 24 hours be able to create forms from one Internet device.
+
+## How do I restrict access to fill in my form to selected users?
+
+The unguessable form link acts as a password. You can circulate the form link to only users that you intend to gather responses from. As long as you don't add the form link to public channels such as on your agency's Internet website, the form link will not be indexed by search engines. If the form link ends up widely circulated with non-authorised users submitting the form, you may then filter off such non-authorised submissions.
+
 ## When should I use a radio button vs a dropdown field? 
 
 For 6 or fewer choices, it is advised to use a radio button, as there are only a few options to display:

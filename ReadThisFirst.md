@@ -14,7 +14,7 @@ FormSG is built for the public sector and public healthcare clusters. There is n
 
 Unlike most form builders out there, FormSG does not store your data. This means if our database is breached, there is no raw data to hack. There are two secure modes of creating forms.
 
-Email mode: Form responses are sent directly into your specified email(s), and our server never stores a copy of it. 
+Email mode: Form responses are sent directly into your specified email(s), and our server never stores a copy of it. Because we do not store responses, it is critical your mailbox is correctly specified and has space, or responses will be lost.
 
 Storage mode (Coming Soon!): Responses are stored, but end-to-end encrypted. On form creation, private key is generated on the client and never seen by our server. On form submission, response is encrypted on the client first, before being sent to our server for storage.
 
@@ -52,7 +52,9 @@ On Storage mode, FormSG can handle up to Restricted.
 
 ## What information sensitivity (ISF) can FormSG handle?
 
-FormSG is still undergoing an information sensitivity review. We have many safeguards in place, chief of which is the fact that we don't store data, and can likely support Sensitive High.
+FormSG's email mode has in-principle approval from SNDGO, the policy owner, that it can support Sensitive High data. 
+
+FormSG's storage mode has similar approval for Sensitive Normal, and is still undergoing review for Sensitive High.
 
 ## What are some features of FormSG?
 
