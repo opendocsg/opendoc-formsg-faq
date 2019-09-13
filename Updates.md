@@ -2,12 +2,20 @@
 
 We typically release features, improvements or fixes every Tuesday afternoon.
 
+## 10 Sep 2019: Bug fixes and automated tests for submissions flow
+
+What you can see, feel or smell: 
+- Fixed bug where visiting deleted forms still displayed custom form inactive message
+- Fixed bug where attachments hidden by logic, when revealed but re-hidden are still submitted
+
+What goes on behind the scenes:
+- Automated end to end tests for submissions
+
 ## 3 Sep 2019: New user guide, multiple bug fixes
 
 What you can see, feel or smell: 
 - Revamped FAQ into user guide
-- Fixed bug where attachments hidden by logic, when revealed but re-hidden are still submitted
-- Radio button error should show up when not filled
+- Fixed bug where radio button error did not show up when field is empty
 - Fixed bug where checking one checkbox option on preview page, selects multiple options at once
 
 What goes on behind the scenes:

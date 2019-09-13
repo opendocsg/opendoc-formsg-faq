@@ -26,7 +26,7 @@ Yes we are compliant with IM8, AIAS policy, and DSS. If you have concerns on our
 
 Yes, officers can build any number of forms to collect any number of submissions for free. 
 
-The only exception is having to pay for SingPass or CorpPass authentication. If your agency has a high volume of SPCP transactions each month, the price per login can be low. At the base tier, the price of SPCP is about $0.25 per login, with a fixed fee of about $2,000/month. For pricing info, contact SPCP rep [maya_roosevelt@tech.gov.sg](mailto:maya_roosevelt@tech.gov.sg).
+The only exception is having to pay for SingPass or CorpPass authentication. If your agency has a high volume of SPCP transactions each month, the price per login can be low. At the base tier, the price of SPCP is about $0.25 per login, with a fixed fee of about $2,000/month. We won't be able to advise you on the latest pricing info, and you should contact SPCP rep [maya_roosevelt@tech.gov.sg](mailto:maya_roosevelt@tech.gov.sg) for it.
 
 ## How do you enable SingPass or CorpPass?
 
@@ -39,6 +39,8 @@ An e-service ID is a unique billing ID given by the SingPass/CorpPass office to 
 To track number of submissions at your e-service ID you may visit the Billing Panel tab on the top right of your forms dashboard:
 
 ![FormSG FAQ Billing Panel E-service ID](https://s3-ap-southeast-1.amazonaws.com/misc.form.gov.sg/faq-billing-eservice.png "FormSG FAQ Billing Panel E-service ID")
+
+It is up to you to decide if you want 2FA or 1FA e-service ID. Consult SPCP rep on this if you have concerns. 
 
 ## Is FormSG really up 24/7?
 

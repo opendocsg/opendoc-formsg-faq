@@ -6,6 +6,10 @@ This advanced guide includes tips and tricks, and also solutions to common issue
 
 The primary goal of FormSG is to replace Internet citizen-facing paper forms. However, by end 2019 we will move onto the Intranet where you can create and fill forms there. We also have future plans in 2020 to extend FormSG to handle client relationship management (CRM) and case management (CMS).
 
+## Where is the signature field?
+
+There are a few variants of electronic signatures available on FormSG, all of which, according to the Electronic Transactions Act, are not legally weaker than a wet ink signature. Agencies such as IRAS and MOM have used the following for electronic signatures: a) an NRIC field, b) an attachment of a wet ink signature and c) SingPass Login. 
+
 ## How do I route responses to different emails based on form option selected? 
 
 This might apply for an enquiry form. If user chooses "Complaint" response should route to Complaints Department, but if user chooses "IT" response should route to IT Department. There's no such feature on FormSG, but you can set mail forwarding rules on your email. For example, one such rule can detect "Complaint" in the form response email, and forward this to the Complaints Department automatically.
