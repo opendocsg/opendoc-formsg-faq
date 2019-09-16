@@ -6,7 +6,7 @@ They have volunteered their time to answer process related questions in digitali
 
 | Agency                    | Name                        | Email                                           |
 |---------------------------|-----------------------------|-------------------------------------------------|
-| A'STAR                    | Berney Heng                 | berney\-heng@acrc\.a\-star\.edu\.sg             |
+| A*STAR                    | Berney Heng                 | berney\-heng@acrc\.a\-star\.edu\.sg             |
 | BCA                       | Brindha Natarajan           | brindha\_natarajan@bca\.gov\.sg                 |
 | CEA                       | Lay Poh Leng                | lay\_poh\_leng@cea\.gov\.sg                     |
 | CS College                | Tan Hwee Eng                | tan\_hwee\_eng@cscollege\.gov\.sg               |
