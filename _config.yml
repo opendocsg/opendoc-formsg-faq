@@ -13,6 +13,7 @@ order: #----> Optional, order of documents
   - Updates.md
   - ReadThisFirst.md
   - AdvancedGuide.md
+  - AskAPro.md
 styling_options:
   primary_brand_color: '#2f60ce'
   logo_path: /assets/logo-horizontal-color.svg
