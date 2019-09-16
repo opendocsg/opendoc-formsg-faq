@@ -86,7 +86,7 @@ Some of our forms already have a high number of responses. National Day Parade T
 
 ## Are there slides for me to read or share with my peers?
 
-Yes there are! Feel free to view, comment on and share these slides: https://go.gov.sg/formsg-sharing-slides. 
+Yes there are! Feel free to view, comment on and share these slides: [https://go.gov.sg/formsg-sharing-slides](https://go.gov.sg/formsg-sharing-slides).
 
 ## Who do you ask for help?
 
