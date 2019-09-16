@@ -2,6 +2,8 @@
 
 FormSG is self-service and typically does not need a guide. The best way to learn about the service is to [log in](https://form.gov.sg/#!/signin) and create your first form. 
 
+We also have a constantly updated deck of slides for you to share with your peers: https://go.gov.sg/formsg-sharing-slides
+
 There are three sections in this guide:
 - First, keep up to date with FormSG developments by viewing our Updates section.
 - Second, if you are a new user, access "READ THIS FIRST" on the menu.

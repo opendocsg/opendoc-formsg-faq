@@ -84,6 +84,10 @@ Some of our forms have more than 300 questions. To make it easier to fill in, fo
 
 Some of our forms already have a high number of responses. National Day Parade Ticket Application 2019 was hosted on FormSG, which had hundreds of thousands of applications in a week.
 
+## Are there slides for me to read or share with my peers?
+
+Yes there are! Feel free to view, comment on and share these slides: https://go.gov.sg/formsg-sharing-slides. 
+
 ## Who do you ask for help?
 
 The fastest way to get help is to join our [Workplace@Facebook group](https://onepublicservice.facebook.com/groups/299464690543915/) and post a question there. Our group name is form.gov.sg. Fellow form creators and ourselves will readily respond within hours if not minutes. 
