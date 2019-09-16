@@ -7,11 +7,13 @@ plugins:
 baseurl: ''
 server_PROD: https://search.opendoc.sg
 server_DEV: https://search-staging.opendoc.sg
-google_analytics:  #----> Optional, Google analytics ID
+offline: false
+google_analytics: UA-113717369-13
 order: #----> Optional, order of documents
   - Updates.md
   - ReadThisFirst.md
   - AdvancedGuide.md
+  - AskAPro.md
 styling_options:
   primary_brand_color: '#2f60ce'
   logo_path: /assets/logo-horizontal-color.svg
