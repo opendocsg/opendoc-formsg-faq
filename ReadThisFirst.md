@@ -40,7 +40,7 @@ To track number of submissions at your e-service ID you may visit the Billing Pa
 
 ![FormSG FAQ Billing Panel E-service ID](https://s3-ap-southeast-1.amazonaws.com/misc.form.gov.sg/faq-billing-eservice.png "FormSG FAQ Billing Panel E-service ID")
 
-It is up to you to decide if you want 2FA or 1FA e-service ID. Consult SPCP rep on this if you have concerns. 
+It is up to you to decide if you want 2FA or 1FA e-service ID. For CorpPass, it is also up to you to decide whether you want authorisation work flows at your e-service ID. Consult SPCP rep on this if you have concerns. 
 
 ## Is FormSG really up 24/7?
 
