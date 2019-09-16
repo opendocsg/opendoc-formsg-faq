@@ -1,8 +1,12 @@
 # Ask a Pro
 
-Our power users have made more than 10 forms and had greater than 1,000 in form responses. They have championed our effort in digitalising paper forms in the government.
+Below is a list of Pros you may consult from your respective agencies. These Pros are power users who have more than 10 forms or more than 1,000 responses under their belts. Many of them have thought of smart workarounds in the absence of features. They will be able to guide you to digitise your form, so feel free to reach out to them.
 
-They have volunteered their time to answer process related questions in digitalising form in your agency. They are the experts in smart workarounds for integrating form with agency specific software.
+This list is expected to grow over time. If there is no one from your agency in this list, why not be the first? As Agency Pro, you have the following perks:
+- You will be part of a group of subject matter experts to help peers in your agency
+- You will get access to juicy beta features before all other users
+- Your feature requests are prioritised, because it’s likely you have thought of workarounds that still did not work
+
 
 | Agency                    | Name                        | Email                                           |
 |---------------------------|-----------------------------|-------------------------------------------------|

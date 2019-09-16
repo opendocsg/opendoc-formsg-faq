@@ -92,6 +92,6 @@ Yes there are! Feel free to view, comment on and share these slides: [https://go
 
 The fastest way to get help is to join our [Workplace@Facebook group](https://onepublicservice.facebook.com/groups/299464690543915/) and post a question there. Our group name is form.gov.sg. Fellow form creators and ourselves will readily respond within hours if not minutes. 
 
-You may also consult your agency reps for help. We will publish a list of reps soon.
+You may also consult experts in your agency, or "Agency Pros" for help via [this list](/AskAPro.html).
 
 For bug reports or technical issues happening to your live form, please fill in our [Support Form](https://go.gov.sg/formsg-support).
