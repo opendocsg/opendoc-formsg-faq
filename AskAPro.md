@@ -33,7 +33,7 @@ Katerina_Tan@hsa.gov.sg
 **ISEAS**  
 swee_yew_pin@iseas.edu.sg
 
-**ITA**  
+**LTA**  
 jonn_tan@lta.gov.sg
 
 **MFA**  
