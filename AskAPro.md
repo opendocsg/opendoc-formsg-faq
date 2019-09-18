@@ -18,6 +18,7 @@ lay_poh_leng@cea.gov.sg
 
 **CS College**  
 tan_hwee_eng@cscollege.gov.sg
+phua_chui_ying@cscollege.gov.sg
 
 **Enterprise.sg**  
 clement_chua@enterprisesg.gov.sg

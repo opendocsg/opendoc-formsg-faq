@@ -1,6 +1,17 @@
 # Updates
 
-We typically release features, improvements or fixes every Tuesday afternoon.
+We typically release features, improvements or fixes every Tuesday or Wednesday afternoon.
+
+## 18 Sep 2019: Checkbox validation feature
+
+What you can see, feel or smell: 
+- You can now validate number of options users must choose on Checkbox
+- Add report vulnerability link to footer of form.gov.sg as per SNDGO circular
+- Fixed bug where MyInfo phone field did not show error text when not filled
+
+What goes on behind the scenes:
+- Update our nginx proxy to resolve domain dynamically
+- Batch job that update number of "live" forms, once this is fully ready we will reactivate Examples
 
 ## 10 Sep 2019: Bug fixes and automated tests for submissions flow
 
