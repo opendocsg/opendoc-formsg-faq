@@ -17,7 +17,8 @@ brindha_natarajan@bca.gov.sg
 lay_poh_leng@cea.gov.sg
 
 **CS College**  
-tan_hwee_eng@cscollege.gov.sg
+charmaine_lim@cscollege.gov.sg  
+tan_hwee_eng@cscollege.gov.sg  
 phua_chui_ying@cscollege.gov.sg
 
 **Elections Department**  
@@ -44,14 +45,13 @@ swee_yew_pin@iseas.edu.sg
 **LTA**  
 jonn_tan@lta.gov.sg
 
-**MFA**  
+**MCCY**  
+charis_Tan@mccy.gov.sg (until October 2019)
+
+**MFA**    
+ong_wei_jie@mfa.gov.sg  
+seri_nur_haziqah_nor_azamm@mfa.gov.sg  
 teo_kah_beng@mfa.gov.sg
-
-**MFA**  
-ong_wei_jie@mfa.gov.sg
-
-**MFA**  
-seri_nur_haziqah_nor_azamm@mfa.gov.sg
 
 **MHA**  
 angela_lee@mha.gov.sg
@@ -63,23 +63,28 @@ cyonghon@defence.gov.sg
 lin_peixin@mnd.gov.sg
 
 **MOE**  
-dennis_koh@moe.gov.sg  
-alicia_lee@moe.gov.sg  
-tiffany_LIM@moe.gov.sg  
-tan_soo_gek@moe.gov.sg  
-fauziah_othman@schools.gov.sg  
-mohammed_azhar_mohd_shariff@schools.gov.sg  
-nur_zuhailah_hanafi@moe.gov.sg  
-ong_yu_ling@moe.gov.sg  
-shahreen_aman@moe.gov.sg  
-rasis_abdul_rahim@schools.gov.sg  
-chew_chee_yong@schools.gov.sg  
-siti_rabiah_mohamad_yazid@moe.edu.sg  
 aaron_ang@moe.gov.sg  
-tan_ying_yang@moe.edu.sg  
-pereira_joscelyn_sebastian@moe.gov.sg  
+dennis_koh@moe.gov.sg  
+alicia_lee@moe.gov.sg   
 hamshala_ariaratnam@moe.gov.sg  
 moe_pps_jae@moe.gov.sg  
+nur_zuhailah_hanafi@moe.gov.sg  
+ong_liting@moe.gov.sg  
+ong_yu_ling@moe.gov.sg  
+pereira_joscelyn_sebastian@moe.gov.sg  
+shahreen_aman@moe.gov.sg  
+siti_rabiah_mohamad_yazid@moe.edu.sg  
+tan_soo_gek@moe.gov.sg  
+tan_ying_yang@moe.edu.sg  
+tiffany_lIM@moe.gov.sg  
+
+**MOE Schools**  
+chew_chee_yong@schools.gov.sg  
+fauziah_othman@schools.gov.sg  
+germain_kang_yin_ga@schools.gov.sg 
+mohammed_azhar_mohd_shariff@schools.gov.sg  
+kwek_soon_cheong@schools.gov.sg  
+rasis_abdul_rahim@schools.gov.sg  
 
 **MOH**  
 lynette_tan@moh.gov.sg
@@ -99,12 +104,12 @@ cheryl_lee@np.edu.sg
 **NYP**  
 rebekah_goh@nyp.edu.sg  
 tay_mia_eng@nyp.edu.sg  
-andy_chia@nyp.edu.sg  
 tay_li_leng@nyp.edu.sg
 
 **People's Association**  
 chua_gek_fong@pa.gov.sg  
-jenna_goh@pa.gov.sg
+jenna_goh@pa.gov.sg  
+Alvin_GOH@pa.gov.sg
 
 **Singapore Prison Services**  
 ang_wai_how@pris.gov.sg
@@ -116,12 +121,12 @@ sherilyn_lee_from.pubtemp@pub.gov.sg
 tan_lee_kiat@rp.edu.sg  
 toh_yuet_wei@rp.edu.sg
 
-**SCDF**    
-lee_jun_qi@scdf.gov.sg   
+**SCDF**  
+lee_jun_qi@scdf.gov.sg  
 md_faizal_sri_jamal@scdf.gov.sg  
 ridzaidean_abu_bakar@scdf.gov.sg
 
-**Science Centre**   
+**Science Centre**  
 albert_sim@science.edu.sg  
 astra_yap@science.edu.sg
 azenith_santiago@science.edu.sg
@@ -149,8 +154,8 @@ alan_chen@sport.gov.sg
 **State Courts**  
 tay_kai_boon@statecourts.gov.sg
 
-**Temasek Polytechnic**    
-asklib@tp.edu.sg    
+**Temasek Polytechnic**  
+asklib@tp.edu.sg  
 scott@tp.edu.sg
 
 **Vital Shared Services**  
