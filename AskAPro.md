@@ -94,7 +94,6 @@ Cheryl_Lee@np.edu.sg
 **NYP**  
 rebekah_goh@nyp.edu.sg  
 tay_mia_eng@nyp.edu.sg  
-andy_chia@nyp.edu.sg  
 tay_li_leng@nyp.edu.sg
 
 **People's Association**  
