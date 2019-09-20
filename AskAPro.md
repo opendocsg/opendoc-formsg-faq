@@ -35,8 +35,8 @@ karthikayen_jayasundar@hpb.gov.sg
 **HSA**  
 katerina_tan@hsa.gov.sg
 
-**IRAS** 
-dion_eh@iras.gov.sg
+**IRAS**
+dion_eh@iras.gov.sg  
 ng_siling@iras.gov.sg
 
 **ISEAS**  
@@ -63,11 +63,11 @@ cyonghon@defence.gov.sg
 lin_peixin@mnd.gov.sg
 
 **MOE**  
-aaron_ang@moe.gov.sg
-chen_yingjie_jason@moe.edu.sg
+aaron_ang@moe.gov.sg  
+chen_yingjie_jason@moe.edu.sg  
 dennis_koh@moe.gov.sg   
 hamshala_ariaratnam@moe.gov.sg  
-jesslyn_ng@moe.gov.sg
+jesslyn_ng@moe.gov.sg  
 moe_pps_jae@moe.gov.sg  
 nur_zuhailah_hanafi@moe.gov.sg  
 ong_liting@moe.gov.sg  
@@ -82,7 +82,7 @@ tiffany_lim@moe.gov.sg
 **MOE Schools**  
 chew_chee_yong@schools.gov.sg  
 fauziah_othman@schools.gov.sg  
-germain_kang_yin_ga@schools.gov.sg 
+germain_kang_yin_ga@schools.gov.sg  
 mohammed_azhar_mohd_shariff@schools.gov.sg  
 kwek_soon_cheong@schools.gov.sg  
 rasis_abdul_rahim@schools.gov.sg  
@@ -91,8 +91,8 @@ rasis_abdul_rahim@schools.gov.sg
 lynette_tan@moh.gov.sg
 
 **MOM**  
-adrian_wong@mom.gov.sg
-christen_lim@mom.gov.sg
+adrian_wong@mom.gov.sg  
+christen_lim@mom.gov.sg  
 joann_lim@mom.gov.sg
 
 **MPA**  
@@ -105,13 +105,13 @@ ngo_kau_wee@msf.gov.sg
 cheryl_lee@np.edu.sg
 
 **Nanyang Polytechnic**  
-andy_chia@nyp.edu.edu
-rebekah_goh@nyp.edu.sg  
-tay_mia_eng@nyp.edu.sg  
+andy_chia@nyp.edu.edu  
+rebekah_goh@nyp.edu.sg   
+tay_mia_eng@nyp.edu.sg    
 tay_li_leng@nyp.edu.sg
 
 **People's Association**  
-alvin_goh@pa.gov.sg
+alvin_goh@pa.gov.sg  
 chua_gek_fong@pa.gov.sg  
 jenna_goh@pa.gov.sg  
 
@@ -128,13 +128,13 @@ md_faizal_sri_jamal@scdf.gov.sg
 ridzaidean_abu_bakar@scdf.gov.sg
 
 **Science Centre**  
-albert_sim@science.edu.sg  
-astra_yap@science.edu.sg
-azenith_santiago@science.edu.sg
-chowdary_subhasree_kosaraju@science.edu.sg
-lim_teck_kim@science.edu.sg
-marcus_fa@science.edu.sg
-siti_zubaidah_abdul_rashid@science.edu.sg
+albert_sim@science.edu.sg   
+astra_yap@science.edu.sg  
+azenith_santiago@science.edu.sg  
+chowdary_subhasree_kosaraju@science.edu.sg  
+lim_teck_kim@science.edu.sg  
+marcus_fa@science.edu.sg  
+siti_zubaidah_abdul_rashid@science.edu.sg  
 susan_lim@science.edu.sg
 
 **SEAB**  
