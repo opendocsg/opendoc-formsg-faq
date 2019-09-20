@@ -8,7 +8,7 @@ This list is expected to grow over time. If there is no one from your agency in 
 - Your feature requests are prioritised, because it’s likely you have thought of workarounds that still did not work
 
 **A'STAR**  
-berny-heng@acrc.a-star.edu.sg  
+berny-heng@acrc.a-star.edu.sg
 
 **BCA**  
 brindha_natarajan@bca.gov.sg
@@ -18,26 +18,29 @@ lay_poh_leng@cea.gov.sg
 
 **CS College**  
 charmaine_lim@cscollege.gov.sg  
-phua_chui_ying@cscollege.gov.sg  
 tan_hwee_eng@cscollege.gov.sg  
+phua_chui_ying@cscollege.gov.sg
+
+**Elections Department**  
+gerry_gewi@eld.gov.sg
 
 **Enterprise.sg**  
 clement_chua@enterprisesg.gov.sg
 
 **HPB**  
-eugene_AW@hpb.gov.sg  
+eugene_aw@hpb.gov.sg  
 justin_chua@hpb.gov.sg  
 karthikayen_jayasundar@hpb.gov.sg
 
 **HSA**  
 katerina_tan@hsa.gov.sg
 
+**IRAS** 
+dion_eh@iras.gov.sg
+ng_siling@iras.gov.sg
+
 **ISEAS**  
 swee_yew_pin@iseas.edu.sg
-
-**IRAS**  
-dion_eh@iras.gov.sg   
-ng_shiling@iras.gov.sg
 
 **LTA**  
 jonn_tan@lta.gov.sg
@@ -45,7 +48,7 @@ jonn_tan@lta.gov.sg
 **MCCY**  
 charis_tan@mccy.gov.sg (until October 2019)
 
-**MFA**  
+**MFA**    
 ong_wei_jie@mfa.gov.sg  
 seri_nur_haziqah_nor_azamm@mfa.gov.sg  
 teo_kah_beng@mfa.gov.sg
@@ -59,34 +62,38 @@ cyonghon@defence.gov.sg
 **MND**  
 lin_peixin@mnd.gov.sg
 
-**MOE**    
-aaron_ang@moe.gov.sg  
-chen_yingjie_jason@moe.edu.sg  
-chew_chee_yong@schools.gov.sg  
-dennis_koh@moe.gov.sg  
-fauziah_othman@schools.gov.sg  
-germain_kang_yin_ga@schools.gov.sg  
-hamshala_ariaratnam@moe.gov.sg   
-jesslyn_ng@moe.gov.sg    
-kwek_soon_cheong@schools.gov.sg  
+**MOE**  
+aaron_ang@moe.gov.sg
+chen_yingjie_jason@moe.edu.sg
+dennis_koh@moe.gov.sg   
+hamshala_ariaratnam@moe.gov.sg  
+jesslyn_ng@moe.gov.sg
 moe_pps_jae@moe.gov.sg  
-mohammed_azhar_mohd_shariff@schools.gov.sg  
 nur_zuhailah_hanafi@moe.gov.sg  
 ong_liting@moe.gov.sg  
 ong_yu_ling@moe.gov.sg  
 pereira_joscelyn_sebastian@moe.gov.sg  
-rasis_abdul_rahim@schools.gov.sg  
 shahreen_aman@moe.gov.sg  
 siti_rabiah_mohamad_yazid@moe.edu.sg  
 tan_soo_gek@moe.gov.sg  
 tan_ying_yang@moe.edu.sg  
 tiffany_lim@moe.gov.sg  
 
+**MOE Schools**  
+chew_chee_yong@schools.gov.sg  
+fauziah_othman@schools.gov.sg  
+germain_kang_yin_ga@schools.gov.sg 
+mohammed_azhar_mohd_shariff@schools.gov.sg  
+kwek_soon_cheong@schools.gov.sg  
+rasis_abdul_rahim@schools.gov.sg  
+
 **MOH**  
 lynette_tan@moh.gov.sg
 
 **MOM**  
 adrian_wong@mom.gov.sg
+christen_lim@mom.gov.sg
+joann_lim@mom.gov.sg
 
 **MPA**  
 cherie_lim@mpa.gov.sg
@@ -97,16 +104,16 @@ ngo_kau_wee@msf.gov.sg
 **Ngee Ann Polytechnic**  
 cheryl_lee@np.edu.sg
 
-**NYP**  
-andy_chia@nyp.edu.edu  
+**Nanyang Polytechnic**  
+andy_chia@nyp.edu.edu
 rebekah_goh@nyp.edu.sg  
 tay_mia_eng@nyp.edu.sg  
 tay_li_leng@nyp.edu.sg
 
 **People's Association**  
+alvin_goh@pa.gov.sg
 chua_gek_fong@pa.gov.sg  
 jenna_goh@pa.gov.sg  
-alvin_goh@pa.gov.sg
 
 **PUB**  
 sherilyn_lee_from.pubtemp@pub.gov.sg
@@ -121,19 +128,19 @@ md_faizal_sri_jamal@scdf.gov.sg
 ridzaidean_abu_bakar@scdf.gov.sg
 
 **Science Centre**  
-albert_sim@science.edu.sg    
-azenith_santiagoO@science.edu.sg  
-chowdary_subhasree_kosaraju@science.edu.sg  
-marcus_fa@science.edu.sg  
-lim_teck_kim@science.edu.sg     
-siti_zubaidah_abdul_rashid@science.edu.sg  
-stra_yap@science.edu.sg   
-susan_lim@science.edu.sg  
+albert_sim@science.edu.sg  
+astra_yap@science.edu.sg
+azenith_santiago@science.edu.sg
+chowdary_subhasree_kosaraju@science.edu.sg
+lim_teck_kim@science.edu.sg
+marcus_fa@science.edu.sg
+siti_zubaidah_abdul_rashid@science.edu.sg
+susan_lim@science.edu.sg
 
 **SEAB**  
 tong_ying-ping@seab.gov.sg
 
-**SGO**  
+**Silver Generation Office**  
 joshua_chua@sgo.gov.sg
 
 **Singapore Prison Services**  
