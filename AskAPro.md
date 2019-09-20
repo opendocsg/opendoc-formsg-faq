@@ -7,157 +7,154 @@ This list is expected to grow over time. If there is no one from your agency in 
 - You will get access to juicy beta features before all other users
 - Your feature requests are prioritised, because it’s likely you have thought of workarounds that still did not work
 
-**A'STAR**  
-berney-heng@acrc.a-star.edu.sg
+**A'STAR**
+berny-heng@acrc.a-star.edu.sg  
 
-**BCA**  
+**BCA**
 brindha_natarajan@bca.gov.sg
 
-**CEA**  
+**CEA**
 lay_poh_leng@cea.gov.sg
 
-**CS College**  
-charmaine_lim@cscollege.gov.sg  
-tan_hwee_eng@cscollege.gov.sg  
+**CS College**
+charmaine_lim@cscollege.gov.sg
+tan_hwee_eng@cscollege.gov.sg
 phua_chui_ying@cscollege.gov.sg
 
-**Elections Department**  
-gerry_gewi@eld.gov.sg
-
-**Enterprise.sg**  
+**Enterprise.sg**
 clement_chua@enterprisesg.gov.sg
 
-**HPB**  
-eugene_aw@hpb.gov.sg  
-justin_chua@hpb.gov.sg  
+**HPB**
+eugene_AW@hpb.gov.sg
+justin_chua@hpb.gov.sg
 karthikayen_jayasundar@hpb.gov.sg
 
-**HSA**  
+**HSA**
 Katerina_Tan@hsa.gov.sg
 
-**IRAS** 
-ng_siling@iras.gov.sg
-dion_eh@iras.gov.sg
-
-**ISEAS**  
+**ISEAS**
 swee_yew_pin@iseas.edu.sg
 
-**LTA**  
+**IRAS**  
+Dion_Eh@iras.gov.sg  
+Ng_Shiling@iras.gov.sg
+
+**LTA**
 jonn_tan@lta.gov.sg
 
-**MCCY**  
+**MCCY**
 charis_Tan@mccy.gov.sg (until October 2019)
 
-**MFA**    
-ong_wei_jie@mfa.gov.sg  
-seri_nur_haziqah_nor_azamm@mfa.gov.sg  
+**MFA**
+ong_wei_jie@mfa.gov.sg
+seri_nur_haziqah_nor_azamm@mfa.gov.sg
 teo_kah_beng@mfa.gov.sg
 
-**MHA**  
+**MHA**
 angela_lee@mha.gov.sg
 
-**MINDEF**  
+**MINDEF**
 cyonghon@defence.gov.sg
 
-**MND**  
-lin_peixin@mnd.gov.sg
+**MND**
+LIN_peixin@mnd.gov.sg
 
-**MOE**  
-aaron_ang@moe.gov.sg  
-dennis_koh@moe.gov.sg  
-alicia_lee@moe.gov.sg   
+**MOE**
+aaron_ang@moe.gov.sg
+chen_yingjie_jason@moe.edu.sg
+chew_chee_yong@schools.gov.sg
+dennis_koh@moe.gov.sg
+fauziah_othman@schools.gov.sg
+germain_kang_yin_ga@schools.gov.sg
 hamshala_ariaratnam@moe.gov.sg  
-moe_pps_jae@moe.gov.sg  
-nur_zuhailah_hanafi@moe.gov.sg  
-ong_liting@moe.gov.sg  
-ong_yu_ling@moe.gov.sg  
-pereira_joscelyn_sebastian@moe.gov.sg  
-shahreen_aman@moe.gov.sg  
-siti_rabiah_mohamad_yazid@moe.edu.sg  
-tan_soo_gek@moe.gov.sg  
-tan_ying_yang@moe.edu.sg  
-tiffany_lIM@moe.gov.sg  
+Jesslyn_NG@moe.gov.sg  
+kwek_soon_cheong@schools.gov.sg
+moe_pps_jae@moe.gov.sg
+mohammed_azhar_mohd_shariff@schools.gov.sg
+nur_zuhailah_hanafi@moe.gov.sg
+ong_liting@moe.gov.sg
+ong_yu_ling@moe.gov.sg
+pereira_joscelyn_sebastian@moe.gov.sg
+rasis_abdul_rahim@schools.gov.sg
+shahreen_aman@moe.gov.sg
+siti_rabiah_mohamad_yazid@moe.edu.sg
+tan_soo_gek@moe.gov.sg
+tan_ying_yang@moe.edu.sg
+Tiffany_LIM@moe.gov.sg
 
-**MOE Schools**  
-chew_chee_yong@schools.gov.sg  
-fauziah_othman@schools.gov.sg  
-germain_kang_yin_ga@schools.gov.sg 
-mohammed_azhar_mohd_shariff@schools.gov.sg  
-kwek_soon_cheong@schools.gov.sg  
-rasis_abdul_rahim@schools.gov.sg  
-
-**MOH**  
+**MOH**
 lynette_tan@moh.gov.sg
 
-**MOM**  
+**MOM**
 adrian_wong@mom.gov.sg
 
-**MPA**  
+**MPA**
 cherie_lim@mpa.gov.sg
 
-**MSF**  
+**MSF**
 ngo_kau_wee@msf.gov.sg
 
-**Ngee Ann Polytechnic**  
-cheryl_lee@np.edu.sg
+**Ngee Ann Polytechnic**
+Cheryl_Lee@np.edu.sg
 
-**NYP**  
-rebekah_goh@nyp.edu.sg  
-tay_mia_eng@nyp.edu.sg  
+**NYP**
+andy_chia@nyp.edu.edu
+rebekah_goh@nyp.edu.sg
+tay_mia_eng@nyp.edu.sg
 tay_li_leng@nyp.edu.sg
 
-**People's Association**  
-chua_gek_fong@pa.gov.sg  
-jenna_goh@pa.gov.sg  
+**People's Association**
+chua_gek_fong@pa.gov.sg
+jenna_goh@pa.gov.sg
 Alvin_GOH@pa.gov.sg
 
-**Singapore Prison Services**  
-ang_wai_how@pris.gov.sg
-
-**PUB**  
+**PUB**
 sherilyn_lee_from.pubtemp@pub.gov.sg
 
-**Republic Polytechnic**  
-tan_lee_kiat@rp.edu.sg  
+**Republic Polytechnic**
+tan_lee_kiat@rp.edu.sg
 toh_yuet_wei@rp.edu.sg
 
-**SCDF**  
-lee_jun_qi@scdf.gov.sg  
-md_faizal_sri_jamal@scdf.gov.sg  
+**SCDF**
+lee_jun_qi@scdf.gov.sg
+md_faizal_sri_jamal@scdf.gov.sg
 ridzaidean_abu_bakar@scdf.gov.sg
 
-**Science Centre**  
+**Science Centre**
 albert_sim@science.edu.sg  
-astra_yap@science.edu.sg
-azenith_santiago@science.edu.sg
-chowdary_subhasree_kosaraju@science.edu.sg
+Astra_YAP@science.edu.sg  
+Azenith_SANTIAGO@science.edu.sg  
+Chowdary_Subhasree_KOSARAJU@science.edu.sg  
+Marcus_FA@science.edu.sg  
 lim_teck_kim@science.edu.sg
-marcus_fa@science.edu.sg
-siti_zubaidah_abdul_rashid@science.edu.sg
-susan_lim@science.edu.sg
+Siti_Zubaidah_ABDUL_RASHID@science.edu.sg  
+Susan_LIM@science.edu.sg  
 
-**SEAB**  
+**SEAB**
 tong_ying-ping@seab.gov.sg
 
-**SGO**  
+**SGO**
 joshua_chua@sgo.gov.sg
 
-**SPF**  
-muhammad_zahari@spf.gov.sg  
-tan_hong_han@spf.gov.sg  
-xie_zhirong@spf.gov.sg
+**Singapore Prison Services**
+ang_wai_how@pris.gov.sg
 
-**Sport.sg**  
-melvyn_quek@sport.gov.sg  
+**SPF**
+muhammad_zahari@spf.gov.sg
+tan_hong_han@spf.gov.sg
+XIE_Zhirong@spf.gov.sg
+
+**Sport.sg**
+melvyn_quek@sport.gov.sg
 alan_chen@sport.gov.sg
 
-**State Courts**  
+**State Courts**
 tay_kai_boon@statecourts.gov.sg
 
-**Temasek Polytechnic**  
-asklib@tp.edu.sg  
+**Temasek Polytechnic**
+asklib@tp.edu.sg
 scott@tp.edu.sg
 
-**Vital Shared Services**  
-lim_yi_jun@vital.gov.sg  
+**Vital Shared Services**
+lim_yi_jun@vital.gov.sg
 rodney_lim@vital.gov.sg
