@@ -18,8 +18,8 @@ lay_poh_leng@cea.gov.sg
 
 **CS College**  
 charmaine_lim@cscollege.gov.sg  
+phua_chui_ying@cscollege.gov.sg  
 tan_hwee_eng@cscollege.gov.sg  
-phua_chui_ying@cscollege.gov.sg
 
 **Enterprise.sg**  
 clement_chua@enterprisesg.gov.sg
@@ -30,20 +30,20 @@ justin_chua@hpb.gov.sg
 karthikayen_jayasundar@hpb.gov.sg
 
 **HSA**  
-Katerina_Tan@hsa.gov.sg
+katerina_tan@hsa.gov.sg
 
 **ISEAS**  
 swee_yew_pin@iseas.edu.sg
 
 **IRAS**  
-Dion_Eh@iras.gov.sg   
-Ng_Shiling@iras.gov.sg
+dion_eh@iras.gov.sg   
+ng_shiling@iras.gov.sg
 
 **LTA**  
 jonn_tan@lta.gov.sg
 
 **MCCY**  
-charis_Tan@mccy.gov.sg (until October 2019)
+charis_tan@mccy.gov.sg (until October 2019)
 
 **MFA**  
 ong_wei_jie@mfa.gov.sg  
@@ -57,7 +57,7 @@ angela_lee@mha.gov.sg
 cyonghon@defence.gov.sg
 
 **MND**  
-LIN_peixin@mnd.gov.sg
+lin_peixin@mnd.gov.sg
 
 **MOE**    
 aaron_ang@moe.gov.sg  
@@ -67,7 +67,7 @@ dennis_koh@moe.gov.sg
 fauziah_othman@schools.gov.sg  
 germain_kang_yin_ga@schools.gov.sg  
 hamshala_ariaratnam@moe.gov.sg   
-Jesslyn_NG@moe.gov.sg    
+jesslyn_ng@moe.gov.sg    
 kwek_soon_cheong@schools.gov.sg  
 moe_pps_jae@moe.gov.sg  
 mohammed_azhar_mohd_shariff@schools.gov.sg  
@@ -80,7 +80,7 @@ shahreen_aman@moe.gov.sg
 siti_rabiah_mohamad_yazid@moe.edu.sg  
 tan_soo_gek@moe.gov.sg  
 tan_ying_yang@moe.edu.sg  
-Tiffany_LIM@moe.gov.sg  
+tiffany_lim@moe.gov.sg  
 
 **MOH**  
 lynette_tan@moh.gov.sg
@@ -95,7 +95,7 @@ cherie_lim@mpa.gov.sg
 ngo_kau_wee@msf.gov.sg
 
 **Ngee Ann Polytechnic**  
-Cheryl_Lee@np.edu.sg
+cheryl_lee@np.edu.sg
 
 **NYP**  
 andy_chia@nyp.edu.edu  
@@ -106,7 +106,7 @@ tay_li_leng@nyp.edu.sg
 **People's Association**  
 chua_gek_fong@pa.gov.sg  
 jenna_goh@pa.gov.sg  
-Alvin_GOH@pa.gov.sg
+alvin_goh@pa.gov.sg
 
 **PUB**  
 sherilyn_lee_from.pubtemp@pub.gov.sg
@@ -122,13 +122,13 @@ ridzaidean_abu_bakar@scdf.gov.sg
 
 **Science Centre**  
 albert_sim@science.edu.sg    
-Astra_YAP@science.edu.sg    
-Azenith_SANTIAGO@science.edu.sg    
-Chowdary_Subhasree_KOSARAJU@science.edu.sg  
-Marcus_FA@science.edu.sg  
-lim_teck_kim@science.edu.sg  
-Siti_Zubaidah_ABDUL_RASHID@science.edu.sg  
-Susan_LIM@science.edu.sg  
+azenith_santiagoO@science.edu.sg  
+chowdary_subhasree_kosaraju@science.edu.sg  
+marcus_fa@science.edu.sg  
+lim_teck_kim@science.edu.sg     
+siti_zubaidah_abdul_rashid@science.edu.sg  
+stra_yap@science.edu.sg   
+susan_lim@science.edu.sg  
 
 **SEAB**  
 tong_ying-ping@seab.gov.sg
@@ -142,7 +142,7 @@ ang_wai_how@pris.gov.sg
 **SPF**  
 muhammad_zahari@spf.gov.sg  
 tan_hong_han@spf.gov.sg  
-XIE_Zhirong@spf.gov.sg
+xie_zhirong@spf.gov.sg
 
 **Sport.sg**  
 melvyn_quek@sport.gov.sg  
