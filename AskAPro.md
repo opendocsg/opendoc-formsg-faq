@@ -8,7 +8,7 @@ This list is expected to grow over time. If there is no one from your agency in 
 - Your feature requests are prioritised, because it’s likely you have thought of workarounds that still did not work
 
 **A'STAR**  
-berney-heng@acrc.a-star.edu.sg
+berny-heng@acrc.a-star.edu.sg
 
 **BCA**  
 brindha_natarajan@bca.gov.sg
@@ -33,11 +33,11 @@ justin_chua@hpb.gov.sg
 karthikayen_jayasundar@hpb.gov.sg
 
 **HSA**  
-Katerina_Tan@hsa.gov.sg
+katerina_tan@hsa.gov.sg
 
 **IRAS** 
-ng_siling@iras.gov.sg
 dion_eh@iras.gov.sg
+ng_siling@iras.gov.sg
 
 **ISEAS**  
 swee_yew_pin@iseas.edu.sg
@@ -46,7 +46,7 @@ swee_yew_pin@iseas.edu.sg
 jonn_tan@lta.gov.sg
 
 **MCCY**  
-charis_Tan@mccy.gov.sg (until October 2019)
+charis_tan@mccy.gov.sg (until October 2019)
 
 **MFA**    
 ong_wei_jie@mfa.gov.sg  
@@ -63,10 +63,11 @@ cyonghon@defence.gov.sg
 lin_peixin@mnd.gov.sg
 
 **MOE**  
-aaron_ang@moe.gov.sg  
-dennis_koh@moe.gov.sg  
-alicia_lee@moe.gov.sg   
+aaron_ang@moe.gov.sg
+chen_yingjie_jason@moe.edu.sg
+dennis_koh@moe.gov.sg   
 hamshala_ariaratnam@moe.gov.sg  
+jesslyn_ng@moe.gov.sg
 moe_pps_jae@moe.gov.sg  
 nur_zuhailah_hanafi@moe.gov.sg  
 ong_liting@moe.gov.sg  
@@ -76,7 +77,7 @@ shahreen_aman@moe.gov.sg
 siti_rabiah_mohamad_yazid@moe.edu.sg  
 tan_soo_gek@moe.gov.sg  
 tan_ying_yang@moe.edu.sg  
-tiffany_lIM@moe.gov.sg  
+tiffany_lim@moe.gov.sg  
 
 **MOE Schools**  
 chew_chee_yong@schools.gov.sg  
@@ -91,6 +92,8 @@ lynette_tan@moh.gov.sg
 
 **MOM**  
 adrian_wong@mom.gov.sg
+christen_lim@mom.gov.sg
+joann_lim@mom.gov.sg
 
 **MPA**  
 cherie_lim@mpa.gov.sg
@@ -101,18 +104,16 @@ ngo_kau_wee@msf.gov.sg
 **Ngee Ann Polytechnic**  
 cheryl_lee@np.edu.sg
 
-**NYP**  
+**Nanyang Polytechnic**  
+andy_chia@nyp.edu.edu
 rebekah_goh@nyp.edu.sg  
 tay_mia_eng@nyp.edu.sg  
 tay_li_leng@nyp.edu.sg
 
 **People's Association**  
+alvin_goh@pa.gov.sg
 chua_gek_fong@pa.gov.sg  
 jenna_goh@pa.gov.sg  
-Alvin_GOH@pa.gov.sg
-
-**Singapore Prison Services**  
-ang_wai_how@pris.gov.sg
 
 **PUB**  
 sherilyn_lee_from.pubtemp@pub.gov.sg
@@ -139,8 +140,11 @@ susan_lim@science.edu.sg
 **SEAB**  
 tong_ying-ping@seab.gov.sg
 
-**SGO**  
+**Silver Generation Office**  
 joshua_chua@sgo.gov.sg
+
+**Singapore Prison Services**  
+ang_wai_how@pris.gov.sg
 
 **SPF**  
 muhammad_zahari@spf.gov.sg  
