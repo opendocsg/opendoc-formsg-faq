@@ -2,6 +2,16 @@
 
 We typically release features, improvements or fixes every Tuesday or Wednesday afternoon.
 
+## 24 Sep 2019: Restore Examples tab
+
+What you can see, feel or smell: 
+- Restore Examples tab with significantly faster loading speed
+- Remove pencils from Settings to make editing settings clearer
+- Display feedback count instead of response count on Feedback tab
+
+What goes on behind the scenes:
+- For beta Storage mode, optimise speed of decryption for many responses
+
 ## 18 Sep 2019: Checkbox validation feature
 
 What you can see, feel or smell: 
