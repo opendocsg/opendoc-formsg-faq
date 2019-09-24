@@ -151,9 +151,10 @@ muhammad_zahari@spf.gov.sg
 tan_hong_han@spf.gov.sg  
 xie_zhirong@spf.gov.sg  
 
-**Sport.sg**  
-melvyn_quek@sport.gov.sg  
+**Sport.sg**    
 alan_chen@sport.gov.sg  
+lua_lee_hui@sport.gov.sg  
+melvyn_quek@sport.gov.sg  
 
 **State Courts**  
 tay_kai_boon@statecourts.gov.sg  
