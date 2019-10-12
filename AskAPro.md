@@ -21,6 +21,9 @@ charmaine_lim@cscollege.gov.sg
 tan_hwee_eng@cscollege.gov.sg  
 phua_chui_ying@cscollege.gov.sg  
 
+**Customs**  
+lau_guanyi@customs.gov.sg  
+
 **Elections Department**  
 gerry_gewi@eld.gov.sg  
 
@@ -107,6 +110,7 @@ cheryl_lee@np.edu.sg
 **Nanyang Polytechnic**  
 andy_chia@nyp.edu.sg  
 rebekah_goh@nyp.edu.sg  
+viridis_liew@nyp.edu.sg  
 tay_mia_eng@nyp.edu.sg      
 tay_li_leng@nyp.edu.sg  
 
@@ -153,6 +157,7 @@ xie_zhirong@spf.gov.sg
 
 **Sport.sg**    
 alan_chen@sport.gov.sg  
+danielle_han@sport.gov.sg   
 lua_lee_hui@sport.gov.sg  
 melvyn_quek@sport.gov.sg  
 

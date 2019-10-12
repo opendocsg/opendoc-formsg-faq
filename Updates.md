@@ -2,15 +2,32 @@
 
 We typically release features, improvements or fixes every Tuesday or Wednesday afternoon.
 
+## 8 Oct 2019: Allow special characters in form name, table question need not have max rows, code clean up
+
+What you can see, feel or smell: 
+- Form name can now accept special characters such as parantheses and slashes
+- Table style question no longer mandates number of max rows
+
+What goes on behind the scenes:
+- Cleaned up unused code, such as analytics APIs, AngularJS services and functions
+- Refactored form fields into separate files
+- Made clearer different errors during login flow
+- Prevented HTML injection in email autoreply body
+- Fixed bug where non-signed in user does not get redirected to /signin when they visit /forms
+
+## 1 Oct 2019: Speed up beta Storage mode, speed up Examples, security improvements
+
+What goes on behind the scenes:
+- For beta Storage mode, optimise speed of decryption for many responses by 330%
+- Speed up Examples loading time further by using indexes
+- Configure Content Security Policy for AngularJS and Font Awesome
+
 ## 24 Sep 2019: Restore Examples tab
 
 What you can see, feel or smell: 
 - Restore Examples tab with significantly faster loading speed
 - Remove pencils from Settings to make editing settings clearer
 - Display feedback count instead of response count on Feedback tab
-
-What goes on behind the scenes:
-- For beta Storage mode, optimise speed of decryption for many responses
 
 ## 18 Sep 2019: Checkbox validation feature
 
