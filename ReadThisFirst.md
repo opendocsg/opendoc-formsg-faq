@@ -84,6 +84,10 @@ Some of our forms have more than 300 questions. To make it easier to fill in, fo
 
 Some of our forms already have a high number of responses. National Day Parade Ticket Application 2019 was hosted on FormSG, which had hundreds of thousands of applications in a week.
 
+## Can you use FormSG all around the world?
+
+As long as you have an Internet connection you can use FormSG all around the world. Note that to log in to create forms you will also need access to your government email to retrieve the OTP.
+
 ## Are there slides for me to read or share with my peers?
 
 Yes there are! Feel free to view, comment on and share these slides: [https://go.gov.sg/formsg-sharing-slides](https://go.gov.sg/formsg-sharing-slides).

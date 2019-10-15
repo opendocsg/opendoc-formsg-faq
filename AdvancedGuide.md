@@ -14,6 +14,12 @@ There are a few variants of electronic signatures available on FormSG, all of wh
 
 This might apply for an enquiry form. If user chooses "Complaint" response should route to Complaints Department, but if user chooses "IT" response should route to IT Department. There's no such feature on FormSG, but you can set mail forwarding rules on your email. For example, one such rule can detect "Complaint" in the form response email, and forward this to the Complaints Department automatically.
 
+To set such mail forwarding rules, you have to Create Rule, then select Advanced Options. Next, select the condition as "with specific words in the body":
+![FormSG FAQ Specify Condition](https://s3-ap-southeast-1.amazonaws.com/misc.form.gov.sg/faq-mailforwarding-guide-1.jpg "FormSG FAQ Specify Condition")
+Click on the underlined "specific words", and specify "IT department". Next, select the action as "forward it to people or public group":
+![FormSG FAQ Forward Mail](https://s3-ap-southeast-1.amazonaws.com/misc.form.gov.sg/faq-mailforwarding-guide-2.jpg "FormSG FAQ Forward Mail")
+Click on the underlined "people or public group" and specify the IT department's email.
+
 ## My form is really long. Why can't users save draft?
 
 We took out Save Draft because there is no good place to save such data - our servers do not store data, and saving data on the local computer might leak this out to unintended recipients if form is filled from a library computer. Furthermore, it's more important to advise the user how long it takes to fill in the form, so they have sufficient time to submit in one sitting, which is a better user experience than saving draft and coming back repeatedly. In the future with end-to-end encrypted Storage mode, we might consider re-enabling Save Draft function.
