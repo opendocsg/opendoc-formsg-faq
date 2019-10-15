@@ -44,9 +44,9 @@ Note that only forms that are active, and have at least 10 responses will be sea
 
 But if there is still a need to unlist your form from the Examples tab because the form fields alone are already sensitive to be viewed by fellow public officers, then you may submit our [Support Form](https://go.gov.sg/formsg-support), and attach an email approval from your MIC stating justifications for unlisting it from the Examples tab.
 
-## How should I name my form? Symbols like "(" are not allowed.
+## Can my forms support multiple languages?
 
-Unfortunately, symbols such as brackets "(" are not allowed on form titles yet. You may substitute this with dashes, e.g. License Application - For Companies.
+Yes it can. Your form field's title can be in English, and you can specify different translations in the field's description. Your users can also submit your form in any language they want - they just have to switch to the respective keyboard.
 
 ## Is there an address field? How can I auto-populate one?
 
