@@ -2,6 +2,20 @@
 
 We typically release features, improvements or fixes every Tuesday or Wednesday afternoon.
 
+## 15 Oct 2019: Image field, response includes section headers, bug fixes and cleanups
+
+What you can see, feel or smell: 
+- Image field: You may now upload images to your form, which will be autocompressed to 1024 width and preserving aspect ratio
+- Email responses now include section headers to be clearer
+
+What goes on behind the scenes:
+- Fixed browser caching: no need to clear browser cache with future releases
+- Fixed email autoreply bug introduced since last Friday, where all email fields sent out autoreply
+- Enforce content security policies
+- Refactored code for user client service for improved readability
+- Added more unit tests for submissions endpoint
+- Improved internal documentation for onboarding and release process for engineers
+
 ## 8 Oct 2019: Allow special characters in form name, table question need not have max rows, code clean up
 
 What you can see, feel or smell: 
