@@ -2,6 +2,24 @@
 
 We typically release features, improvements or fixes every Tuesday or Wednesday afternoon.
 
+## 31 Oct 2019: Penetration testing, server side field validation
+
+What you can see, feel or smell: 
+- Clearer error message when you fail to submit form
+
+What goes on behind the scenes:
+- Penetration testing
+- Form fields and logic validated server side to patch data corruption
+- Escaped html in Logic tab
+- Refactored and cleaned up code for form validation
+
+## 22 Oct 2019: Error catching and content security policies
+
+What goes on behind the scenes:
+- Catch errors for JSON.parse that can potentially cause server to crash (although we have auto-recovery)
+- Fine tune content security policies
+- Commence penetration testing
+
 ## 15 Oct 2019: Image field, response includes section headers, bug fixes and cleanups
 
 What you can see, feel or smell: 
