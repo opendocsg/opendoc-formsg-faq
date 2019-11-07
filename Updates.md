@@ -2,6 +2,18 @@
 
 We typically release features, improvements or fixes every Tuesday or Wednesday afternoon.
 
+## 5 Nov 2019: Remove form start button
+
+What you can see, feel or smell: 
+- Remove Start button and Read Instructions at the top of forms
+- Remove onboarding page for new users to whitelist @form.gov.sg emails
+- Fixed blank page when form.gov.sg/(symbol) is visited
+- Fixed empty eservice ID on Billing panel causing loader to hang
+
+What goes on behind the scenes:
+- Improved security of rating field to not pull from external sources
+- Improved code quality from Deepscan reports
+
 ## 31 Oct 2019: Penetration testing, server side field validation
 
 What you can see, feel or smell: 
