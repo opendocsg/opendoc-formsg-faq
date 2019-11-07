@@ -38,7 +38,7 @@ karthikayen_jayasundar@hpb.gov.sg
 **HSA**  
 katerina_tan@hsa.gov.sg  
 
-**IRAS**
+**IRAS**  
 dion_eh@iras.gov.sg  
 ng_siling@iras.gov.sg  
 
