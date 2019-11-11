@@ -80,7 +80,8 @@ For >6 choices, you should use a dropdown field:
 2. Select the entire column of the responses
 3. Go to the Data tab and choose Text to Columns > Delimit by comma (,).
 
-![FormSG FAQ Excel Split Response](https://s3-ap-southeast-1.amazonaws.com/misc.form.gov.sg/faq-excel.png "FormSG FAQ Excel Split Response")
+![FormSG FAQ Excel Split Response](https://s3-ap-southeast-1.amazonaws.com/misc.form.gov.sg/faq-excel.png "FormSG FAQ Excel Split Response")  
+Don't worry if responses contain commas because Excel does not split commas accompanied by spaces. Commas between columns have no space, which Excel will split by, unlike commas within sentences. An example response to a table style question asking for name, age, hobbies is: "Mr Tan,55,Soccer, Tennis, Taichi". Excel will split this correctly into "Mr Tan", "55", and "Soccer, Tennis, Taichi" because it ignores the commas in hobbies that have spaces after them.
 
 ## How can I split the form into multiple pages?
 
