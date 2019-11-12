@@ -2,7 +2,16 @@
 
 We typically release features, improvements or fixes every Tuesday or Wednesday afternoon.
 
-## 5 Nov 2019: Remove form start button
+## 12 Nov 2019: Security improvements
+
+What you can see, feel or smell:
+- Fix bottom padding of SingPass Login forms
+- Fix MyInfo hash bug that happens when user takes a long time to fill in MyInfo enabled forms
+
+What goes on behind the scenes:
+- Released server side validation for certain form fields, for security and prevention of data corruption
+
+## 5 Nov 2019: Remove form start button, onboarding page, bug fixes and security improvements
 
 What you can see, feel or smell: 
 - Remove Start button and Read Instructions at the top of forms
