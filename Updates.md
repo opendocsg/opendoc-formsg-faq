@@ -2,6 +2,18 @@
 
 We typically release features, improvements or fixes every Tuesday or Wednesday afternoon.
 
+## 19 Nov 2019: Upload form logo, security improvements
+
+What you can see, feel or smell:
+- Upload form logo feature released, you are encouraged to re-upload old custom logos with us
+
+What goes on behind the scenes:
+- Released more server side validation, for security and prevention of data corruption 
+- Implemented backend unit tests for server side validation
+- Removed need for network call to get error messages
+- Improved logging to log IPs in error messages
+- Tested caching policy to make sure it works
+
 ## 12 Nov 2019: Security improvements
 
 What you can see, feel or smell:
