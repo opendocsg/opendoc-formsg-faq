@@ -4,7 +4,7 @@ This advanced guide includes tips and tricks, and also solutions to common issue
 
 ## When can I build and fill forms on the Intranet?
 
-The primary goal of FormSG is to replace Internet citizen-facing paper forms. However, by end 2019 we will move onto the Intranet where you can create and fill forms there. We also have future plans in 2020 to extend FormSG to handle client relationship management (CRM) and case management (CMS).
+The primary goal of FormSG is to replace Internet citizen-facing paper forms. However, by early 2020 we will move onto the Intranet where you can create and fill forms there. We also have future plans in 2021 to extend FormSG to handle client relationship management (CRM) and case management (CMS).
 
 ## Where is the signature field?
 
@@ -145,7 +145,7 @@ The key benefit here is convenience. You no longer have to manage emails, and no
 
 ## When is Storage mode coming out?
 
-With Storage mode, responses will be in the clear on an Internet device, which is not ideal. Hence we are first moving FormSG to the Intranet first before launching Storage mode. Storage mode is expected to be launched end of 2019.
+With Storage mode, responses will be in the clear on an Internet device, which is not ideal. Hence we are first moving FormSG to the Intranet first before launching Storage mode. Storage mode is expected to be launched end of March 2020.
 
 ## This form password sounds important. What if I lose it?
 

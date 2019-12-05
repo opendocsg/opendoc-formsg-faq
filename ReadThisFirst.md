@@ -4,7 +4,7 @@ This is a 5 minute read that helps you understand most of the in-and-outs of For
 
 ## What is FormSG?
 
-FormSG is a self-service form builder for government to create online forms that capture classified data, with the goal of replacing paper forms. Since it began in September 2017, it has replaced thousands of paper forms and are used by over 90 agencies such as MOM, MOE, PA,  SportSG and TTSH. More than 15,000 officers are already on it. It has advanced features and can be used for not just simple surveys but also complicated workflow forms.
+FormSG is a self-service form builder for government to create online forms that capture classified data, with the goal of replacing paper forms. Since it began in September 2017, it has replaced thousands of paper forms and are used by over 90 agencies such as MOM, MOE, PA,  SportSG and TTSH. More than 18,000 officers are already on it. It has advanced features and can be used for not just simple surveys but also complicated workflow forms.
 
 ## Who can use FormSG?
 
