@@ -2,6 +2,26 @@
 
 We typically release features, improvements or fixes every Tuesday or Wednesday afternoon.
 
+## 3 Dec 2019: Code cleanup, security improvements
+
+What goes on behind the scenes:
+- Released more server side validation, for security and prevention of data corruption 
+- Implemented backend unit tests for server side validation
+- Enforced same site cookie policy for SPCP and Admin logins
+- Used built-in router for routes instead of directly assigning links to the window
+- Cleaned up code for welcome tab and thank you page
+
+## 26 Nov 2019: Bug fixes, security improvements
+
+What you can see, feel or smell:
+- Disallowed large forms from being created, e.g. forms with 2 million dropdown options
+- Added banner to remind users only yesno, radio, number, dropdown, rating and decimal can trigger Logic
+
+What goes on behind the scenes:
+- Released more server side validation, for security and prevention of data corruption 
+- Implemented backend unit tests for server side validation
+- Disallowed duplicate emails where responses went to
+
 ## 19 Nov 2019: Upload form logo, security improvements
 
 What you can see, feel or smell:

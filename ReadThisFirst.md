@@ -16,7 +16,11 @@ Unlike most form builders out there, FormSG does not store your data. This means
 
 Email mode: Form responses are sent directly into your specified email(s), and our server never stores a copy of it. Because we do not store responses, it is critical your mailbox is correctly specified and has space, or responses will be lost.
 
-Storage mode (Coming Soon!): Responses are stored, but end-to-end encrypted. On form creation, private key is generated on the client and never seen by our server. On form submission, response is encrypted on the client first, before being sent to our server for storage.
+Storage mode (Coming Apr 2020): Responses are stored, but end-to-end encrypted. On form creation, private key is generated on the client and never seen by our server. On form submission, response is encrypted on the client first, before being sent to our server for storage.
+
+## My form responses are lost! Can you help us recover them?
+
+Because we do not store data, we cannot recover your lost data. If you cannot find your email responses, they might have been routed to an obscure Outlook folder set by your mail forwarding rules. Or they might have been quarantined by your agency firewall, which you can contact your IT department for. If you accidentally delete your email responses, they might still be on the email server, which you should contact your IT department for help.
 
 ## Is FormSG IM8 / AIAS / DSS compliant?
 
@@ -44,7 +48,11 @@ It is up to you to decide if you want 2FA or 1FA e-service ID. For CorpPass, it 
 
 ## Is FormSG really up 24/7?
 
-Yes, we are up 24/7. There is no planned maintenance window. New features are constantly deployed without downtime. Because we do not charge for the service we do not have an SLA, but have a measured uptime of 99.999% since we launched. The exception is SingPass and CorpPass, which do have planned maintenance, with which you can contact SPCP rep [alvin_wee@tech.gov.sg](mailto:alvin_wee@tech.gov.sg) to find out more.
+Yes, we are up 24/7. There is no planned maintenance window. Typically once a few months we have a 2 hour maintenance window from 12am - 2am, but most features are constantly deployed without downtime. Because we do not charge for the service we do not have an SLA, but have a measured uptime of 99.999% since we launched. The exception is SingPass and CorpPass, which do have planned maintenance, with which you can contact SPCP rep [alvin_wee@tech.gov.sg](mailto:alvin_wee@tech.gov.sg) to find out more.
+
+## How am I informed of issues on my form?
+
+We have multiple tests and detection tools to flag issues on forms. If we detect an issue with your form we will email you. Although rare, if the entire platform has downtime, we will announce it on Workplace@Facebook, and enable a maintenance page on all forms. We have engineers on-call 24/7 to react to issues as fast as we can. If there are issues with your form, you can contact us through our [Support Form](https://go.gov.sg/formsg-support).
 
 ## What data classification (RCST) can FormSG handle?
 
@@ -62,11 +70,10 @@ FormSG's storage mode has similar approval for Sensitive Normal, and is still un
 
 There are many features of FormSG and the best way to learn about them is to [log in](https://form.gov.sg/#!/signin) and explore the tool. Here's a brief list of some of the features available:
 - Fields: Short text, Long text, Header, Statement, Email, Number, Dropdown, Radio, Checkbox, Yes/No, Date, Rating, NRIC, Decimal
-- Verified phone field (Coming soon!)
-- Upload Image on the form (Coming soon!)
+- Upload Image on the form
 - Attachments to upload photos and files
 - Table style questions
-- Automated acknowledgement email and SMS
+- Automated acknowledgement email
 - Field validations
 - Control flow logic / Branching
 - Collaborate on a form together
@@ -75,10 +82,11 @@ There are many features of FormSG and the best way to learn about them is to [lo
 - SingPass login
 - MyInfo fields
 - CorpPass login
+- Verified phone field (Coming soon!)
 
 ## Can FormSG forms have many questions?
 
-Some of our forms have more than 300 questions. To make it easier to fill in, form creators used Logic/Branching functionality to shorten their forms to only show relevant questions.
+Our longest forms have more than 400 questions, and more than 100 deployed forms have 100 questions and more. To make forms easier to fill, form creators used Logic/Branching to shorten their forms and only show relevant questions.
 
 ## Can FormSG manage high volume of responses?
 
