@@ -30,9 +30,7 @@ We took out Save Draft because there is no good place to save such data - our se
 
 ## How do I increase attachment size limit? And what if there are many attachments for my form?
 
-The current size limit is 7 MB for the entire form. We auto-compress images to 1024x768 resolution, which is typically less than 1 MB. This is a hard limit because the email service we use has a fixed 10 MB outgoing size, and we buffer 3 MB for email fields and metadata. In the future with Storage mode, we are considering raising this size limit to 20 MB. 
-
-Because the smallest unit you can attach per attachment field is 1 MB, you can have a max of 7 attachments on your form. If your user has to submit more than 7 documents, you may create just one attachment field of 7 MB, and advise your user to zip documents up and submit as one attachment.
+The current size limit is 7 MB for the entire form. We auto-compress images to 1024x768 resolution, which is typically less than 1 MB. This is a hard limit because the email service we use has a fixed 10 MB outgoing size, and we buffer 3 MB for email fields and metadata. Because the smallest unit you can attach per attachment field is 1 MB, you can have a max of 7 attachments on your form. If your user has to submit more than 7 documents, you may create just one attachment field of 7 MB, and advise your user to zip documents up and submit as one attachment. In the future with Storage mode, we are considering raising this size limit to 20 MB. 
 
 ## I am leaving the organisation or switching over to a new email. How do I transfer ownership of my forms?
 
@@ -54,7 +52,7 @@ Yes it can. Your form field's title can be in English, and you can specify diffe
 
 ## Is there an address field? How can I auto-populate one?
 
-You may create a Postal code field with Short Text that validates 6 characters, together with a few more fields for block and unit numbers. If verified addresses are needed, you may enable SingPass on your form, and drag in a Registered Address MyInfo field.
+You may create a Postal code field with Short Text that validates 6 characters, together with a few more fields for block and unit numbers. Do not use a Number field for Postal code as Numbers cannot start with zero. If verified addresses are needed, you may enable SingPass on your form, and drag in a Registered Address MyInfo field.
 
 ## How long does the OTP take to send? For how long do I remain logged in for?
 
@@ -97,7 +95,7 @@ When you implement a new logic, you should test it yourself via the preview page
 
 ## What is FormSG’s infrastructure like?
 
-We have our NodeJS web servers hosted on AWS Singapore zone. Our NoSQL database that stores only form fields and not form data is managed by Mongo Atlas, and also hosted on AWS Singapore zone. We use AWS SES to send out mails, which are not open mail relays, have valid SPF and DKIM records, and encrypts form data before sending them over to government SG-Mail. Our web servers are protected with Cloudflare SSL, their Anti-DDoS protection and Web Application Firewall. We use Pingdom for website performance and availability monitoring, and have AWS CloudWatch alarms. Our Data Collation Tool is built with vanilla Javascript and hosted on top of Nectar on the Intranet, and is an S3 static site on the Internet.
+We have our NodeJS web servers hosted on AWS Singapore zone. Our NoSQL database that stores only form fields and not form data is managed by Mongo Atlas, and also hosted on AWS Singapore zone. We use AWS SES to send out mails, which are not open mail relays, have valid SPF and DKIM records, and encrypts form data before sending them over to government SGMail. Our web servers are protected with Cloudflare SSL, their Anti-DDoS protection and Web Application Firewall. We use Pingdom for website performance and availability monitoring, and have AWS CloudWatch alarms, together with CloudTrail that monitors activity and GuardDuty for threat intelligence monitoring. Our Data Collation Tool is built with vanilla Javascript and hosted on top of Nectar on the Intranet, and is an S3 static site on the Internet.
 
 ## Does my data go to your server when I use the Data Collation Tool?
 
@@ -145,7 +143,7 @@ The key benefit here is convenience. You no longer have to manage emails, and no
 
 ## When is Storage mode coming out?
 
-With Storage mode, responses will be in the clear on an Internet device, which is not ideal. Hence we are first moving FormSG to the Intranet first before launching Storage mode. Storage mode is expected to be launched end of March 2020.
+With Storage mode, responses will be in the clear on an Internet device, which is not ideal. Hence we are first moving FormSG to the Intranet first before launching Storage mode. Storage mode is expected to be launched Apr 2020.
 
 ## This form password sounds important. What if I lose it?
 
