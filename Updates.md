@@ -2,6 +2,26 @@
 
 We typically release features, improvements or fixes every Tuesday or Wednesday afternoon.
 
+## 19 Dec 2019: Bug fixes, operating system change
+
+What you can see, feel or smell:
+- Fixed visual glitch where hidden fields on build tab were not updated correctly when condition fields were deleted on Logic
+- Fixed bug where billing panel did not display for Dec 2019
+- Fixed bug where decimal validator did not validate min and max when value is 0
+- Clearer error message when form content changes and form filler has to refresh to re-submit
+
+What goes on behind the scenes:
+- Changed our application's base operating system to alpine which is lightweight and with much fewer potential vulnerabilities
+- Shifted underlying framework that powers autoreply pdf from the outdated PhantomJS to a more modern Puppeter that is backed by Google
+- Released more server side validation, for security and prevention of data corruption
+
+## 10 Dec 2019: Database cleanup, tightened protocols
+
+What goes on behind the scenes:
+- Removed unused keys in database
+- Tightened downtime protocols if we ever need them
+- Released more server side validation, for security and prevention of data corruption 
+
 ## 3 Dec 2019: Code cleanup, security improvements
 
 What goes on behind the scenes:
