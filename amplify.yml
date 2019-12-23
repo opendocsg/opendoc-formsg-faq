@@ -10,7 +10,6 @@ frontend:
         - bundle install
     build:
       commands:
-        - rm -rf ./_site
         - if [ "${AWS_BRANCH}" = "master" ]; then JEKYLL_ENV=production bundle exec jekyll build; fi
         - if [ "${AWS_BRANCH}" != "master" ]; then JEKYLL_ENV=development bundle exec jekyll build; fi    
     postBuild:
@@ -22,7 +21,6 @@ frontend:
     baseDirectory: _site
     files:
       - '**/*'
-    discard-paths: yes
   cache:
     paths: 
       - node_modules
