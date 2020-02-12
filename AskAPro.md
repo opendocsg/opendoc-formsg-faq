@@ -46,10 +46,7 @@ ng_siling@iras.gov.sg
 swee_yew_pin@iseas.edu.sg  
 
 **LTA**  
-jonn_tan@lta.gov.sg  
-
-**MCCY**  
-charis_tan@mccy.gov.sg (until October 2019)  
+jonn_tan@lta.gov.sg   
 
 **MFA**    
 ong_wei_jie@mfa.gov.sg  
@@ -102,7 +99,6 @@ joann_lim@mom.gov.sg
 cherie_lim@mpa.gov.sg  
 
 **MSF**  
-ngo_kau_wee@msf.gov.sg  
 du_yanchao@msf.gov.sg  
 
 **Ngee Ann Polytechnic**  
