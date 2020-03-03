@@ -4,11 +4,11 @@ This is a 5 minute read that helps you understand most of the in-and-outs of For
 
 ## What is FormSG?
 
-FormSG is a self-service form builder for government to create online forms that capture classified data, with the goal of replacing paper forms. Since it began in September 2017, it has replaced thousands of paper forms and are used by over 90 agencies such as MOM, MOE, PA,  SportSG and TTSH. More than 18,000 officers are already on it. It has advanced features and can be used for not just simple surveys but also complicated workflow forms.
+FormSG is a self-service form builder for government to create online forms that capture classified data, with the goal of replacing paper forms. Since it began in September 2017, it has replaced tens of thousands of paper forms and are used by over 90 agencies such as MOM, MOE, PA,  SportSG and TTSH. More than 25,000 officers are already on it. It has advanced features and can be used for not just simple surveys but also complicated workflow forms.
 
 ## Who can use FormSG?
 
-FormSG is built for the public sector and public healthcare clusters. There is no onboarding process. Simply [log in](https://form.gov.sg/#!/signin) with your agency email (e.g. @tech.gov.sg).
+FormSG is built for the public sector and public healthcare clusters. There is no onboarding process. Simply [log in](https://form.gov.sg/#!/signin) with your agency email (e.g. @tech.gov.sg). FormSG works on both Internet and the WOG Intranet.
 
 ## How does FormSG keep my data secure?
 
@@ -16,11 +16,11 @@ Unlike most form builders out there, FormSG does not store your data. This means
 
 Email mode: Form responses are sent directly into your specified email(s), and our server never stores a copy of it. Because we do not store responses, it is critical your mailbox is correctly specified and has space, or responses will be lost.
 
-Storage mode (Coming Apr 2020): Responses are stored, but end-to-end encrypted. On form creation, private key is generated on the client and never seen by our server. On form submission, response is encrypted on the client first, before being sent to our server for storage.
+Storage mode (Coming End Apr 2020): Responses are stored, but end-to-end encrypted. On form creation, private key is generated on the client and never seen by our server. On form submission, response is encrypted on the client first, before being sent to our server for storage.
 
 ## My form responses are lost! Can you help us recover them?
 
-Because we do not store data, we cannot recover your lost data. If you cannot find your email responses, they might have been routed to an obscure Outlook folder set by your mail forwarding rules. Or they might have been quarantined by your agency firewall, which you can contact your IT department for. If you accidentally delete your email responses, they might still be on the email server, which you should contact your IT department for help.
+Because we do not store data, we cannot recover your lost data. If you cannot find your email responses, they might have been routed to an obscure Outlook folder set by your mail forwarding rules. Or they might have been quarantined by your agency firewall, which you can contact your AFM/IT department for. If you accidentally delete your email responses, they might still be on the email server, which you should contact your AFM/IT department for help.
 
 ## Is FormSG IM8 / AIAS / DSS compliant?
 
@@ -82,7 +82,6 @@ There are many features of FormSG and the best way to learn about them is to [lo
 - SingPass login
 - MyInfo fields
 - CorpPass login
-- Verified phone field (Coming soon!)
 
 ## Can FormSG forms have many questions?
 
@@ -90,19 +89,19 @@ Our longest forms have more than 400 questions, and more than 100 deployed forms
 
 ## Can FormSG manage high volume of responses?
 
-Some of our forms already have a high number of responses. National Day Parade Ticket Application 2019 was hosted on FormSG, which had hundreds of thousands of applications in a week.
+Some of our forms already have a high number of responses. In January 2020, more than a million submissions went through FormSG.
 
 ## Can you use FormSG all around the world?
 
-As long as you have an Internet connection you can use FormSG all around the world. Note that to log in to create forms you will also need access to your government email to retrieve the OTP.
+As long as you have an Internet/WOG Intranet connection you can use FormSG all around the world. Note that to log in to create forms you will also need access to your government email to retrieve the OTP.
 
 ## Are there slides for me to read or share with my peers?
 
-Yes there are! Feel free to view, comment on and share these slides: [https://go.gov.sg/formsg-sharing-slides](https://go.gov.sg/formsg-sharing-slides).
+Yes there are! Feel free to view, comment on and share these slides that is viewable on the Internet: [https://go.gov.sg/formsg-sharing-slides](https://go.gov.sg/formsg-sharing-slides).
 
-## Who do you ask for help?
+## Who do you ask for help or keep updated?
 
-The fastest way to get help is to join our [Workplace@Facebook group](https://onepublicservice.facebook.com/groups/299464690543915/) and post a question there. Our group name is form.gov.sg. Fellow form creators and ourselves will readily respond within hours if not minutes. 
+The fastest way to get help is to join our [Workplace@Facebook group](https://onepublicservice.facebook.com/groups/299464690543915/) and post a question there. Our group name is [WOG] form.gov.sg. Fellow form creators and ourselves will readily respond within hours if not minutes. 
 
 You may also consult experts in your agency, or "Agency Pros" for help via [this list](/AskAPro.html).
 
