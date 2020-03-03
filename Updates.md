@@ -2,6 +2,44 @@
 
 We typically release features, improvements or fixes every Tuesday or Wednesday afternoon.
 
+## 28 Feb 2020: TemperatureSG
+
+What you can see, feel or smell:
+- Launch Storage Mode and Webhooks for select users of temperature taking forms
+
+## 12 Feb 2020: Intranet
+
+What you can see, feel or smell:
+- Enable Intranet
+- Migrated Intranet Data Collation Tool from form.app.gov.sg to collate.form.gov.sg
+- Fixed bug where attachment is selected when Enter is pressed on another field
+
+What goes on behind the scenes:
+- Refactored certain code into components to improve code re-usability
+
+## 4 Feb 2020: Enable captcha worldwide, clean up code
+
+What you can see, feel or smell:
+- Enable Captcha worldwide
+
+What goes on behind the scenes:
+- Refactored certain code into components to improve code re-usability
+
+## 28 Jan 2020: Bug fix
+
+What you can see, feel or smell:
+- Fixed bug where table question could not be saved under a specific obscure workflow
+
+## 9 Jan 2020: Finish server side validation, minor UI fixes
+
+What you can see, feel or smell:
+- Increased clickable area for admin navigation bar
+- Fixed bug where radio button is misaligned when option is empty
+
+What goes on behind the scenes:
+- Released all remaining server side validation, for security and prevention of data corruption
+- Refactored certain code into components to improve code re-usability
+
 ## 19 Dec 2019: Bug fixes, operating system change
 
 What you can see, feel or smell:
