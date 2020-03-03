@@ -1,8 +1,9 @@
-version: 1.0
+version: 1.1
 frontend:
   phases:
     preBuild:
       commands:
+        - "curl -X POST -H 'Content-type: application/json' --data '{\"blocks\":[{\"type\": \"section\",\"text\": {\"type\": \"mrkdwn\",\"text\": \"*Github Repo:* '$AWS_CLONE_URL'\n*Branch:* '$AWS_BRANCH'\n*Status*: 🛠 Build started.\"}}]}' $SLACK_WEBHOOK_URL"
         - rvm --default use $VERSION_RUBY_2_6
         - yum install -y urw-fonts
         - git clone https://github.com/opendocsg/opendoc-fonts.git ~/.fonts
@@ -10,19 +11,18 @@ frontend:
         - bundle install
     build:
       commands:
-        - rm -rf ./_site
         - if [ "${AWS_BRANCH}" = "master" ]; then JEKYLL_ENV=production bundle exec jekyll build; fi
         - if [ "${AWS_BRANCH}" != "master" ]; then JEKYLL_ENV=development bundle exec jekyll build; fi    
     postBuild:
       commands:
         - chmod +x ./_site/assets/startup/build.sh
         - ./_site/assets/startup/build.sh
+        - "curl -X POST -H 'Content-type: application/json' --data '{\"blocks\":[{\"type\": \"section\",\"text\": {\"type\": \"mrkdwn\",\"text\": \"*Github Repo:* '$AWS_CLONE_URL'\n*Branch:* '$AWS_BRANCH'\n*Status*: 🟢 Build successful.\"}}]}' $SLACK_WEBHOOK_URL"
       
   artifacts:
     baseDirectory: _site
     files:
       - '**/*'
-    discard-paths: yes
   cache:
     paths: 
       - node_modules
@@ -42,5 +42,3 @@ frontend:
           value: 'no-referrer'
         - key: 'Feature-Policy'
           value: "geolocation 'none'; microphone 'none'; camera 'none'"
-
-
