@@ -2,6 +2,25 @@
 
 We typically release features, improvements or fixes every Tuesday or Wednesday afternoon.
 
+## 13 Mar 2020: TemperatureSG 2x report
+
+What you can see, feel or smell:
+- Launch 2x daily report for TemperatureSG to flag out non-submissions at 9am and 4pm
+
+## 11 Mar 2020: Autofill
+
+What you can see, feel or smell:
+- Autofill for all fields, similar to Google forms' logic
+
+What goes on behind the scenes:
+- End to end testing for Storage mode
+
+## 3 Mar 2020: TemperatureSG
+
+What you can see, feel or smell:
+- UI improvements for Storage mode
+- Updated error message when captcha forms are filled on Intranet, as captcha is not available there
+
 ## 28 Feb 2020: TemperatureSG
 
 What you can see, feel or smell:
