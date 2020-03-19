@@ -85,7 +85,8 @@ fauziah_othman@schools.gov.sg
 germain_kang_yin_ga@schools.gov.sg  
 mohammed_azhar_mohd_shariff@schools.gov.sg  
 kwek_soon_cheong@schools.gov.sg  
-rasis_abdul_rahim@schools.gov.sg   
+rasis_abdul_rahim@schools.gov.sg 
+chang_jin_peng@schools.gov.sg  
 
 **MOH**  
 lynette_tan@moh.gov.sg  
