@@ -2,6 +2,17 @@
 
 We typically release features, improvements or fixes every Tuesday or Wednesday afternoon.
 
+## 24 Mar 2020: Social sharing, Chinese in autoreply PDFs, Bug fixes
+
+What you can see, feel or smell:
+- Social sharing through Facebook and Whatsapp now shows preview of form title, not just "Form Manager for Government"
+- Fixed bug where Chinese characters in auto-acknowledgement PDFs did not show up
+- Fixed permission related bugs for Storage mode in beta
+- Fixed MyInfo related bugs
+
+What goes on behind the scenes:
+- Removed old and unused endpoints
+
 ## 13 Mar 2020: TemperatureSG 2x report
 
 What you can see, feel or smell:
