@@ -1,30 +1,44 @@
-# READ THIS FIRST
+# Basic Guide
 
 This is a 5 minute read that helps you understand most of the in-and-outs of FormSG.
 
 ## What is FormSG?
 
-FormSG is a self-service form builder for government to create online forms that capture classified data, with the goal of replacing paper forms. Since it began in September 2017, it has replaced tens of thousands of paper forms and are used by over 90 agencies such as MOM, MOE, PA,  SportSG and TTSH. More than 25,000 officers are already on it. It has advanced features and can be used for not just simple surveys but also complicated workflow forms.
+FormSG is a self-service form builder for public officers to create online forms that capture classified data, with the goal of replacing paper forms. Since launching in September 2017, FormSG has replaced tens of thousands of paper forms and is used by over 90 public agencies including MOM, MOE, PA,  SportSG and TTSH. More than 25,000 public officers are users of FormSG today. FormSG comes with powerful functionality including user verification and conditional logic, enabling public officers to design not just simple surveys but also complex and feature-rich forms.
 
 ## Who can use FormSG?
 
-FormSG is built for the public sector and public healthcare clusters. There is no onboarding process. Simply [log in](https://form.gov.sg/#!/signin) with your agency email (e.g. @tech.gov.sg). FormSG works on both Internet and the WOG Intranet.
+FormSG is built for the public sector and public healthcare clusters. There is no onboarding process. Simply [log in](https://form.gov.sg/#!/signin) with your agency email (e.g. @tech.gov.sg). FormSG is accessible from both the Internet and Singapore Government Intranet.
+
+## Is FormSG accessible on the Intranet?
+
+Yes! Since start of 2020, FormSG has been accessible on WOG Intranet in addition to the Internet. If you still cannot access https://form.gov.sg on the Intranet, join our Workplace@Facebook group and ask for help. Note certain features are not available on WOG Intranet, such as SingPass/CorpPass/MyInfo and Captcha. If your form is intended for internal use, you can disable Captcha.
 
 ## How does FormSG keep my data secure?
 
-Unlike most form builders out there, FormSG does not store your data. This means if our database is breached, there is no raw data to hack. There are two secure modes of creating forms.
+FormSG provides users with two options for secure form data management - Storage mode and Email mode.
 
-Email mode: Form responses are sent directly into your specified email(s), and our server never stores a copy of it. Because we do not store responses, it is critical your mailbox is correctly specified and has space, or responses will be lost.
+In Email mode, form responses are sent directly to user-specified email addresses. FormSG does not store form response data in our servers. Therefore, it is critical that email addresses are correctly specified and mailboxes are not over-capacity, or else form responses will be lost.
 
-Storage mode (Coming End Apr 2020): Responses are stored, but end-to-end encrypted. On form creation, private key is generated on the client and never seen by our server. On form submission, response is encrypted on the client first, before being sent to our server for storage.
+In Storage mode, your responses are encrypted end-to-end and stored in encrypted format, ensuring that only form administrators can access and view responses. During form creation, the user's client generates a private key that is never seen by the FormSG server, and is used to access and view responses. Upon response submission, the respondent's client encrypts the response using the corresponsing public key, before the encrypted response is sent to FormSG servers for storage.
 
-## My form responses are lost! Can you help us recover them?
-
-Because we do not store data, we cannot recover your lost data. If you cannot find your email responses, they might have been routed to an obscure Outlook folder set by your mail forwarding rules. Or they might have been quarantined by your agency firewall, which you can contact your AFM/IT department for. If you accidentally delete your email responses, they might still be on the email server, which you should contact your AFM/IT department for help.
+Both these options ensure that should our servers be compromised, attackers would not be able to view form response data. 
 
 ## Is FormSG IM8 / AIAS / DSS compliant?
 
 Yes we are compliant with IM8, AIAS policy, and DSS. If you have concerns on our compliance, kindly contact us via our [Support Form](https://go.gov.sg/formsg-support), and mention the specific clause you have concerns on.
+
+## What data classification (RCST) can FormSG handle?
+
+On Email mode, FormSG can handle up to Restricted-classified individual responses, and Confidential-classified data collections. This is because FormSG is a Restricted system that can manage Restricted data flowing through it, but ultimately data is stored in your government email, or SGMail, which is a Confidential system that lets you store Confidential collections of data. However, if you specify a non-government email to send responses to, then you are not recommended to accept data that is classified Confidential.
+
+On Storage mode, FormSG can handle up to Restricted-classified individual responses and data collections.
+
+## What information sensitivity (ISF) can FormSG handle?
+
+FormSG's Email mode has in-principle approval from the Smart Nation and Digital Government Office (SNDGO) to support Sensitive High data. 
+
+FormSG's Storage mode has similar approval from SNDGO to support Sensitive Normal data, and review is undergoing to support Sensitive High data.
 
 ## Is FormSG really free?
 
@@ -50,21 +64,9 @@ It is up to you to decide if you want 2FA or 1FA e-service ID. For CorpPass, it 
 
 Yes, we are up 24/7. There is no planned maintenance window. Typically once a few months we have a 2 hour maintenance window from 12am - 2am, but most features are constantly deployed without downtime. Because we do not charge for the service we do not have an SLA, but have a measured uptime of 99.999% since we launched. The exception is SingPass and CorpPass, which do have planned maintenance, with which you can contact SPCP rep [alvin_wee@tech.gov.sg](mailto:alvin_wee@tech.gov.sg) to find out more.
 
-## How am I informed of issues on my form?
+## How will I be informed of any issues with my form?
 
 We have multiple tests and detection tools to flag issues on forms. If we detect an issue with your form we will email you. Although rare, if the entire platform has downtime, we will announce it on Workplace@Facebook, and enable a maintenance page on all forms. We have engineers on-call 24/7 to react to issues as fast as we can. If there are issues with your form, you can contact us through our [Support Form](https://go.gov.sg/formsg-support).
-
-## What data classification (RCST) can FormSG handle?
-
-On Email mode, FormSG can handle up to Restricted per entry, and Confidential for the collection of data. This is because FormSG is a Restricted system that can manage Restricted data flowing through it, but ultimately data is stored in your government email, or SGMail, which is a Confidential system that lets you store Confidential collections of data. If however you specify a non-government email to send responses to, then you are not recommended to accept data that is classified Confidential.
-
-On Storage mode, FormSG can handle up to Restricted. 
-
-## What information sensitivity (ISF) can FormSG handle?
-
-FormSG's email mode has in-principle approval from SNDGO, the policy owner, that it can support Sensitive High data. 
-
-FormSG's storage mode has similar approval for Sensitive Normal, and is still undergoing review for Sensitive High.
 
 ## What are some features of FormSG?
 
@@ -74,24 +76,24 @@ There are many features of FormSG and the best way to learn about them is to [lo
 - Attachments to upload photos and files
 - Table style questions
 - Automated acknowledgement email
-- Field validations
+- Field validation
 - Control flow logic / Branching
-- Collaborate on a form together
+- Collaborative editing
 - Form feedback
 - Form templates/examples
 - SingPass login
 - MyInfo fields
 - CorpPass login
 
-## Can FormSG forms have many questions?
+## How many questions can I put in a form?
 
 Our longest forms have more than 400 questions, and more than 100 deployed forms have 100 questions and more. To make forms easier to fill, form creators used Logic/Branching to shorten their forms and only show relevant questions.
 
-## Can FormSG manage high volume of responses?
+## Can FormSG manage a high volume of responses?
 
 Some of our forms already have a high number of responses. In January 2020, more than a million submissions went through FormSG.
 
-## Can you use FormSG all around the world?
+## Can I use FormSG all around the world?
 
 As long as you have an Internet/WOG Intranet connection you can use FormSG all around the world. Note that to log in to create forms you will also need access to your government email to retrieve the OTP.
 
