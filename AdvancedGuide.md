@@ -192,7 +192,7 @@ In most other situations, Storage mode is expected to be more convenient,  espec
 
 ### My form responses are lost! Can you help us recover them?
 
-We cannot recover any form data that you have lost, as FormSG does not store any response data for security purposes.
+We cannot recover any form data that you have lost. If you are on Email mode, FormSG does not store any response data for security purposes.
 
 If you cannot find your email responses, they might have been routed to an obscure Outlook folder set by your mail forwarding rules. Or they might have been quarantined by your agency firewall, which you can contact your AFM/IT department for. If you accidentally delete your email responses, they might still be on the email server, which you should contact your AFM/IT department for help.
 
@@ -220,7 +220,7 @@ Since we moved to the Intranet start of 2020, Data Collation Tool has shifted fr
 
 ### Does my data go to your server when I use the Data Collation Tool?
 
-No, your data is not seen by our server. Aggregation of your email responses happens offline on your browser.
+No, your data is not seen by our server during the Data Collation Tool process. Aggregation of your email responses happens offline on your browser.
 
 ### Excel responses from table style questions are clumped into one line, how do I separate them?
 
@@ -239,7 +239,7 @@ The OTP is sent immediately, but might take a while to arrive in your government
 
 ### My form is really long. Why can't users save draft?
 
-We took out Save Draft because there is no good place to save such data - our servers do not store data, and saving data on the local computer might leak this out to unintended recipients if form is filled from a library computer. Furthermore, it's more important to advise the user how long it takes to fill in the form, so they have sufficient time to submit in one sitting, which is a better user experience than saving draft and coming back repeatedly. In the future after launch of Storage mode, we might consider re-enabling Save Draft function.
+Prior to the launch of Storage mode, we did not enable draft-saving functionality because there was no good place to store draft form data. Our servers did not store data, and saving data on local machines might leak this out to unintended recipients if form is filled from a library computer. With the launch of Storage mode, we might consider re-enabling Save Draft. Stay tuned!
 
 ### I am leaving the organisation or switching over to a new email. How do I transfer ownership of my forms?
 
