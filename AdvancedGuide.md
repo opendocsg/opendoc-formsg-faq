@@ -2,23 +2,43 @@
 
 This advanced guide includes tips and tricks, and also solutions to common issues you may face when using FormSG. This section is updated regularly, so feel free to check back once in a while.
 
-## Is FormSG accessible on the Intranet?
+## Input fields
 
-Yes! Since start of 2020, FormSG has been accessible on WOG Intranet. If you still cannot access https://form.gov.sg on the Intranet, join our Workplace@Facebook group and ask for help. Note certain features are not available on WOG Intranet, such as SingPass/CorpPass/MyInfo and Captcha. If your form is intended for internal use, you can disable Captcha.
-
-## I did not receive my OTP. Where is it?
-
-The OTP is sent immediately, but might take a while to arrive in your government email due to the potentially multiple firewalls the email has to go through. OTPs expire in 15 minutes, after which you have to resend another one. After logging in, you will remain logged in for 24 hours. This means you need not have both Intranet and Internet devices at all times; you can log in to your Internet device before you leave your office, and for 24 hours be able to create forms from one Internet device.
-
-## Where do I access the Data Collation Tool? I can't find it.
-
-Since we moved to the Intranet start of 2020, Data Collation Tool has shifted from the old link of https://form.app.gov.sg to the new link of https://collate.form.gov.sg.
-
-## Where is the signature field?
+### Where is the signature field?
 
 There are a few variants of electronic signatures available on FormSG, all of which, according to the Electronic Transactions Act, are not legally weaker than a wet ink signature. Agencies such as IRAS and MOM have used the following for electronic signatures: a) an NRIC field, b) an attachment of a wet ink signature and c) SingPass Login. 
 
-## How do I route responses to different emails based on form option selected? 
+### Is there an address field? How can I auto-populate one?
+
+You may create a Postal code field with Short Text that validates 6 characters, together with a few more fields for block and unit numbers. Do not use a Number field for Postal code as Numbers cannot start with zero. If verified addresses are needed, you may enable SingPass on your form, and drag in a Registered Address MyInfo field.
+
+### When should I use a radio button vs a dropdown field? 
+
+For 6 or fewer choices, it is advised to use a radio button, as there are only a few options to display:
+
+![FormSG FAQ Radio Button](https://s3-ap-southeast-1.amazonaws.com/misc.form.gov.sg/faq-radio.png "FormSG FAQ Radio Button")
+
+For >6 choices, you should use a dropdown field: 
+
+![FormSG FAQ Dropdown](https://s3-ap-southeast-1.amazonaws.com/misc.form.gov.sg/faq-dropdown.png "FormSG FAQ Dropdown")
+
+### Can my forms support multiple languages?
+
+Yes it can. Form title has to be in English, but instructions and fields can be in any language. For example, you can specify form fields in English, and provide translations in field descriptions. Your users can also submit your form in any language they want - they just have to switch to the respective keyboard on their device.
+
+### How do I increase attachment size limit? And what if there are many attachments for my form?
+
+The current size limit is 7 MB for the entire form. We auto-compress images to 1024x768 resolution, which is typically less than 1 MB. This is a hard limit because the email service we use has a fixed 10 MB outgoing size, and we buffer 3 MB for email fields and metadata. Because the smallest unit you can attach per attachment field is 1 MB, you can have a max of 7 attachments on your form. If your user has to submit more than 7 documents, you may create just one attachment field of 7 MB, and advise your user to zip documents up and submit as one attachment. In the future after launch of Storage mode, we are considering raising this size limit to 20 MB. 
+
+## Form logic
+
+### How do I know if the logic for the form is correct?
+
+When you implement a new logic, you should test it yourself via the preview page. Note that the onus is on you to verify the correct logic for your form.
+
+![FormSG FAQ Logic](https://s3-ap-southeast-1.amazonaws.com/misc.form.gov.sg/faq-logic.png "FormSG FAQ Logic")
+
+### How do I route responses to different emails based on form option selected? 
 
 This might apply for an enquiry form. If user chooses "Complaint" response should route to Complaints Department, but if user chooses "IT" response should route to IT Department. There's no such feature on FormSG, but you can set mail forwarding rules on your email. For example, one such rule can detect "Complaint" in the form response email, and forward this to the Complaints Department automatically.
 
@@ -32,82 +52,141 @@ Click on the underlined "specific words", and specify "IT department". Next, sel
 
 Click on the underlined "people or public group" and specify the IT department's email.
 
-## My form is really long. Why can't users save draft?
+## Storage mode
 
-We took out Save Draft because there is no good place to save such data - our servers do not store data, and saving data on the local computer might leak this out to unintended recipients if form is filled from a library computer. Furthermore, it's more important to advise the user how long it takes to fill in the form, so they have sufficient time to submit in one sitting, which is a better user experience than saving draft and coming back repeatedly. In the future after launch of Storage mode, we might consider re-enabling Save Draft function.
+### What is Storage mode?
 
-## How do I increase attachment size limit? And what if there are many attachments for my form?
+Storage mode is one of two options that FormSG users have for receiving their form responses.
 
-The current size limit is 7 MB for the entire form. We auto-compress images to 1024x768 resolution, which is typically less than 1 MB. This is a hard limit because the email service we use has a fixed 10 MB outgoing size, and we buffer 3 MB for email fields and metadata. Because the smallest unit you can attach per attachment field is 1 MB, you can have a max of 7 attachments on your form. If your user has to submit more than 7 documents, you may create just one attachment field of 7 MB, and advise your user to zip documents up and submit as one attachment. In the future after launch of Storage mode, we are considering raising this size limit to 20 MB. 
+Under Storage mode, form administrators can view responses within FormSG and export collated responses in spreadsheet format. To access these responses, form administrators must first enter a secret key that was generated upon form creation.
 
-## I am leaving the organisation or switching over to a new email. How do I transfer ownership of my forms?
+All responses are stored in encrypted format, meaning no one except form administrators will be able to view or download responses. Storage mode is permissable for data up to "Restricted" classification and "Sensitive Normal" sensitivity.
 
-Note that you might not need to transfer ownership of your form. You may simply add your colleague as a collaborator. Collaborators have the same rights as form creators, except they cannot delete the form.
+Note: The following features are currently **not available** in Storage mode. If you need to use these features with your form, please select Email mode.
+- MyInfo fields
+- Tables
+- Attachments
 
-![FormSG FAQ Add Collaborators](https://s3-ap-southeast-1.amazonaws.com/misc.form.gov.sg/faq-collaborator.png "FormSG FAQ Add Collaborators")
+### When should I choose Storage mode?
 
-If you have already lost access to your old email and can no longer edit your form, you may file a [Support Form](https://go.gov.sg/formsg-support) request to transfer ownership to another email.
+Storage mode will be more convenient for the majority of users, especially when there is a high volume of anticipated responses. You will no longer have to manage or manually collate your form responses from your email inbox. Storage mode is permissible for data with "Restricted" classification and "Sensitive Normal" sensitivity.
 
-## My forms are particularly sensitive and I do not want other public officers to see them on the Examples tab.
+However, you should choose Email mode if 
+- your collated data is classified "Confidential" or "Sensitive High"
+- your data is Sensitive High
+- you require MyInfo fields, table-style questions or attachments in your form 
 
-Note that only forms that are active, and have at least 10 responses will be searchable on the Examples tab. And that the Examples tab is only viewable by authenticated public officers, not the general public. Furthermore, only your form fields are viewable, not your form data.
+### How do I use Storage mode?
 
-But if there is still a need to unlist your form from the Examples tab because the form fields alone are already sensitive to be viewed by fellow public officers, then you may submit our [Support Form](https://go.gov.sg/formsg-support), and attach an email approval from your MIC (DD/Dir) stating justifications for unlisting specific form links from the Examples tab.
+**1. Create a new form and select Storage mode**
 
-## Can my forms support multiple languages?
+![FormSG FAQ Storage Create](https://s3-ap-southeast-1.amazonaws.com/misc.form.gov.sg/faq-storage-create.png "FormSG FAQ Storage Create")
 
-Yes it can. Form title has to be in English, but instructions and fields can be in any language. For example, you can specify form fields in English, and provide translations in field descriptions. Your users can also submit your form in any language they want - they just have to switch to the respective keyboard on their device.
+**2. Download your secret key**
 
-## Is there an address field? How can I auto-populate one?
+You and any collaborators will need this secret key to activate your form and access form responses. [Learn more about secret keys](https://guide.form.gov.sg/AdvancedGuide.html#what-is-a-secret-key).
 
-You may create a Postal code field with Short Text that validates 6 characters, together with a few more fields for block and unit numbers. Do not use a Number field for Postal code as Numbers cannot start with zero. If verified addresses are needed, you may enable SingPass on your form, and drag in a Registered Address MyInfo field.
+Note that if you lose your secret key, your form responses will be __permanently lost__. [Here's how to avoid accidentally losing your secret key.](https://guide.form.gov.sg/AdvancedGuide.html#how-do-i-make-sure-i-dont-lose-my-secret-key)
 
-## How do I restrict access to my form to selected users to submit?
+![FormSG FAQ Storage Download Key](https://s3-ap-southeast-1.amazonaws.com/misc.form.gov.sg/faq-storage-downloadkey.png "FormSG FAQ Storage Download Key")
 
-The unguessable form link acts as a password. You can circulate the form link to only users that you intend to gather responses from. As long as you don't add the form link to public channels such as on your agency's Internet website, the form link will not be indexed by search engines. If the form link ends up widely circulated with non-authorised users submitting the form, you may then filter off such non-authorised submissions.
+**3. Share your secret key with collaborators** (if any)
 
-## When should I use a radio button vs a dropdown field? 
+Any collaborators you invite will need the secret key to view form responses. Share your secret key with collaborators through a secure channel, according to your agency's security policies.
 
-For 6 or fewer choices, it is advised to use a radio button, as there are only a few options to display:
+**4. Build your form as per usual**
 
-![FormSG FAQ Radio Button](https://s3-ap-southeast-1.amazonaws.com/misc.form.gov.sg/faq-radio.png "FormSG FAQ Radio Button")
+**5. Activate your form**
 
-For >6 choices, you should use a dropdown field: 
+To activate your form and start sharing it with respondents, enter or upload the secret key you downloaded at form creation.
 
-![FormSG FAQ Dropdown](https://s3-ap-southeast-1.amazonaws.com/misc.form.gov.sg/faq-dropdown.png "FormSG FAQ Dropdown")
+![FormSG FAQ Storage Activate](https://s3-ap-southeast-1.amazonaws.com/misc.form.gov.sg/faq-storage-activate.png "FormSG FAQ Storage Activate")
 
-## Excel responses from table style questions are clumped into one line, how do I separate them?
+**6. Unlock form responses**
 
-1. Open the excel sheet generated from our Data Collation Tool
-2. Select the entire column of the responses
-3. Go to the Data tab and choose Text to Columns > Delimit by comma (,).
+With Storage mode, you can access form responses and feedback within FormSG in the new ‘Data’ tab (previously ‘Results’).
 
-![FormSG FAQ Excel Split Response](https://s3-ap-southeast-1.amazonaws.com/misc.form.gov.sg/faq-excel.png "FormSG FAQ Excel Split Response")  
-Don't worry if responses contain commas because Excel does not split commas accompanied by spaces. Commas between columns have no space, which Excel will split by, unlike commas within sentences. An example response to a table style question asking for name, age, hobbies is: "Mr Tan,55,Soccer, Tennis, Taichi". Excel will split this correctly into "Mr Tan", "55", and "Soccer, Tennis, Taichi" because it ignores the commas in hobbies that have spaces after them.
+To unlock your responses, enter or upload the secret key you downloaded at form creation. This will give you access to view and export your form responses.
 
-## How can I split the form into multiple pages?
+![FormSG FAQ Storage Access Response](https://s3-ap-southeast-1.amazonaws.com/misc.form.gov.sg/faq-storage-accessresponse.png "FormSG FAQ Storage Access Response")
 
-We don't support multiple pages, because >70% of our users fill in forms from their phones, and are used to navigate through content by scrolling not tabbing through pages, such as when they scroll through their social media feeds. Hence we built the Header field to separate your form into sections that your user can scroll through.
+**7. View and export responses**
 
-![FormSG FAQ Create Section](https://s3-ap-southeast-1.amazonaws.com/misc.form.gov.sg/faq-section.png "FormSG FAQ Create Section")
+Once you have unlocked your responses with your secret key, you will be able to view your collated form responses within FormSG. Download your form responses by clicking the Export button.
 
-## How do I know if the logic for the form is correct?
+![FormSG FAQ Storage View Response](https://s3-ap-southeast-1.amazonaws.com/misc.form.gov.sg/faq-storage-viewresponse.png "FormSG FAQ Storage View Response")
 
-When you implement a new logic, you should test it yourself via the preview page. Note that the onus is on you to verify the correct logic for your form.
+Click on each list item to view the full response.
 
-![FormSG FAQ Logic](https://s3-ap-southeast-1.amazonaws.com/misc.form.gov.sg/faq-logic.png "FormSG FAQ Logic")
+![FormSG FAQ Storage Click Response](https://s3-ap-southeast-1.amazonaws.com/misc.form.gov.sg/faq-storage-clickresponse.png "FormSG FAQ Storage Click Response")
 
-## What is FormSG’s infrastructure like? How is the security of the system? 
+You can also view and download your feedback data in the Feedback tab. 
 
-We have our NodeJS web servers hosted on AWS Singapore zone. Our NoSQL database that stores only form fields and not form data is managed by Mongo Atlas, and also hosted on AWS Singapore zone. We use AWS SES to send out mails, which are not open mail relays, have valid SPF and DKIM records, and encrypts form data before sending them over to government SGMail. Our web servers are protected with Cloudflare SSL, their Anti-DDoS protection and Web Application Firewall. We use Pingdom for website performance and availability monitoring, and have AWS CloudWatch alarms, together with CloudTrail that monitors activity and GuardDuty for threat intelligence monitoring. Our Data Collation Tool is built with vanilla Javascript and is static site on S3. We have undergone rigorous penetration testing, vulnerability assessment and infrastructure review by both world renowned security testers and CSG. We have also written a >74 page NIST security review documenting our security best practices.
+![FormSG FAQ Storage View Feedback](https://s3-ap-southeast-1.amazonaws.com/misc.form.gov.sg/faq-storage-viewfeedback.png "FormSG FAQ Storage View Feedback")
 
-## Does my data go to your server when I use the Data Collation Tool?
+### What is a secret key?
 
-No, your data is not seen by our server. Aggregation of your email responses happens offline on your browser.
+Your secret key is a string of text and numbers used to encrypt and decrypt your form responses. Each secret key unlocks the responses to **one** form only. No one will be able to view your form responses unless they have your Secret Key. 
 
-## Email reliability
+You will need your secret key at 3 points in your FormSG journey:
+- Form creation: download secret key
+- Form activation: enter/upload secret key
+- Access responses: enter/upload Secret Key
 
-## Will my emails be blocked?
+Your secret key is generated by your browser during form creation, and downloaded to your computer or mobile phone. We do not save or store your secret key, and it is the **only way** to access your response data. This is why you should be careful not to lose your secret key, as if you do we will not be able to help you regain access to your response data.
+
+### How do I make sure I don't lose my secret key?
+
+To make sure you don't lose your secret key(s), and permanently lose access to your form responses, you can
+- Share secret key(s) with colleagues that are also authorised to view form responses;
+- Store secret key(s) in a third-party password manager tool, if your agency uses one;
+- Store multiple secret keys and associated form links on a spreadsheet in your government-issued laptop;
+- Regularly check in on your form responses to make sure that you still have your secret key.
+
+### I've lost my secret key! Can you recover my form data?
+
+Unfortunately, there is no way for us to recover your lost data or retrieve your secret key.
+
+This is because FormSG does not store secret keys (they are truly secret to you!) or any other way to unlock your encrypted data. This is an important security benefit, because that means even if our server were to be compromised, an attacker would never be able to unlock your encrypted responses.
+
+If you have lost your secret key, we advise that you promptly duplicate your form, and publish a new form with a new secret key to continue gathering responses.
+
+### What if my secret key has been accidentally circulated?
+
+Promptly back-up your form data by downloading form responses and feedback from FormSG. Then duplicate your old form and publish a new form with a new secret key, and continue gathering responses with this new form. When you have done this, email us to delete encrypted responses from the old form so that no one will be able to access your responses with the leaked secret key.
+
+### How does end-to-end encryption work?
+
+When a respondent submits a response, response data is encrypted in the respondent's browser before being sent to our servers for storage. This ensures that responses are already encrypted by the time they hit our server, and that no one except form administrators will have access.
+
+![FormSG FAQ Storage Encrypted](https://s3-ap-southeast-1.amazonaws.com/misc.form.gov.sg/faq-storage-encrypted.png "FormSG FAQ Storage Encrypted")
+
+### Can I enable both Storage and Email mode?
+
+You may select either Storage or Email mode for a single form, but not both.
+
+## Email mode
+
+### What is Email mode?
+
+Email mode is one of two options that FormSG users have for receiving their form responses, the other being Storage mode.
+
+### When should I choose Email mode?
+
+You should choose Email mode if
+- your collated data is classified Confidential
+- your data is Sensitive High
+- you require MyInfo fields, table-style questions or attachments in your form 
+
+In most other situations, Storage mode is expected to be more convenient,  especially for forms with a high volume of anticipated responses.
+
+### My form responses are lost! Can you help us recover them?
+
+We cannot recover any form data that you have lost, as FormSG does not store any response data for security purposes.
+
+If you cannot find your email responses, they might have been routed to an obscure Outlook folder set by your mail forwarding rules. Or they might have been quarantined by your agency firewall, which you can contact your AFM/IT department for. If you accidentally delete your email responses, they might still be on the email server, which you should contact your AFM/IT department for help.
+
+### Will my emails be blocked?
 
 If emails are non-malicious, they typically will not be blocked. There are two junctures where they might be blocked, but the form submitter will know about it and will be able to retry:
 
@@ -119,54 +198,67 @@ From here on out, if the email is blocked, your user will not be aware. But ther
 
 - If the government email exists, it proceeds to SGMail servers. Before it enters SGMail, it will arrive at SGMail's firewall. This firewall will block out emails if there are attachments with non-whitelisted file extensions, for e.g. ".abc" or ".mov". We are not aware of the full list of file extensions that SGMail whitelists, but most of the file extensions that are whitelisted can be viewed here on [our spreadsheet](https://go.gov.sg/email-cwl). If your email gets blocked due to non-whitelisted attachment file extensions, you will receive a mail hygiene notification. You may contact SPEAR (spear@tech.gov.sg) within 1 month from receiving the mail hygiene notification to retrieve the dropped mail.
 
-## How do I recover my mail when I receive a mail hygiene notification?
+### How do I recover my mail when I receive a mail hygiene notification?
 
 You may recover your blocked email within 1 month if you email SPEAR (spear@tech.gov.sg) and attach the mail hygiene notification.
 
-## What is Storage mode?
+## Data Collation Tool
 
-FormSG does not store your responses in the clear. In Storage mode, form responses are encrypted, before being sent to our server for storage. Here's how it works:
+### Where do I access the Data Collation Tool? I can't find it.
 
-1) You create a form using Storage mode, and is prompted to download a secret key which you have to keep safe:
+Since we moved to the Intranet start of 2020, Data Collation Tool has shifted from the old link of https://form.app.gov.sg to the new link of https://collate.form.gov.sg.
 
-![FormSG FAQ Storage Create Form](https://s3-ap-southeast-1.amazonaws.com/misc.form.gov.sg/faq-storage-secretkey.png "FormSG FAQ Storage Create Form")
+### Does my data go to your server when I use the Data Collation Tool?
 
-2) When user submits your form, responses gets encrypted on user's browser before being sent to our server for storage:
+No, your data is not seen by our server. Aggregation of your email responses happens offline on your browser.
 
-![FormSG FAQ Storage Encrypted](https://s3-ap-southeast-1.amazonaws.com/misc.form.gov.sg/faq-storage-encrypted.png "FormSG FAQ Storage Encrypted")
+### Excel responses from table style questions are clumped into one line, how do I separate them?
 
-3) To retrieve responses, visit the Data tab, and enter your secret key in order to download and unlock encrypted responses:
+1. Open the excel sheet generated from our Data Collation Tool
+2. Select the entire column of the responses
+3. Go to the Data tab and choose Text to Columns > Delimit by comma (,).
 
-![FormSG FAQ Storage View Response](https://s3-ap-southeast-1.amazonaws.com/misc.form.gov.sg/faq-storage-responses.png "FormSG FAQ Storage View Response")
+![FormSG FAQ Excel Split Response](https://s3-ap-southeast-1.amazonaws.com/misc.form.gov.sg/faq-excel.png "FormSG FAQ Excel Split Response")  
+Don't worry if responses contain commas because Excel does not split commas accompanied by spaces. Commas between columns have no space, which Excel will split by, unlike commas within sentences. An example response to a table style question asking for name, age, hobbies is: "Mr Tan,55,Soccer, Tennis, Taichi". Excel will split this correctly into "Mr Tan", "55", and "Soccer, Tennis, Taichi" because it ignores the commas in hobbies that have spaces after them.
 
-4) You may then view your responses one-by-one by clicking each row, or export all responses to an Excel by clicking on Export.
+## Other
 
-## What are the benefits of Storage mode over Email mode?
+### I did not receive my OTP. Where is it?
 
-The key benefit here is convenience. You no longer have to manage emails, and no longer have to manually aggregate emails into Excel using the Data Collation Tool. If your form has high volume such as tens of thousands of responses or more, it can be quite painful to manage those responses in your mailbox.
+The OTP is sent immediately, but might take a while to arrive in your government email due to the potentially multiple firewalls the email has to go through. OTPs expire in 15 minutes, after which you have to resend another one. After logging in, you will remain logged in for 24 hours. This means you need not have both Intranet and Internet devices at all times; you can log in to your Internet device before you leave your office, and for 24 hours be able to create forms from one Internet device.
 
-## When is Storage mode coming out?
+### My form is really long. Why can't users save draft?
 
-Storage mode is expected to be launched to all users by end Apr 2020.
+We took out Save Draft because there is no good place to save such data - our servers do not store data, and saving data on the local computer might leak this out to unintended recipients if form is filled from a library computer. Furthermore, it's more important to advise the user how long it takes to fill in the form, so they have sufficient time to submit in one sitting, which is a better user experience than saving draft and coming back repeatedly. In the future after launch of Storage mode, we might consider re-enabling Save Draft function.
 
-## This secret key sounds important. What if I lose it?
+### I am leaving the organisation or switching over to a new email. How do I transfer ownership of my forms?
 
-Note that your form's secret key has to be kept safely by you. Our server will not be able to recover your secret key if you lose it. This is an important security benefit, because that means if our server were to be compromised, your responses will not be leaked as the attacker will not have your secret key to unlock your encrypted responses.
+Note that you might not need to transfer ownership of your form. You may simply add your colleague as a collaborator. Collaborators have the same rights as form creators, except they cannot delete the form.
 
-If you really do lose your secret key, you will lose past responses. Unfortunately, there is no way for us to retrieve the secret key for you. It is advised you promptly duplicate the form, and publish the new form with a new secret key to continue gathering responses.
+![FormSG FAQ Add Collaborators](https://s3-ap-southeast-1.amazonaws.com/misc.form.gov.sg/faq-collaborator.png "FormSG FAQ Add Collaborators")
 
-## How do I make sure I do not lose my secret key?
+If you have already lost access to your old email and can no longer edit your form, you may file a [Support Form](https://go.gov.sg/formsg-support) request to transfer ownership to another email.
 
-It is recommended you share your secret key(s) with colleagues just in case. If you have multiple secret keys you can store them in an Excel with form links and associated secret keys, and keep this Excel on your government laptop. Consider storing secret keys in a third-party password manager tool if your agency has one. Most importantly, regularly log in to unlock form responses to make sure you still have the secret key.
+### My forms are particularly sensitive and I do not want other public officers to see them on the Examples tab.
 
-## What if I want to purge encrypted responses stored on the FormSG server?
+Note that only forms that are active, and have at least 10 responses will be searchable on the Examples tab. And that the Examples tab is only viewable by authenticated public officers, not the general public. Furthermore, only your form fields are viewable, not your form data.
 
-To purge encrypted responses from our server, all you have to do is discard your secret key. Without the secret key, encrypted responses on our server are as good as gibberish.
+But if there is still a need to unlist your form from the Examples tab because the form fields alone are already sensitive to be viewed by fellow public officers, then you may submit our [Support Form](https://go.gov.sg/formsg-support), and attach an email approval from your MIC (DD/Dir) stating justifications for unlisting specific form links from the Examples tab.
 
-## What if my secret key has been accidentally circulated?
+### How do I restrict access to my form to selected users to submit?
 
-Backup your data first, by downloading form responses. Then create a new form with a new secret key and continue gathering responses from this new form. Finally, email us to delete encrypted responses from the old form with the leaked secret key.
+The unguessable form link acts as a password. You can circulate the form link to only users that you intend to gather responses from. As long as you don't add the form link to public channels such as on your agency's Internet website, the form link will not be indexed by search engines. If the form link ends up widely circulated with non-authorised users submitting the form, you may then filter off such non-authorised submissions.
 
-## How do I suggest changes to this user guide?
+### How can I split the form into multiple pages?
+
+We don't support multiple pages, because >70% of our users fill in forms from their phones, and are used to navigate through content by scrolling not tabbing through pages, such as when they scroll through their social media feeds. Hence we built the Header field to separate your form into sections that your user can scroll through.
+
+![FormSG FAQ Create Section](https://s3-ap-southeast-1.amazonaws.com/misc.form.gov.sg/faq-section.png "FormSG FAQ Create Section")
+
+### What is FormSG’s infrastructure like? How is the security of the system? 
+
+We have our NodeJS web servers hosted on AWS Singapore zone. Our NoSQL database that stores only form fields and not form data is managed by Mongo Atlas, and also hosted on AWS Singapore zone. We use AWS SES to send out mails, which are not open mail relays, have valid SPF and DKIM records, and encrypts form data before sending them over to government SGMail. Our web servers are protected with Cloudflare SSL, their Anti-DDoS protection and Web Application Firewall. We use Pingdom for website performance and availability monitoring, and have AWS CloudWatch alarms, together with CloudTrail that monitors activity and GuardDuty for threat intelligence monitoring. Our Data Collation Tool is built with vanilla Javascript and is static site on S3. We have undergone rigorous penetration testing, vulnerability assessment and infrastructure review by both world renowned security testers and CSG. We have also written a >74 page NIST security review documenting our security best practices.
+
+### How do I suggest changes to this user guide?
 
 Our user guide is hosted by [OpenDoc](https://opendoc.sg) and is written in [Markdown](https://www.markdownguide.org/), which is a laymen-friendly language. The code for our user guide is open-sourced, and you may visit our [Github repository](https://github.com/opendocsg/opendoc-formsg-faq), and send us a [Pull Request](https://help.github.com/en/articles/creating-a-pull-request) if you have corrections or suggestions to the guide.
