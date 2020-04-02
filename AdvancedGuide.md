@@ -60,7 +60,7 @@ Storage mode is one of two options that FormSG users have for receiving their fo
 
 Under Storage mode, form administrators can view responses within FormSG and export collated responses in spreadsheet format. To access these responses, form administrators must first enter a secret key that was generated upon form creation.
 
-All responses are stored in encrypted format, meaning no one except form administrators will be able to view or download responses. Storage mode is permissable for data up to "Restricted" classification and "Sensitive Normal" sensitivity.
+All responses are stored in encrypted format, meaning no one except form administrators will be able to view or download responses. Storage mode is permissible for data up to "Restricted" classification and "Sensitive Normal" sensitivity.
 
 Note: The following features are currently **not available** in Storage mode. If you need to use these features with your form, please select Email mode.
 - MyInfo fields
@@ -180,6 +180,10 @@ You may select either Storage or Email mode for a single form, but not both.
 ### What is Email mode?
 
 Email mode is one of two options that FormSG users have for receiving their form responses, the other being Storage mode.
+
+If you opt to create your form on Email mode, your form responses will be sent to email addresses that you specify. FormSG will not store your form responses for security purposes.
+
+Email mode is permissible for individual responses classified Restricted Sensitive High and below, and collated data classified Confidential and below.
 
 ### When should I choose Email mode?
 
