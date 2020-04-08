@@ -2,6 +2,49 @@
 
 We typically release features, improvements or fixes every Tuesday or Wednesday afternoon.
 
+## 8 Apr 2020: Storage mode
+
+What you can see, feel or smell:
+- Launch Storage mode for everyone (MyInfo, attachment, table, autoreply pdf not available)
+
+## 7 Apr 2020: Basic phone field, extend CorpPass time out, security and testing improvements
+
+What you can see, feel or smell:
+- Basic phone field with local or international number validation
+- Extend CorpPass time out duration to 6h
+- Fixed bug where hidden table questions made forms not able to submit
+- Add disabled toggle for email autoreply pdf on Storage mode to clarify feature not available
+
+What goes on behind the scenes:
+- Additional security for email bounce endpoint
+- Improved logging of validation errors
+- Additional end-to-end tests
+- Version Storage mode
+- Validator for checkbox fields
+
+## 2 Apr 2020: Government banner, verified fields in Beta
+
+What you can see, feel or smell:
+- Government agency banner on landing page
+
+What goes on behind the scenes:
+- Verified Whatsapp field in Beta
+- Verified SMS field in Beta
+
+## 30 Mar 2020: Clearer NRIC field, Storage mode prep
+
+What you can see, feel or smell:
+- Clarify NRIC field placeholder and error message to support both NRIC and FIN
+- Caused IE11 issues, but fixed on same day
+- Date range picker for filtering Storage mode responses
+- Mobile optimisation for Storage mode
+- Introduce Storage mode on landing page
+
+What goes on behind the scenes:
+- Migrate end-to-end decryption for Storage mode to use open source FormSG SDK
+- Big code clean up of submissions flow
+- Verified email field in Beta
+
 ## 24 Mar 2020: Social sharing, Chinese in autoreply PDFs, Bug fixes
 
 What you can see, feel or smell:
