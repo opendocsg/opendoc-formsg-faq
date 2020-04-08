@@ -155,6 +155,10 @@ To make sure you don't lose your secret key(s), and permanently lose access to y
 
 Promptly back-up your form data by downloading form responses and feedback from FormSG. Then duplicate your old form and publish a new form with a new secret key, and continue gathering responses with this new form. When you have done this, email us to delete encrypted responses from the old form so that no one will be able to access your responses with the leaked secret key.
 
+### Is there a storage limit for Storage mode?
+
+No. There have been forms with over a million submissions on Storage mode. In the future with the release of attachment, we will still not impose a limit on number of responses for Storage mode.
+
 ### How does end-to-end encryption work?
 
 When a respondent submits a response, response data is encrypted in the respondent's browser before being sent to our servers for storage. This means that by the time FormSG servers receive responses, they have already been scrambled and are stored in this unreadable form. Your response data remains in this encrypted state until you decrypt your responses with your secret key, transforming them into a readable format. 
