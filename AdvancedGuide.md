@@ -28,7 +28,7 @@ Yes it can. Form title has to be in English, but instructions and fields can be 
 
 ### How do I increase attachment size limit? And what if there are many attachments for my form?
 
-The current size limit is 7 MB for the entire form. We auto-compress images to 1024x768 resolution, which is typically less than 1 MB. This is a hard limit because the email service we use has a fixed 10 MB outgoing size, and we buffer 3 MB for email fields and metadata. Because the smallest unit you can attach per attachment field is 1 MB, you can have a max of 7 attachments on your form. If your user has to submit more than 7 documents, you may create just one attachment field of 7 MB, and advise your user to zip documents up and submit as one attachment. In the future after launch of Storage mode, we are considering raising this size limit to 20 MB. 
+The current size limit is 7 MB for the entire form. We auto-compress images to 1024x768 resolution, which is typically less than 1 MB. This is a hard limit because the email service we use has a fixed 10 MB outgoing size, and we buffer 3 MB for email fields and metadata. Because the smallest unit you can attach per attachment field is 1 MB, you can have a max of 7 attachments on your form. If your user has to submit more than 7 documents, you may create just one attachment field of 7 MB, and advise your user to zip documents up and submit as one attachment. Now that Storage mode is launched, we have plans in Q3 2020 to increase attachment size limit to 20 MB.
 
 ## Form logic
 
