@@ -153,11 +153,17 @@ To make sure you don't lose your secret key(s), and permanently lose access to y
 
 ### What if my secret key has been accidentally circulated?
 
-Promptly back-up your form data by downloading form responses and feedback from FormSG. Then duplicate your old form and publish a new form with a new secret key, and continue gathering responses with this new form. When you have done this, email us to delete encrypted responses from the old form so that no one will be able to access your responses with the leaked secret key.
+1. Promptly back-up your form data by downloading form responses and feedback from FormSG. 
+2. Duplicate your old form and publish a new form with a new secret key, and continue gathering responses with this new form. 
+3. When you have done Steps 1-2, email us to delete encrypted responses from the old form so that no one will be able to access your responses with the leaked secret key.
 
 ### Is there a storage limit for Storage mode?
 
 No. There have been forms with over a million submissions on Storage mode. In the future with the release of attachment, we will still not impose a limit on number of responses for Storage mode.
+
+### Is there a storage duration, or a maximum duration form responses will be stored for?
+
+No, FormSG will store your encrypted responses permanently, and they will be accessible as long as you have the secret key. 
 
 ### How does end-to-end encryption work?
 
