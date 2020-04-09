@@ -161,9 +161,11 @@ To make sure you don't lose your secret key(s), and permanently lose access to y
 
 No. There have been forms with over a million submissions on Storage mode. In the future with the release of attachment, we will still not impose a limit on number of responses for Storage mode.
 
-### Is there a storage duration, or a maximum duration form responses will be stored for?
+### What is the storage duration? How long will my responses be stored for? 
 
-No, FormSG will store your encrypted responses permanently, and they will be accessible as long as you have the secret key. 
+FormSG will store your encrypted responses permanently, and they will be accessible as long as you have the secret key.
+
+If you no longer need to access your form responses, you can simply discard your secret key. Without your secret key, your form responses cannot be decrypted, and are as good as gibberish.
 
 ### How does end-to-end encryption work?
 
