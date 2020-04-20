@@ -2,6 +2,16 @@
 
 We typically release features, improvements or fixes every Tuesday or Wednesday afternoon.
 
+## 14 Apr 2020: Verified email field, bug fixes and scale optimisations
+
+What you can see, feel or smell:
+- Verified email field that requires user to enter OTP from his email to submit form
+- Removed Reply-to toggle and default it to true
+- Fixed bug where hidden table questions are now shown in email responses so as not to affect collation
+
+What goes on behind the scenes:
+- Database optimisations to manage load of 350k submissions in one night
+
 ## 8 Apr 2020: Storage mode
 
 What you can see, feel or smell:
