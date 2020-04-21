@@ -2,6 +2,15 @@
 
 We typically release features, improvements or fixes every Tuesday or Wednesday afternoon.
 
+## 21 Apr 2020: Start open source prep, Storage mode SingPass/CorpPass sends NRIC/UEN
+
+What you can see, feel or smell:
+- SingPass/CorpPass forms on storage mode now sends verified NRIC/UEN, similar to email mode
+- User interface improvements for Logic panel
+
+What goes on behind the scenes:
+- Open source prep: Toggle off captcha in the code
+
 ## 14 Apr 2020: Verified email field, bug fixes and scale optimisations
 
 What you can see, feel or smell:
