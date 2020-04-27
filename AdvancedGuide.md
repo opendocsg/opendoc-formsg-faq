@@ -67,6 +67,10 @@ Note: The following features are currently **not available** in Storage mode. If
 - Tables
 - Attachments
 
+### What browsers are compatible with Storage mode?
+
+All browsers can submit a form with Storage mode. To retrieve responses, it is strongly advised you use Chrome and not IE11, which has more processing power to decrypt responses.
+
 ### When should I choose Storage mode?
 
 Storage mode will be more convenient for the majority of users, especially when there is a high volume of anticipated responses. You will no longer have to manage or manually collate your form responses from your email inbox. Storage mode is permissible for data with "Restricted" classification and "Sensitive Normal" sensitivity.
