@@ -2,6 +2,29 @@
 
 We typically release features, improvements or fixes every Tuesday or Wednesday afternoon.
 
+## 4 May 2020: Prevent submission with logic, new date field validation
+
+What you can see, feel or smell:
+- Logic can now prevent submission, not just show fields
+- New date field validation: Allow only future date
+- Show download progress on large Storage mode CSV downloads
+
+What goes on behind the scenes:
+- Open source prep: Make SingPass, CorpPass and MyInfo code optional
+- Various server validations, refactor to clean up code, and more tests
+- Storage mode download optimisation
+
+## 28 Apr 2020: Bug fixes and storage mode minor adjustments
+
+What you can see, feel or smell:
+- Leading zeroes in number field now work, so number can be used for Postal code
+- Fixed temporary bug where Storage mode CSV did not show checkbox responses
+- Minor Storage mode UI tweaks
+
+What goes on behind the scenes:
+- Backend versions for Storage mode to support backward compatibility
+- More tests for Storage mode
+
 ## 21 Apr 2020: Start open source prep, Storage mode SingPass/CorpPass sends NRIC/UEN
 
 What you can see, feel or smell:
