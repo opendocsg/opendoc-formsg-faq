@@ -236,20 +236,45 @@ You may recover your blocked email within 1 month if you email SPEAR (spear@tech
 
 ### What are webhooks, and why are they useful?
 
-Webhooks are a standard means for applications like FormSG to send real-time data to other applications and servers. As of May 2020, webhooks can be used by agencies to securely integrate form data collection into the rest of their existing IT workflows. Webhooks are only available on *Storage mode*.
+Webhooks are a standard means for applications like FormSG to send real-time data to other applications and servers. As of May 2020, webhooks are available on Storage mode and can be used by agencies to securely integrate form data collection into the rest of their existing IT workflows. 
 
-Webhooks are useful for agencies who wish to have FormSG response data sent directly to existing IT systems. This removes the need for a human user to periodically export form response data from FormSG, then upload it to an internally-used application. 
+Webhooks are useful for agencies who wish to have FormSG response data sent directly to existing IT systems. This removes the need for a human user to periodically export form response data from FormSG, then upload it to an internally-used application.
 
-Important note: While webhooks are already being securely used for critical and high-volume applications like TemperatureSG, this feature is still in beta, meaning users should expect bugs as we work on smoothing out the rough edges. **If you are unable to accept this risk in the early access phase, please do not use this feature until its mainstream release.**
+While webhooks have been tried and tested on high-volume applications, this feature is still in **beta**, meaning users should expect bugs as we work on smoothing out the rough edges. **If you are unable to accept this risk, please do not use this feature until its mainstream release.**
 
 ### Who should use webhooks?
 
-Because of the IT expertise and ongoing support needed to maintain webhooks, webhooks are worth considering if your agency
+Webhooks are worth considering if your agency
 - expects to receive a high volume of responses
-- wishes to process form response data downstream, either on an internal application or through custom code (e.g. sorting responses, and channeling them to specific officers for case management)
+- needs to integrate internal systems/workflows with form data collection (e.g. sorting responses, and channeling them to specific officers for case management)
 - has IT expertise capable of using our software development kit to prepare an endpoint for receiving response data
 
 Webhooks are not necessary or beneficial in most form use cases, where officers are following up over email or Excel spreadsheet, since FormSG already outputs responses in those formats. 
+
+## Are webhooks secure?
+
+Yes - as webhooks are a Storage mode feature, your data is end-to-end encrypted as with all Storage mode responses. Our software development kit (https://github.com/opengovsg/formsg-javascript-sdk) provides instructions on setting up your receiving system to 
+- verify that each submission was sent by FormSG and not any other server
+- decrypt submissions using the secret key that only you own
+
+## How do I set up webhooks for my form?
+
+Pre-requisite: You must be able to expose an endpoint that is accessible over the Internet.
+
+1. Follow the instructions at https://github.com/opengovsg/formsg-javascript-sdk to prepare your system to receive, verify and decrypt FormSG responses. Please lock down the version of the SDK you are using and disable automatic upgrades to avoid disruption from breaking changes.
+
+2. Navigate to the form you want to set up a webhook for. In the Settings tab, enter your webhook URL in the 'Webhook URL' field and save changes.
+
+3. Test that responses are received at your webhook URL.
+
+**Important to note**
+- Webhooks are still in **beta**, meaning users should expect bugs as we work on smoothing out the rough edges. **If you are unable to accept this risk, please do not use this feature until its mainstream release.**
+- Please lock down the version of the SDK you are using and disable automatic upgrades to avoid disruption from breaking changes.
+- You are responsible for correctly setting up your system to receive, verify and decrypt FormSG responses using our software development kit (SDK). FormSG is not responsible for your setup, and only bears responsibility for ensuring our servers are correctly routing responses in accordance with our SDK. 
+
+## There is a problem and my system is not receiving data from FormSG. Are my responses lost?
+
+Your responses are not lost as all Storage mode responses are stored encrypted in FormSG's database. As with all Storage mode forms, you can retrieve your data by simply logging in to FormSG and using your secret key to decrypt and export responses.
 
 ## Data Collation Tool
 
