@@ -270,7 +270,7 @@ Pre-requisite: You must be able to expose an endpoint that is accessible over th
 **Important to note**
 - Webhooks are still in **beta**, meaning users should expect bugs as we work on smoothing out the rough edges. **If you are unable to accept this risk, please do not use this feature until its mainstream release.**
 - Please lock down the version of the SDK you are using and disable automatic upgrades to avoid disruption from breaking changes.
-- You are responsible for correctly setting up your system to receive, verify and decrypt FormSG responses using our software development kit (SDK). FormSG is not responsible for your setup, and only bears responsibility for ensuring our servers are correctly routing responses in accordance with our SDK. 
+- You are responsible for correctly setting up your system to receive, verify and decrypt FormSG responses using our SDK. FormSG is not responsible for your setup, and only bears responsibility for ensuring our servers are correctly routing responses in accordance with our SDK. 
 
 ### There is a problem and my system is not receiving data from FormSG. Are my responses lost?
 
@@ -280,7 +280,7 @@ Your responses are not lost as all Storage mode responses are stored encrypted i
 
 ### Where do I access the Data Collation Tool? I can't find it.
 
-Since we moved to the Intranet start of 2020, Data Collation Tool has shifted from the old link of [https://form.app.gov.sg] (https://form.app.gov.sg) to the new link of [https://collate.form.gov.sg] (https://collate.form.gov.sg).
+Since we moved to the Intranet start of 2020, Data Collation Tool has shifted from the old link of [https://form.app.gov.sg](https://form.app.gov.sg) to the new link of [https://collate.form.gov.sg](https://collate.form.gov.sg).
 
 ### Does my data go to your server when I use the Data Collation Tool?
 
