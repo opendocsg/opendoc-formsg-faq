@@ -259,7 +259,7 @@ Yes - as webhooks are a Storage mode feature, your data is end-to-end encrypted 
 
 ### How do I set up webhooks for my form?
 
-Pre-requisite: You must be able to expose an endpoint that is accessible over the Internet.
+Pre-requisite: You must be able to expose a HTTPS endpoint that is accessible over the Internet.
 
 1. Follow [these instructions](https://github.com/opengovsg/formsg-javascript-sdk) to prepare your system to receive, verify and decrypt FormSG responses. Please lock down the version of the SDK you are using and disable automatic upgrades to avoid disruption from breaking changes.
 
