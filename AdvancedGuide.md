@@ -251,13 +251,13 @@ Webhooks are worth considering if your agency
 
 Webhooks are not necessary or beneficial in most form use cases, where officers are following up over email or Excel spreadsheet, since FormSG already outputs responses in those formats. 
 
-## Are webhooks secure?
+### Are webhooks secure?
 
 Yes - as webhooks are a Storage mode feature, your data is end-to-end encrypted as with all Storage mode responses. Our software development kit (https://github.com/opengovsg/formsg-javascript-sdk) provides instructions on setting up your receiving system to 
 - verify that each submission was sent by FormSG and not any other server
 - decrypt submissions using the secret key that only you own
 
-## How do I set up webhooks for my form?
+### How do I set up webhooks for my form?
 
 Pre-requisite: You must be able to expose an endpoint that is accessible over the Internet.
 
@@ -272,7 +272,7 @@ Pre-requisite: You must be able to expose an endpoint that is accessible over th
 - Please lock down the version of the SDK you are using and disable automatic upgrades to avoid disruption from breaking changes.
 - You are responsible for correctly setting up your system to receive, verify and decrypt FormSG responses using our software development kit (SDK). FormSG is not responsible for your setup, and only bears responsibility for ensuring our servers are correctly routing responses in accordance with our SDK. 
 
-## There is a problem and my system is not receiving data from FormSG. Are my responses lost?
+### There is a problem and my system is not receiving data from FormSG. Are my responses lost?
 
 Your responses are not lost as all Storage mode responses are stored encrypted in FormSG's database. As with all Storage mode forms, you can retrieve your data by simply logging in to FormSG and using your secret key to decrypt and export responses.
 
