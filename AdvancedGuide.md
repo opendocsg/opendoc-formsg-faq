@@ -232,6 +232,25 @@ From here on out, if the email is blocked, your user will not be aware. But ther
 
 You may recover your blocked email within 1 month if you email SPEAR (spear@tech.gov.sg) and attach the mail hygiene notification.
 
+## Webhooks
+
+### What are webhooks, and why are they useful?
+
+Webhooks are a standard means for applications like FormSG to send real-time data to other applications and servers. As of May 2020, webhooks can be used by agencies to securely integrate form data collection into the rest of their existing IT workflows. Webhooks are only available on *Storage mode*.
+
+Webhooks are useful for agencies who wish to have FormSG response data sent directly to existing IT systems. This removes the need for a human user to periodically export form response data from FormSG, then upload it to an internally-used application. 
+
+Important note: While webhooks are already being securely used for critical and high-volume applications like TemperatureSG, this feature is still in beta, meaning users should expect bugs as we work on smoothing out the rough edges. **If you are unable to accept this risk in the early access phase, please do not use this feature until its mainstream release.**
+
+### Who should use webhooks?
+
+Because of the IT expertise and ongoing support needed to maintain webhooks, webhooks are worth considering if your agency
+- expects to receive a high volume of responses
+- wishes to process form response data downstream, either on an internal application or through custom code (e.g. sorting responses, and channeling them to specific officers for case management)
+- has IT expertise capable of using our software development kit to prepare an endpoint for receiving response data
+
+Webhooks are not necessary or beneficial in most form use cases, where officers are following up over email or Excel spreadsheet, since FormSG already outputs responses in those formats. 
+
 ## Data Collation Tool
 
 ### Where do I access the Data Collation Tool? I can't find it.
