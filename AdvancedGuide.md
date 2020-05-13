@@ -253,7 +253,7 @@ Webhooks are not necessary or beneficial in most form use cases, where officers 
 
 ### Are webhooks secure?
 
-Yes - as webhooks are a Storage mode feature, your data is end-to-end encrypted as with all Storage mode responses. Our software development kit (https://github.com/opengovsg/formsg-javascript-sdk) provides instructions on setting up your receiving system to 
+Yes - as webhooks are a Storage mode feature, your data is end-to-end encrypted as with all Storage mode responses. Our [software development kit](https://github.com/opengovsg/formsg-javascript-sdk) (SDK) provides instructions on setting up your receiving system to 
 - verify that each submission was sent by FormSG and not any other server
 - decrypt submissions using the secret key that only you own
 
@@ -261,7 +261,7 @@ Yes - as webhooks are a Storage mode feature, your data is end-to-end encrypted 
 
 Pre-requisite: You must be able to expose an endpoint that is accessible over the Internet.
 
-1. Follow the instructions at https://github.com/opengovsg/formsg-javascript-sdk to prepare your system to receive, verify and decrypt FormSG responses. Please lock down the version of the SDK you are using and disable automatic upgrades to avoid disruption from breaking changes.
+1. Follow [these instructions](https://github.com/opengovsg/formsg-javascript-sdk) to prepare your system to receive, verify and decrypt FormSG responses. Please lock down the version of the SDK you are using and disable automatic upgrades to avoid disruption from breaking changes.
 
 2. Navigate to the form you want to set up a webhook for. In the Settings tab, enter your webhook URL in the 'Webhook URL' field and save changes.
 
@@ -274,13 +274,13 @@ Pre-requisite: You must be able to expose an endpoint that is accessible over th
 
 ### There is a problem and my system is not receiving data from FormSG. Are my responses lost?
 
-Your responses are not lost as all Storage mode responses are stored encrypted in FormSG's database. As with all Storage mode forms, you can retrieve your data by simply logging in to FormSG and using your secret key to decrypt and export responses.
+Your responses are not lost as all Storage mode responses are stored encrypted in FormSG's database. As with all Storage mode forms, you can retrieve your data by simply logging in to FormSG and using your secret key to decrypt and export responses in .csv format.
 
 ## Data Collation Tool
 
 ### Where do I access the Data Collation Tool? I can't find it.
 
-Since we moved to the Intranet start of 2020, Data Collation Tool has shifted from the old link of https://form.app.gov.sg to the new link of https://collate.form.gov.sg.
+Since we moved to the Intranet start of 2020, Data Collation Tool has shifted from the old link of [https://form.app.gov.sg] (https://form.app.gov.sg) to the new link of [https://collate.form.gov.sg] (https://collate.form.gov.sg).
 
 ### Does my data go to your server when I use the Data Collation Tool?
 
