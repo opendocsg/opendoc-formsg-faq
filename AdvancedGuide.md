@@ -253,7 +253,7 @@ Webhooks are not necessary or beneficial in most form use cases, where officers 
 
 ### Are webhooks secure?
 
-Yes - as webhooks are a Storage mode feature, your data is end-to-end encrypted as with all Storage mode responses. Our [software development kit](https://github.com/opengovsg/formsg-javascript-sdk) (SDK) provides instructions on setting up your receiving system to 
+Yes - as webhooks are a Storage mode feature, your data is [end-to-end encrypted](https://guide.form.gov.sg/AdvancedGuide.html#how-does-end-to-end-encryption-work) as with all Storage mode responses. Our [software development kit](https://github.com/opengovsg/formsg-javascript-sdk) (SDK) provides instructions on setting up your receiving system to 
 - verify that each submission was sent by FormSG and not any other server
 - decrypt submissions using the secret key that only you own
 
@@ -268,7 +268,7 @@ Pre-requisite: You must be able to expose a HTTPS endpoint that is accessible ov
 3. Test that responses are received at your webhook URL.
 
 **Important to note**
-- Webhooks are still in **beta**, meaning users should expect bugs as we work on smoothing out the rough edges. **If you are unable to accept this risk, please do not use this feature until its mainstream release.**
+- Webhooks are still in **beta**, meaning users should expect bugs as we work on smoothing out the rough edges. **If you are unable to accept this risk, please do not use this feature until its mainstream release (end Q3 CY2020).**
 - Please lock down the version of the SDK you are using and disable automatic upgrades to avoid disruption from breaking changes.
 - You are responsible for correctly setting up your system to receive, verify and decrypt FormSG responses using our SDK. FormSG is not responsible for your setup, and only bears responsibility for ensuring our servers are correctly routing responses in accordance with our SDK. 
 
