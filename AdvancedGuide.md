@@ -263,9 +263,9 @@ Pre-requisite: You must be able to expose a HTTPS endpoint that is accessible ov
 
 1. Follow [these instructions](https://github.com/opengovsg/formsg-javascript-sdk) to prepare your system to receive, verify and decrypt FormSG responses. Please lock down the version of the SDK you are using and disable automatic upgrades to avoid disruption from breaking changes.
 
-2. Navigate to the form you want to set up a webhook for. In the Settings tab, enter your webhook URL in the 'Webhook URL' field and save changes.
+2. Navigate to the form you want to set up a webhook for. In the Settings tab, enter your endpoint URL in the 'Webhook Endpoint URL' field and save changes.
 
-3. Test that responses are received at your webhook URL.
+3. Test that responses are received at your endpoint URL.
 
 **Important to note**
 - Webhooks are still in **beta**, meaning users should expect bugs as we work on smoothing out the rough edges. **If you are unable to accept this risk, please do not use this feature until its mainstream release (end Q3 CY2020).**
