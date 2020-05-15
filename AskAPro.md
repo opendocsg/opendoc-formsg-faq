@@ -108,8 +108,8 @@ cleo_chiang@np.edu.sg
 
 **Nanyang Polytechnic**  
 andy_chia@nyp.edu.sg  
-rebekah_goh@nyp.edu.sg  
-viridis_liew@nyp.edu.sg  
+karen_chin@nyp.edu.sg  
+viridis_liew@nyp.edu.sg    
 tay_mia_eng@nyp.edu.sg      
 tay_li_leng@nyp.edu.sg  
 

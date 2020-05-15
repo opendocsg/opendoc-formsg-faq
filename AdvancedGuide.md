@@ -232,11 +232,55 @@ From here on out, if the email is blocked, your user will not be aware. But ther
 
 You may recover your blocked email within 1 month if you email SPEAR (spear@tech.gov.sg) and attach the mail hygiene notification.
 
+## Webhooks
+
+### What are webhooks, and why are they useful?
+
+Webhooks are a standard means for applications like FormSG to send real-time data to other applications and servers. As of May 2020, webhooks are available on Storage mode and can be used by agencies to securely integrate form data collection into the rest of their existing IT workflows. 
+
+Webhooks are useful for agencies who wish to have FormSG response data sent directly to existing IT systems. This removes the need for a human user to periodically export form response data from FormSG, then upload it to an internally-used application.
+
+While webhooks have been tried and tested on high-volume applications, this feature is still in **beta**, meaning users should expect bugs as we work on smoothing out the rough edges. **If you are unable to accept this risk, please do not use this feature until its mainstream release.**
+
+### Who should use webhooks?
+
+Webhooks are worth considering if your agency
+- expects to receive a high volume of responses
+- needs to integrate internal systems/workflows with form data collection (e.g. sorting responses, and channeling them to specific officers for case management)
+- has IT expertise capable of using our software development kit to prepare an endpoint for receiving response data
+
+Webhooks are not necessary or beneficial in most form use cases, where officers are following up over email or Excel spreadsheet, since FormSG already outputs responses in those formats. 
+
+### Are webhooks secure?
+
+Yes - as webhooks are a Storage mode feature, your data is [end-to-end encrypted](https://guide.form.gov.sg/AdvancedGuide.html#how-does-end-to-end-encryption-work) as with all Storage mode responses. Our [software development kit](https://github.com/opengovsg/formsg-javascript-sdk) (SDK) provides instructions on setting up your receiving system to 
+- verify that each submission was sent by FormSG and not any other server
+- decrypt submissions using the secret key that only you own
+
+### How do I set up webhooks for my form?
+
+Pre-requisite: You must be able to expose a HTTPS endpoint that is accessible over the Internet.
+
+1. Follow [these instructions](https://github.com/opengovsg/formsg-javascript-sdk) to prepare your system to receive, verify and decrypt FormSG responses. Please lock down the version of the SDK you are using and disable automatic upgrades to avoid disruption from breaking changes.
+
+2. Navigate to the form you want to set up a webhook for. In the Settings tab, enter your endpoint URL in the 'Webhook Endpoint URL' field and save changes.
+
+3. Test that responses are received at your endpoint URL.
+
+**Important to note**
+- Webhooks are still in **beta**, meaning users should expect bugs as we work on smoothing out the rough edges. **If you are unable to accept this risk, please do not use this feature until its mainstream release (end Q3 CY2020).**
+- Please lock down the version of the SDK you are using and disable automatic upgrades to avoid disruption from breaking changes.
+- You are responsible for correctly setting up your system to receive, verify and decrypt FormSG responses using our SDK. FormSG is not responsible for your setup, and only bears responsibility for ensuring our servers are correctly routing responses in accordance with our SDK. 
+
+### There is a problem and my system is not receiving data from FormSG. Are my responses lost?
+
+Your responses are not lost as all Storage mode responses are stored encrypted in FormSG's database. As with all Storage mode forms, you can retrieve your data by simply logging in to FormSG and using your secret key to decrypt and export responses in .csv format.
+
 ## Data Collation Tool
 
 ### Where do I access the Data Collation Tool? I can't find it.
 
-Since we moved to the Intranet start of 2020, Data Collation Tool has shifted from the old link of https://form.app.gov.sg to the new link of https://collate.form.gov.sg.
+Since we moved to the Intranet start of 2020, Data Collation Tool has shifted from the old link of [https://form.app.gov.sg](https://form.app.gov.sg) to the new link of [https://collate.form.gov.sg](https://collate.form.gov.sg).
 
 ### Does my data go to your server when I use the Data Collation Tool?
 
