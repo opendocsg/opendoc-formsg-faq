@@ -12,7 +12,6 @@ What you can see, feel or smell:
 Behind the scenes:
 - More tests, wiring for verified fields, refactoring
 
-
 ## 14 May 2020: Webhooks
 
 What you can see, feel or smell:
@@ -22,7 +21,6 @@ What you can see, feel or smell:
 
 Behind the scenes:
 - More open source prep, code refactoring and improved logging
-
 
 ## 4 May 2020: Prevent submission with logic, new date field validation
 
