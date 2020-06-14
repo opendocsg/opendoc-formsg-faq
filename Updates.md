@@ -2,6 +2,28 @@
 
 We typically release features, improvements or fixes every Tuesday or Wednesday afternoon.
 
+## 19 May 2020: UI improvements, tests and refactoring
+
+What you can see, feel or smell:
+- Loading indicators for verified field OTPs 
+- Day, month and year views for datepickers
+- Consistent mobile field styling
+
+Behind the scenes:
+- More tests, wiring for verified fields, refactoring
+
+
+## 14 May 2020: Webhooks
+
+What you can see, feel or smell:
+- Webhooks launched for all users
+- Error shown when MyInfo is down
+- Second line of form title now visible in dashboard
+
+Behind the scenes:
+- More open source prep, code refactoring and improved logging
+
+
 ## 4 May 2020: Prevent submission with logic, new date field validation
 
 What you can see, feel or smell:
