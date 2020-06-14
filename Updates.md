@@ -14,7 +14,6 @@ All the good news:
 Behind the scenes:
 - Bug fixes, more e2e tests, refactoring for open sourcing, documentation, templatized links
 
-
 ## 5 Jun 2020: Attachments for Storage mode
 
 Latest arrivals:
@@ -100,7 +99,7 @@ What goes on behind the scenes:
 ## 8 Apr 2020: Storage mode
 
 What you can see, feel or smell:
-- Launch Storage mode for everyone (MyInfo, attachment, table, autoreply pdf not available)
+- Launched Storage mode for everyone (MyInfo, attachments, table fields, response pdf not available)
 
 ## 7 Apr 2020: Basic phone field, extend CorpPass time out, security and testing improvements
 
