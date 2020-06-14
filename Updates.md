@@ -2,6 +2,58 @@
 
 We typically release features, improvements or fixes every Tuesday or Wednesday afternoon.
 
+## 12 Jun 2020: Table fields for Storage mode, new graphics, Home Number field
+
+All the good news:
+- Table fields have arrived to Storage mode forms!
+- New Home Number field
+- Improved consistency across Home/Mobile Number and MyInfo Home/Mobile Number fields
+- Redrawn graphics in Form Admin experience
+- Copy fixes for usability
+
+Behind the scenes:
+- Bug fixes, more e2e tests, refactoring for open sourcing, documentation, templatized links
+
+## 5 Jun 2020: Attachments for Storage mode
+
+Latest arrivals:
+- Attachments are now available on Storage mode forms
+- Fixed text cutoff bug on image field descriptions (mobile)
+- Fixed future dates in IE11 and Safari
+- Exported CSV is now UTF-8 encoded, which means better support for non-English responses
+
+Behind the scenes:
+- Bug fixes, open source prep, minor refactoring
+
+## 30 May 2020: Fixes and open source prep
+
+What you can see, feel or smell:
+- UI fixes for modal dialogs and verified fields
+
+Behind the scenes:
+- Made Webhooks and Twilio optional for open source
+- Bug fixes, added tests, refactoring 
+
+## 20 May 2020: UI improvements, tests and refactoring
+
+What you can see, feel or smell:
+- Cool new datepicker with day, month and year views
+- Loading indicators for verified field OTPs 
+- Consistent mobile field styling
+
+Behind the scenes:
+- More tests, wiring for verified fields, refactoring
+
+## 14 May 2020: Webhooks 
+
+What you can see, feel or smell:
+- Webhooks launched for all users
+- Error shown when MyInfo is down
+- Second line of form title now visible in dashboard
+
+Behind the scenes:
+- More open source prep, code refactoring and improved logging
+
 ## 4 May 2020: Prevent submission with logic, new date field validation
 
 What you can see, feel or smell:
@@ -47,7 +99,7 @@ What goes on behind the scenes:
 ## 8 Apr 2020: Storage mode
 
 What you can see, feel or smell:
-- Launch Storage mode for everyone (MyInfo, attachment, table, autoreply pdf not available)
+- Launched Storage mode for everyone (MyInfo, attachments, table fields, response pdf not available)
 
 ## 7 Apr 2020: Basic phone field, extend CorpPass time out, security and testing improvements
 
