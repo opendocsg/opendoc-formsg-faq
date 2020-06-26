@@ -64,8 +64,6 @@ All responses are stored in encrypted format, meaning no one except form adminis
 
 Note: The following features are currently **not available** in Storage mode. If you need to use these features with your form, please select Email mode.
 - MyInfo fields
-- Tables
-- Attachments
 
 ### What browsers are compatible with Storage mode?
 
