@@ -64,19 +64,23 @@ All responses are stored in encrypted format, meaning no one except form adminis
 
 Note: The following features are currently **not available** in Storage mode. If you need to use these features with your form, please select Email mode.
 - MyInfo fields
+- Emailed copy of response to respondent
 
 ### What browsers are compatible with Storage mode?
 
-All browsers can submit a form with Storage mode. To retrieve responses, it is strongly advised you use Chrome and not IE11, which has more processing power to decrypt responses.
+Respondents can use any browser to submit a form on Storage mode. For form admins, we strongly recommend using Chrome, Edge or any browser other than Internet Explorer (IE) for quicker response retrieval, as IE tends to have low processing power and will take a longer time to decrypt responses.
 
 ### When should I choose Storage mode?
 
 Storage mode will be more convenient for the majority of users, especially when there is a high volume of anticipated responses. You will no longer have to manage or manually collate your form responses from your email inbox. Storage mode is permissible for data with "Restricted" classification and "Sensitive Normal" sensitivity.
 
 However, you should choose Email mode if 
-- your collated data is classified "Confidential" or "Sensitive High"
-- your data is Sensitive High
-- you require MyInfo fields, table-style questions or attachments in your form 
+- your data is classified "Confidential" or "Sensitive High"
+- you require MyInfo fields or emailed response copies to respondents
+
+### How do I switch my form from Email mode to Storage mode?
+
+You will have to duplicate your Email mode form and recreate it as a Storage mode form. On your dashboard, hover over your Email mode form and click the duplicate icon. Then select 'Storage mode' and follow the steps below to create a duplicate form in Storage mode.
 
 ### How do I use Storage mode?
 
@@ -202,9 +206,8 @@ Email mode is permissible for individual responses classified Restricted Sensiti
 ### When should I choose Email mode?
 
 You should choose Email mode if
-- your collated data is classified Confidential
-- your data is Sensitive High
-- you require MyInfo fields, table-style questions or attachments in your form 
+- your data is Confidential or Sensitive High
+- you require MyInfo fields, or emailed response copies to your respondent
 
 In most other situations, Storage mode is expected to be more convenient,  especially for forms with a high volume of anticipated responses.
 
