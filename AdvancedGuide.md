@@ -56,7 +56,7 @@ Click on the underlined "people or public group" and specify the IT department's
 
 ### What is Storage mode?
 
-Storage mode is one of two options that FormSG users have for receiving their form responses.
+Storage mode is a method of receiving form responses. Form admins can choose between `Storage mode` and `Email mode` for each form. 
 
 Under Storage mode, form administrators can view responses within FormSG and export collated responses in spreadsheet format. To access these responses, form administrators must first enter a secret key that was generated upon form creation.
 
@@ -197,9 +197,9 @@ You may select either Storage or Email mode for a single form, but not both.
 
 ### What is Email mode?
 
-Email mode is one of two options that FormSG users have for receiving their form responses, the other being Storage mode.
+Storage mode is a method of receiving form responses. Form admins can choose between `Storage mode` and `Email mode` for each form. 
 
-If you opt to create your form on Email mode, your form responses will be sent to email addresses that you specify. FormSG will not store your form responses for security purposes.
+If you select Email mode, your form responses will be sent to email addresses that you specify. FormSG will not store your form responses for security purposes.
 
 Email mode is permissible for individual responses classified Restricted Sensitive High and below, and collated data classified Confidential and below.
 
@@ -211,9 +211,19 @@ You should choose Email mode if
 
 In most other situations, Storage mode is expected to be more convenient,  especially for forms with a high volume of anticipated responses.
 
-### My form responses are lost! Can you help us recover them?
+### How do I ensure my form responses will not bounce?
 
-We cannot recover any form data that you have lost. If you are on Email mode, FormSG does not store any response data for security purposes.
+If your mailbox is full or your email address is no longer valid, form responses will bounce and be permanently lost. Here are some ways to prevent this:
+
+1. Set up auto-archiving on your mailbox to ensure that your mailbox will never hit full capacity. You can set up auto-archiving in your Outlook by navigating to `File` > `Options` (left) > `Advanced` (left) > `AutoArchive Settings` (right). Run `AutoArchive` as often as you expect your mailbox to be full - if you expect high response volume, you can run `AutoArchive` every day.
+
+2. Enter 2 or more email addresses where responses will be sent, for all your Email mode forms. You can find this setting by logging in to FormSG, clicking on your form, navigating to `Settings` > `Emails where responses will be sent`.
+
+3. If you are leaving your department, make sure to update `Emails where responses will be sent` so that form responses will go to a colleague.
+
+### My form responses are lost! Can FormSG help me recover them?
+
+If your form is on Email mode, FormSG does not store your response data for security purposes. We cannot recover any form data that you have lost.
 
 If you cannot find your email responses, they might have been routed to an obscure Outlook folder set by your mail forwarding rules. Or they might have been quarantined by your agency firewall, which you can contact your AFM/IT department for. If you accidentally delete your email responses, they might still be on the email server, which you should contact your AFM/IT department for help.
 
