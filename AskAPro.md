@@ -1,6 +1,6 @@
 # Ask a Pro
 
-Below is a list of Pros you may consult from your respective agencies. These Pros are power users who have more than 10 forms or more than 1,000 responses under their belts. Many of them have thought of smart workarounds in the absence of features. They will be able to guide you to digitise your form, so feel free to reach out to them.
+Below is a list of Pros you may consult from your respective agencies. These Pros are power users who have more than 10 forms or more than 1,000 responses under their belts. Many of them have thought of smart workarounds in the absence of features. They will be able to guide you in building and launching your form, so feel free to reach out to them!
 
 This list is expected to grow over time. If there is no one from your agency in this list, why not be the first? As Agency Pro, you have the following perks:
 - You will be part of a group of subject matter experts to help peers in your agency
@@ -21,7 +21,7 @@ charmaine_lim@cscollege.gov.sg
 tan_hwee_eng@cscollege.gov.sg  
 phua_chui_ying@cscollege.gov.sg  
 
-**Cyber Security Agency (CSA)**  
+**Cyber Security Agency**  
 aaron_ang@csa.gov.sg
 
 **Customs**  
