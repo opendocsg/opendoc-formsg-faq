@@ -215,11 +215,15 @@ In most other situations, Storage mode is expected to be more convenient,  espec
 
 If your mailbox is full or your email address is no longer valid, form responses will bounce and be permanently lost. Here are some ways to prevent this:
 
-1. Set up auto-archiving on your mailbox to ensure that your mailbox will never hit full capacity. You can set up auto-archiving in your Outlook by navigating to `File` > `Options` (left) > `Advanced` (left) > `AutoArchive Settings` (right). Run `AutoArchive` as often as you expect your mailbox to be full - if you expect high response volume, you can run `AutoArchive` every day.
+1. Set up auto-archiving on your mailbox to ensure that your mailbox will never hit full capacity. 
 
-2. Enter 2 or more email addresses where responses will be sent, for all your Email mode forms. You can find this setting by logging in to FormSG, clicking on your form, navigating to `Settings` > `Emails where responses will be sent`.
+   You can set up auto-archiving in your Outlook by navigating to `File` > `Options` (left) > `Advanced` (left) > `AutoArchive Settings` (right). Run `AutoArchive` as often as you expect your mailbox to be full - if you expect high response volume, you can run `AutoArchive` every day.
 
-3. If you are leaving your department, make sure to update `Emails where responses will be sent` so that form responses will go to a colleague.
+2. Enter 2 or more email addresses where responses will be sent, for all your Email mode forms. 
+
+   You can find this setting by logging in to FormSG, clicking on your form, navigating to `Settings` > `Emails where responses will be sent`.
+
+3. If you are leaving your department, make sure to update "Emails where responses will be sent" so that form responses will go to a colleague after you leave.
 
 ### My form responses are lost! Can FormSG help me recover them?
 

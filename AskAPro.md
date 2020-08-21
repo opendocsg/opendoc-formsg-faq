@@ -1,6 +1,6 @@
 # Ask a Pro
 
-Below is a list of Pros you may consult from your respective agencies. These Pros are power users who have more than 10 forms or more than 1,000 responses under their belts. Many of them have thought of smart workarounds in the absence of features. They will be able to guide you to digitise your form, so feel free to reach out to them.
+Below is a list of Pros you may consult from your respective agencies. These Pros are power users who have more than 10 forms or more than 1,000 responses under their belts. Many of them have thought of smart workarounds in the absence of features. They will be able to guide you in building and launching your form, so feel free to reach out to them!
 
 This list is expected to grow over time. If there is no one from your agency in this list, why not be the first? As Agency Pro, you have the following perks:
 - You will be part of a group of subject matter experts to help peers in your agency
@@ -21,13 +21,16 @@ charmaine_lim@cscollege.gov.sg
 tan_hwee_eng@cscollege.gov.sg  
 phua_chui_ying@cscollege.gov.sg  
 
+**Cyber Security Agency**  
+aaron_ang@csa.gov.sg
+
 **Customs**  
 lau_guanyi@customs.gov.sg  
 
 **Elections Department**  
 gerry_gewi@eld.gov.sg  
 
-**Enterprise.sg**  
+**Enterprise Singapore**  
 clement_chua@enterprisesg.gov.sg  
 
 **HPB**  
@@ -62,8 +65,7 @@ cyonghon@defence.gov.sg
 **MND**  
 lin_peixin@mnd.gov.sg  
 
-**MOE**  
-aaron_ang@moe.gov.sg  
+**MOE**   
 chen_yingjie_jason@moe.edu.sg  
 dennis_koh@moe.gov.sg   
 hamshala_ariaratnam@moe.gov.sg   
@@ -87,9 +89,6 @@ mohammed_azhar_mohd_shariff@schools.gov.sg
 kwek_soon_cheong@schools.gov.sg  
 rasis_abdul_rahim@schools.gov.sg  
 chang_jin_peng@schools.gov.sg  
-
-**MOH**  
-lynette_tan@moh.gov.sg  
 
 **MOM**  
 adrian_wong@mom.gov.sg  
@@ -154,7 +153,7 @@ muhammad_zahari@spf.gov.sg
 tan_hong_han@spf.gov.sg  
 xie_zhirong@spf.gov.sg  
 
-**Sport.sg**    
+**SportSG**    
 alan_chen@sport.gov.sg  
 danielle_han@sport.gov.sg   
 lua_lee_hui@sport.gov.sg  
