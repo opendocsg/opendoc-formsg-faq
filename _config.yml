@@ -29,6 +29,6 @@ folders:
     order:
       - "BasicGuide.md"
       - "AdvancedGuide.md"
-      - "Updates.md"
+      - "WhatsNew.md"
       - "AskAPro.md"
 
