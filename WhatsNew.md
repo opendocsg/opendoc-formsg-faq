@@ -2,18 +2,18 @@
 
 ## Latest features and improvements
 
-Email and Mobile Number fields
+#### Email and Mobile Number fields
 - OTP verification for Email and Mobile Number fields
 - Limit allowable respondent email addresses to certain domains only, e.g. '@agency.gov.sg'
 
-Date field
+#### Date field
 - Limit date selection to disallow past dates, disallow future dates or a custom date range
 
-Response data
+#### Response data
 - Download all attachments for a single response in a zip file
 - Search responses by reference number
 
-Secret keys
+#### Secret keys
 - Email secret key to collaborators for safekeeping at form creation and activation
 
 ## Development updates
