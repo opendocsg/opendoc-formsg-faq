@@ -1,4 +1,4 @@
-title: FormSG User Guide
+title: Form User Guide
 remote_theme: opendocsg/opendoc-theme@master
 timezone: Asia/Singapore
 repository: opendocsg/opendoc-formsg-faq
@@ -24,11 +24,11 @@ hide_toolbar:
 
 folders:
   - name: '/'
-    title: 'FormSG User Guide'
+    title: 'Form User Guide'
     subtitle: ''
     order:
       - "BasicGuide.md"
       - "AdvancedGuide.md"
-      - "Updates.md"
+      - "WhatsNew.md"
       - "AskAPro.md"
 

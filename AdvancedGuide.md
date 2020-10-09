@@ -1,12 +1,12 @@
 # Advanced Guide
 
-This advanced guide includes tips and tricks, and also solutions to common issues you may face when using FormSG. This section is updated regularly, so feel free to check back once in a while.
+This advanced guide includes tips and tricks, and also solutions to common issues you may face when using Form. This section is updated regularly, so feel free to check back once in a while.
 
 ## Input fields
 
 ### Where is the signature field?
 
-There are a few variants of electronic signatures available on FormSG, all of which, according to the Electronic Transactions Act, are not legally weaker than a wet ink signature. Agencies such as IRAS and MOM have used the following for electronic signatures: a) an NRIC field, b) an attachment of a wet ink signature and c) SingPass Login. 
+There are a few variants of electronic signatures available on Form, all of which, according to the Electronic Transactions Act, are not legally weaker than a wet ink signature. Agencies such as IRAS and MOM have used the following for electronic signatures: a) an NRIC field, b) an attachment of a wet ink signature and c) SingPass Login. 
 
 ### Is there an address field? How can I auto-populate one?
 
@@ -40,7 +40,7 @@ When you implement a new logic, you should test it yourself via the preview page
 
 ### How do I route responses to different emails based on form option selected? 
 
-This might apply for an enquiry form. If user chooses "Complaint" response should route to Complaints Department, but if user chooses "IT" response should route to IT Department. There's no such feature on FormSG, but you can set mail forwarding rules on your email. For example, one such rule can detect "Complaint" in the form response email, and forward this to the Complaints Department automatically.
+This might apply for an enquiry form. If user chooses "Complaint" response should route to Complaints Department, but if user chooses "IT" response should route to IT Department. There's no such feature within the Form interface, but you can set mail forwarding rules on your email. For example, one such rule can detect "Complaint" in the form response email, and forward this to the Complaints Department automatically.
 
 To set such mail forwarding rules, you have to Create Rule, then select Advanced Options. Next, select the condition as "with specific words in the body":
 
@@ -58,7 +58,7 @@ Click on the underlined "people or public group" and specify the IT department's
 
 Storage mode is a method of receiving form responses. Form admins can choose between `Storage mode` and `Email mode` for each form. 
 
-Under Storage mode, form administrators can view responses within FormSG and export collated responses in spreadsheet format. To access these responses, form administrators must first enter a secret key that was generated upon form creation.
+Under Storage mode, form administrators can view responses within form.gov.sg and export collated responses in spreadsheet format. To access these responses, form administrators must first enter a secret key that was generated upon form creation.
 
 All responses are stored in encrypted format, meaning no one except form administrators will be able to view or download responses. Storage mode is permissible for data up to "Restricted" classification and "Sensitive Normal" sensitivity.
 
@@ -106,35 +106,35 @@ Any collaborators you invite will need the secret key to view form responses. Sh
 
 To activate your form and start sharing it with respondents, enter or upload the secret key you downloaded at form creation.
 
-![FormSG FAQ Storage Activate](https://s3-ap-southeast-1.amazonaws.com/misc.form.gov.sg/faq-storage-activate.png "FormSG FAQ Storage Activate")
+![Form FAQ Storage Activate](https://s3-ap-southeast-1.amazonaws.com/misc.form.gov.sg/faq-storage-activate.png "Form FAQ Storage Activate")
 
 **6. Unlock form responses**
 
-With Storage mode, you can access form responses and feedback within FormSG in the new ‘Data’ tab (previously ‘Results’).
+With Storage mode, you can access form responses and feedback within Form in the new ‘Data’ tab (previously ‘Results’).
 
 To unlock your responses, enter or upload the secret key you downloaded at form creation. This will give you access to view and export your form responses.
 
-![FormSG FAQ Storage Access Response](https://s3-ap-southeast-1.amazonaws.com/misc.form.gov.sg/faq-storage-accessresponse.png "FormSG FAQ Storage Access Response")
+![Form FAQ Storage Access Response](https://s3-ap-southeast-1.amazonaws.com/misc.form.gov.sg/faq-storage-accessresponse.png "Form FAQ Storage Access Response")
 
 **7. View and export responses**
 
-Once you have unlocked your responses with your secret key, you will be able to view your collated form responses within FormSG. Download your form responses by clicking the Export button.
+Once you have unlocked your responses with your secret key, you will be able to view your collated form responses within Form. Download your form responses by clicking the Export button.
 
-![FormSG FAQ Storage View Response](https://s3-ap-southeast-1.amazonaws.com/misc.form.gov.sg/faq-storage-viewresponse.png "FormSG FAQ Storage View Response")
+![Form FAQ Storage View Response](https://s3-ap-southeast-1.amazonaws.com/misc.form.gov.sg/faq-storage-viewresponse.png "Form FAQ Storage View Response")
 
 Click on each list item to view the full response.
 
-![FormSG FAQ Storage Click Response](https://s3-ap-southeast-1.amazonaws.com/misc.form.gov.sg/faq-storage-clickresponse.png "FormSG FAQ Storage Click Response")
+![Form FAQ Storage Click Response](https://s3-ap-southeast-1.amazonaws.com/misc.form.gov.sg/faq-storage-clickresponse.png "Form FAQ Storage Click Response")
 
 You can also view and download your feedback data in the Feedback tab. 
 
-![FormSG FAQ Storage View Feedback](https://s3-ap-southeast-1.amazonaws.com/misc.form.gov.sg/faq-storage-viewfeedback.png "FormSG FAQ Storage View Feedback")
+![Form FAQ Storage View Feedback](https://s3-ap-southeast-1.amazonaws.com/misc.form.gov.sg/faq-storage-viewfeedback.png "Form FAQ Storage View Feedback")
 
 ### What is a secret key?
 
 Your secret key is a string of text and numbers used to encrypt and decrypt your form responses. Each secret key unlocks the responses to **one** form only. No one will be able to view your form responses unless they have your Secret Key. 
 
-You will need your secret key at 3 points in your FormSG journey:
+You will need your secret key at 3 points in your Form journey:
 - Form creation: download secret key
 - Form activation: enter/upload secret key
 - Access responses: enter/upload Secret Key
@@ -145,7 +145,7 @@ Your secret key is generated by your browser during form creation, and downloade
 
 Unfortunately, there is no way for us to recover your lost data or retrieve your secret key.
 
-This is because FormSG does not store secret keys (they are truly secret to you!) or any other way to unlock your encrypted data. This is an important security benefit, because that means even if our server were to be compromised, an attacker would never be able to unlock your encrypted responses.
+This is because Form does not store secret keys (they are truly secret to you!) or any other way to unlock your encrypted data. This is an important security benefit, because that means even if our server were to be compromised, an attacker would never be able to unlock your encrypted responses.
 
 If you have lost your secret key, we advise that you promptly duplicate your form, and publish a new form with a new secret key to continue gathering responses.
 
@@ -159,7 +159,7 @@ To make sure you don't lose your secret key(s), and permanently lose access to y
 
 ### What if my secret key has been accidentally circulated?
 
-1. Promptly back-up your form data by downloading form responses and feedback from FormSG. 
+1. Promptly back-up your form data by downloading form responses and feedback from Form. 
 2. Duplicate your old form and publish a new form with a new secret key, and continue gathering responses with this new form. 
 3. When you have done Steps 1-2, email us to delete encrypted responses from the old form so that no one will be able to access your responses with the leaked secret key.
 
@@ -169,17 +169,17 @@ No. There have been forms with over a million submissions on Storage mode. In th
 
 ### What is the storage duration? How long will my responses be stored for? 
 
-FormSG will store your encrypted responses permanently, and they will be accessible as long as you have the secret key.
+Form will store your encrypted responses permanently, and they will be accessible as long as you have the secret key.
 
 If you no longer need to access your form responses, you can simply discard your secret key. Without your secret key, your form responses cannot be decrypted, and are as good as gibberish.
 
 ### How does end-to-end encryption work?
 
-When a respondent submits a response, response data is encrypted in the respondent's browser before being sent to our servers for storage. This means that by the time FormSG servers receive responses, they have already been scrambled and are stored in this unreadable form. Your response data remains in this encrypted state until you decrypt your responses with your secret key, transforming them into a readable format. 
+When a respondent submits a response, response data is encrypted in the respondent's browser before being sent to our servers for storage. This means that by the time Form's servers receive responses, they have already been scrambled and are stored in this unreadable form. Your response data remains in this encrypted state until you decrypt your responses with your secret key, transforming them into a readable format. 
 
-The benefit of end-to-end encryption is that response data enters and remains in FormSG's servers in an encrypted state. This ensures that even if our servers are compromised by an attack, attackers will still not be able to decrypt and view your response data, as they do not possess your secret key.
+The benefit of end-to-end encryption is that response data enters and remains in Form's servers in an encrypted state. This ensures that even if our servers are compromised by an attack, attackers will still not be able to decrypt and view your response data, as they do not possess your secret key.
 
-![FormSG FAQ Storage Encrypted](https://s3-ap-southeast-1.amazonaws.com/misc.form.gov.sg/faq-storage-encrypted.png "FormSG FAQ Storage Encrypted")
+![Form FAQ Storage Encrypted](https://s3-ap-southeast-1.amazonaws.com/misc.form.gov.sg/faq-storage-encrypted.png "Form FAQ Storage Encrypted")
 
 ### Who can see my form responses in Storage mode?
 
@@ -187,7 +187,7 @@ To view responses from Storage mode forms, you have to
 - be a form owner or collaborator, **and**
 - know the secret key generated at form creation
 
-The secret key is the **only way** to view your responses in a readable format. As FormSG does not store your secret key, no one can view your response data, except you and collaborators that you share the secret key with. Even FormSG developers and administrators with full access to the server cannot view your response data, as we do not possess your secret key. 
+The secret key is the **only way** to view your responses in a readable format. As Form's servers do not store your secret key, no one can view your response data, except you and collaborators that you share the secret key with. Even Form developers and administrators with full access to the server cannot view your response data, as we do not possess your secret key. 
 
 ### Can I enable both Storage and Email mode?
 
@@ -199,7 +199,7 @@ You may select either Storage or Email mode for a single form, but not both.
 
 Storage mode is a method of receiving form responses. Form admins can choose between `Storage mode` and `Email mode` for each form. 
 
-If you select Email mode, your form responses will be sent to email addresses that you specify. FormSG will not store your form responses for security purposes.
+If you select Email mode, your form responses will be sent to email addresses that you specify. Form will not store your form responses for security purposes.
 
 Email mode is permissible for individual responses classified Restricted Sensitive High and below, and collated data classified Confidential and below.
 
@@ -221,13 +221,13 @@ If your mailbox is full or your email address is no longer valid, form responses
 
 2. Enter 2 or more email addresses where responses will be sent, for all your Email mode forms. 
 
-   You can find this setting by logging in to FormSG, clicking on your form, navigating to `Settings` > `Emails where responses will be sent`.
+   You can find this setting by logging in to form.gov.sg, clicking on your form, navigating to `Settings` > `Emails where responses will be sent`.
 
 3. If you are leaving your department, make sure to update "Emails where responses will be sent" so that form responses will go to a colleague after you leave.
 
-### My form responses are lost! Can FormSG help me recover them?
+### My form responses are lost! Can Forms help me recover them?
 
-If your form is on Email mode, FormSG does not store your response data for security purposes. We cannot recover any form data that you have lost.
+If your form is on Email mode, Forms does not store your response data for security purposes. We cannot recover any form data that you have lost.
 
 If you cannot find your email responses, they might have been routed to an obscure Outlook folder set by your mail forwarding rules. Or they might have been quarantined by your agency firewall, which you can contact your AFM/IT department for. If you accidentally delete your email responses, they might still be on the email server, which you should contact your AFM/IT department for help.
 
@@ -247,49 +247,9 @@ From here on out, if the email is blocked, your user will not be aware. But ther
 
 You may recover your blocked email within 1 month if you email SPEAR (spear@tech.gov.sg) and attach the mail hygiene notification.
 
-## Webhooks
+### Is there any way to receive my responses in an Excel spreadsheet?
 
-### What are webhooks, and why are they useful?
-
-Webhooks are a standard means for applications like FormSG to send real-time data to other applications and servers. As of May 2020, webhooks are available on Storage mode and can be used by agencies to securely integrate form data collection into the rest of their existing IT workflows. 
-
-Webhooks are useful for agencies who wish to have FormSG response data sent directly to existing IT systems. This removes the need for a human user to periodically export form response data from FormSG, then upload it to an internally-used application.
-
-While webhooks have been tried and tested on high-volume applications, this feature is still in **beta**, meaning users should expect bugs as we work on smoothing out the rough edges. **If you are unable to accept this risk, please do not use this feature until its mainstream release.**
-
-### Who should use webhooks?
-
-Webhooks are worth considering if your agency
-- expects to receive a high volume of responses
-- needs to integrate internal systems/workflows with form data collection (e.g. sorting responses, and channeling them to specific officers for case management)
-- has IT expertise capable of using our software development kit to prepare an endpoint for receiving response data
-
-Webhooks are not necessary or beneficial in most form use cases, where officers are following up over email or Excel spreadsheet, since FormSG already outputs responses in those formats. 
-
-### Are webhooks secure?
-
-Yes - as webhooks are a Storage mode feature, your data is [end-to-end encrypted](https://guide.form.gov.sg/AdvancedGuide.html#how-does-end-to-end-encryption-work) as with all Storage mode responses. Our [software development kit](https://github.com/opengovsg/formsg-javascript-sdk) (SDK) provides instructions on setting up your receiving system to 
-- verify that each submission was sent by FormSG and not any other server
-- decrypt submissions using the secret key that only you own
-
-### How do I set up webhooks for my form?
-
-Pre-requisite: You must be able to expose a HTTPS endpoint that is accessible over the Internet.
-
-1. Follow [these instructions](https://github.com/opengovsg/formsg-javascript-sdk) to prepare your system to receive, verify and decrypt FormSG responses. Please lock down the version of the SDK you are using and disable automatic upgrades to avoid disruption from breaking changes.
-
-2. Navigate to the form you want to set up a webhook for. In the Settings tab, enter your endpoint URL in the 'Webhook Endpoint URL' field and save changes.
-
-3. Test that responses are received at your endpoint URL.
-
-**Important to note**
-- Webhooks are still in **beta**, meaning users should expect bugs as we work on smoothing out the rough edges. **If you are unable to accept this risk, please do not use this feature until its mainstream release (end Q3 CY2020).**
-- Please lock down the version of the SDK you are using and disable automatic upgrades to avoid disruption from breaking changes.
-- You are responsible for correctly setting up your system to receive, verify and decrypt FormSG responses using our SDK. FormSG is not responsible for your setup, and only bears responsibility for ensuring our servers are correctly routing responses in accordance with our SDK. 
-
-### There is a problem and my system is not receiving data from FormSG. Are my responses lost?
-
-Your responses are not lost as all Storage mode responses are stored encrypted in FormSG's database. As with all Storage mode forms, you can retrieve your data by simply logging in to FormSG and using your secret key to decrypt and export responses in .csv format.
+Yes! Other than using Storage mode to download a spreadsheet of your responses directly, you can also collate your Email mode responses into a spreadsheet using the Data Collation Tool.
 
 ## Data Collation Tool
 
@@ -307,6 +267,66 @@ No, your data is not seen by our server during the Data Collation Tool process. 
 2. Select the entire column of the responses
 3. Go to the Data tab and choose Text to Columns > Delimit by comma (,).
 
+## SingPass, CorpPass and MyInfo
+
+### How do you enable SingPass or CorpPass?
+
+All you have to do is enter an e-service ID on the Settings tab of your form to enable SPCP:
+
+![Form FAQ E-service ID](https://s3-ap-southeast-1.amazonaws.com/misc.form.gov.sg/faq-singpass.png "Form FAQ E-service ID")
+
+An e-service ID is a unique billing ID given by the SingPass/CorpPass office to your department's finance team. An invalid e-service ID will yield a 138 error for SingPass and 328 error for CorpPass. If you don’t already have an e-service ID, you can either ask your agency IT department to find an e-service ID to reuse, or contact SPCP rep [alvin_wee@tech.gov.sg](mailto:alvin_wee@tech.gov.sg) to create a new one. When testing your e-service ID you may log in to our UAT server, https://uat.form.gov.sg and create test forms there. Note that accounts and forms are separate on UAT and Live servers and cannot be transferred over.
+
+To track number of submissions at your e-service ID you may visit the Billing Panel tab on the top right of your forms dashboard:
+
+![Form FAQ Billing Panel E-service ID](https://s3-ap-southeast-1.amazonaws.com/misc.form.gov.sg/faq-billing-eservice.png "Form FAQ Billing Panel E-service ID")
+
+It is up to you to decide if you want 2FA or 1FA e-service ID. For CorpPass, it is also up to you to decide whether you want authorisation work flows at your e-service ID. Consult SPCP rep on this if you have concerns. 
+
+## Webhooks
+
+### What are webhooks, and why are they useful?
+
+Webhooks are a standard means for applications like Form to send real-time data to other applications and servers. As of May 2020, webhooks are available on Storage mode and can be used by agencies to securely integrate form data collection into the rest of their existing IT workflows. 
+
+Webhooks are useful for agencies who wish to have form response data sent directly to existing IT systems. This removes the need for a human user to periodically export form response data from form.gov.sg, then upload it to an internally-used application.
+
+While webhooks have been tried and tested on high-volume applications, this feature is still in **beta**, meaning users should expect bugs as we work on smoothing out the rough edges. **If you are unable to accept this risk, please do not use this feature until its mainstream release.**
+
+### Who should use webhooks?
+
+Webhooks are worth considering if your agency
+- expects to receive a high volume of responses
+- needs to integrate internal systems/workflows with form data collection (e.g. sorting responses, and channeling them to specific officers for case management)
+- has IT expertise capable of using our software development kit to prepare an endpoint for receiving response data
+
+Webhooks are not necessary or beneficial in most form use cases, where officers are following up over email or Excel spreadsheet, since Form already outputs responses in those formats. 
+
+### Are webhooks secure?
+
+Yes - as webhooks are a Storage mode feature, your data is [end-to-end encrypted](https://guide.form.gov.sg/AdvancedGuide.html#how-does-end-to-end-encryption-work) as with all Storage mode responses. Our [software development kit](https://github.com/opengovsg/formsg-javascript-sdk) (SDK) provides instructions on setting up your receiving system to 
+- verify that each submission was sent by Form and not any other server
+- decrypt submissions using the secret key that only you own
+
+### How do I set up webhooks for my form?
+
+Pre-requisite: You must be able to expose a HTTPS endpoint that is accessible over the Internet.
+
+1. Follow [these instructions](https://github.com/opengovsg/formsg-javascript-sdk) to prepare your system to receive, verify and decrypt form responses. Please lock down the version of the SDK you are using and disable automatic upgrades to avoid disruption from breaking changes.
+
+2. Navigate to the form you want to set up a webhook for. In the Settings tab, enter your endpoint URL in the 'Webhook Endpoint URL' field and save changes.
+
+3. Test that responses are received at your endpoint URL.
+
+**Important to note**
+- Webhooks are still in **beta**, meaning users should expect bugs as we work on smoothing out the rough edges. **If you are unable to accept this risk, please do not use this feature until its mainstream release (end Q3 CY2020).**
+- Please lock down the version of the SDK you are using and disable automatic upgrades to avoid disruption from breaking changes.
+- You are responsible for correctly setting up your system to receive, verify and decrypt Form responses using our SDK. Form is not responsible for your setup, and only bears responsibility for ensuring our servers are correctly routing responses in accordance with our SDK. 
+
+### There is a problem and my system is not receiving data from Form. Are my responses lost?
+
+Your responses are not lost as all Storage mode responses are stored encrypted in Form's database. As with all Storage mode forms, you can retrieve your data by simply logging in to Form and using your secret key to decrypt and export responses in .csv format.
+
 ## Other
 
 ### I did not receive my OTP. Where is it?
@@ -321,7 +341,7 @@ Prior to the launch of Storage mode, we did not enable draft-saving functionalit
 
 Note that you might not need to transfer ownership of your form. You may simply add your colleague as a collaborator. Collaborators have the same rights as form creators, except they cannot delete the form.
 
-![FormSG FAQ Add Collaborators](https://s3-ap-southeast-1.amazonaws.com/misc.form.gov.sg/faq-collaborator.png "FormSG FAQ Add Collaborators")
+![Form FAQ Add Collaborators](https://s3-ap-southeast-1.amazonaws.com/misc.form.gov.sg/faq-collaborator.png "Form FAQ Add Collaborators")
 
 If you have already lost access to your old email and can no longer edit your form, you may file a [Support Form](https://go.gov.sg/formsg-support) request to transfer ownership to another email.
 
@@ -339,9 +359,9 @@ The unguessable form link acts as a password. You can circulate the form link to
 
 We don't support multiple pages, because >70% of our users fill in forms from their phones, and are used to navigate through content by scrolling not tabbing through pages, such as when they scroll through their social media feeds. Hence we built the Header field to separate your form into sections that your user can scroll through.
 
-![FormSG FAQ Create Section](https://s3-ap-southeast-1.amazonaws.com/misc.form.gov.sg/faq-section.png "FormSG FAQ Create Section")
+![Form FAQ Create Section](https://s3-ap-southeast-1.amazonaws.com/misc.form.gov.sg/faq-section.png "Form FAQ Create Section")
 
-### What is FormSG’s infrastructure like? How is the security of the system? 
+### What is Form's infrastructure like? How is the security of the system? 
 
 We have our NodeJS web servers hosted on AWS Singapore zone. Our NoSQL database that stores only form fields and not form data is managed by Mongo Atlas, and also hosted on AWS Singapore zone. We use AWS SES to send out mails, which are not open mail relays, have valid SPF and DKIM records, and encrypts form data before sending them over to government SGMail. Our web servers are protected with Cloudflare SSL, their Anti-DDoS protection and Web Application Firewall. We use Pingdom for website performance and availability monitoring, and have AWS CloudWatch alarms, together with CloudTrail that monitors activity and GuardDuty for threat intelligence monitoring. Our Data Collation Tool is built with vanilla Javascript and is static site on S3. We have undergone rigorous penetration testing, vulnerability assessment and infrastructure review by both world renowned security testers and CSG. We have also written a >74 page NIST security review documenting our security best practices.
 
