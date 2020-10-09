@@ -4,7 +4,7 @@ This is a 5 minute read that helps you understand most of the in-and-outs of For
 
 ## What is form.gov.sg?
 
-Form.gov.sg, or Form, is a self-service form builder for public officers to create online forms that capture classified data, with the goal of replacing paper forms. Since launching in September 2017, Form has replaced tens of thousands of paper forms and is used by over 90 public agencies including MOM, MOE, PA,  SportSG and TTSH. More than 25,000 public officers are users of Form today. Form comes with powerful functionality including user verification and conditional logic, enabling public officers to design not just simple surveys but also complex and feature-rich forms.
+[Form.gov.sg](https://form.gov.sg/), or Form, is a self-service form builder for public officers to create online forms that capture classified data, with the goal of replacing paper forms. Since launching in September 2017, Form has replaced tens of thousands of paper forms and is used by over 90 public agencies including MOM, MOE, PA,  SportSG and TTSH. More than 25,000 public officers are users of Form today. Form comes with powerful functionality including user verification and conditional logic, enabling public officers to design not just simple surveys but also complex and feature-rich forms.
 
 ## Who can use Form?
 
@@ -12,7 +12,7 @@ Form is built for the public sector and public healthcare clusters. There is no 
 
 ## Is Form accessible on the Intranet?
 
-Yes! Since start of 2020, form.gov.sg has been accessible on WOG Intranet in addition to the Internet. If you still cannot access https://form.gov.sg on the Intranet, join our Workplace@Facebook group and ask for help. Note certain features are not available on WOG Intranet, such as SingPass/CorpPass/MyInfo and Captcha. If your form is intended for internal use, you can disable Captcha.
+Yes! Since start of 2020, [form.gov.sg](https://form.gov.sg/) has been accessible on WOG Intranet in addition to the Internet. If you still cannot access [https://form.gov.sg](https://form.gov.sg/) on your Intranet, please [contact us](https://go.gov.sg/formsg-support) for help.
 
 ## How does Form keep my data secure?
 
