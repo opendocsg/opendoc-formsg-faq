@@ -1,4 +1,4 @@
-# Form.gov.sg User Guide
+# Form User Guide
 
 Form.gov.sg is self-service and typically does not need a guide. The best way to learn about the service is to [log in](https://form.gov.sg/#!/signin) and create your first form. 
 
