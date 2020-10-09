@@ -16,6 +16,9 @@
 #### Secret keys
 - Email secret key to collaborators for safekeeping at form creation and activation
 
+### reCaptcha
+- reCaptcha spam protection is now available for respondents accessing from WOG Intranet as well as from the Internet
+
 ## Development updates
 
 For releases after 12 Jun 2020, check out our [release log on GitHub](https://github.com/opengovsg/FormSG/pulls?q=is%3Apr+base%3Arelease). We typically release features, improvements or fixes every Tuesday or Wednesday afternoon.
