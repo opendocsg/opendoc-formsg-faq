@@ -16,7 +16,7 @@
 #### Secret keys
 - Email secret key to collaborators for safekeeping at form creation and activation
 
-### reCaptcha
+#### reCaptcha
 - reCaptcha spam protection is now available for respondents accessing from WOG Intranet as well as from the Internet
 
 ## Development updates
