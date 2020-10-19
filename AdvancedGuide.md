@@ -167,6 +167,10 @@ To make sure you don't lose your secret key(s), and permanently lose access to y
 
 No. There have been forms with over a million submissions on Storage mode. In the future with the release of attachment, we will still not impose a limit on number of responses for Storage mode.
 
+### Can I delete my responses in Storage mode?
+
+For audit reasons, deleting responses is not allowed. However, if you wish to reset your response count to zero after testing your form, you can simply duplicate your test form and create another Storage mode form. You can then use your new form as your live form instead.
+
 ### What is the storage duration? How long will my responses be stored for? 
 
 Form will store your encrypted responses permanently, and they will be accessible as long as you have the secret key.
