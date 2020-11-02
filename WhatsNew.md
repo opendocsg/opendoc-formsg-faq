@@ -2,6 +2,9 @@
 
 ## Latest features and improvements
 
+#### Transfer form ownership
+- On collaborator button at top right hand corner of your form, useful for form admins changing roles or handing over portfolios
+
 #### Email and Mobile Number fields
 - OTP verification for Email and Mobile Number fields
 - Limit allowable respondent email addresses to certain domains only, e.g. '@agency.gov.sg'
