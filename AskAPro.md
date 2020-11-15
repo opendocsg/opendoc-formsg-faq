@@ -35,7 +35,6 @@ clement_chua@enterprisesg.gov.sg
 
 **HPB**  
 eugene_aw@hpb.gov.sg  
-justin_chua@hpb.gov.sg  
 karthikayen_jayasundar@hpb.gov.sg  
 
 **HSA**  
