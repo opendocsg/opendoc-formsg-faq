@@ -331,6 +331,117 @@ Pre-requisite: You must be able to expose a HTTPS endpoint that is accessible ov
 
 Your responses are not lost as all Storage mode responses are stored encrypted in Form's database. As with all Storage mode forms, you can retrieve your data by simply logging in to Form and using your secret key to decrypt and export responses in .csv format.
 
+
+## Onboarding Twilio to send SMS
+
+**What is Twilio?**
+
+[Twilio](https://www.twilio.com/) is a cloud communication service that allows the users to send messages through an Application Program Interface (API). You can go to [Twilio.com](https://www.twilio.com/) to sign up for an account.
+
+**The basics**[](#the-basics)
+-   **Send rate**: 10 SMSes per second
+-   **Agency's own resource:** SMS uses your Twilio account to send SMS so each agency has its own SMS account.
+-   **Record**: 30k SMS in one batch
+-   **Max number of recipient**: No limit
+-   **SMS character limit**: 160 characters (Twilio [link](https://www.twilio.com/docs/glossary/what-sms-character-limit) for more info)
+
+**Prerequisite**[](#prerequisite)
+
+You need a Twilio account in order to send SMS.
+
+**Find Twilio credentials on Twilio console**
+
+You may follow the list of steps to find your Twilio credentials 
+
+Step 1. Account SID
+Step 2. Set up a Standard API Key
+Step 3. Buy a phone number
+Step 4. Set up your messaging service
+Step 5. Alphanumeric Sender ID
+
+##
+
+Step 1. Account SID[](#step-1-account-sid)
+
+Your account SID should be on the dashboard when you log in to Twilio's console.
+
+![Twilio Dashboard](https://s3-ap-southeast-1.amazonaws.com/misc.form.gov.sg/twilio-dashboard.png)
+
+**Project level vs. subproject level credentials**: Agencies will be billed at the project level, but subproject level allows you to track usage specifically for your group.
+
+This is particularly useful for a large agency with many users. Your agency might ask you to create a subproject in Twilio to track your usage. An example would be **MOE** at the **project level** and **Course: ecology 101** at the **subproject level** for ecology 101's teacher to send SMS to parents.
+
+![Master Sub Acct](https://s3-ap-southeast-1.amazonaws.com/misc.form.gov.sg/master-sub-acct.png)
+
+If you fall under a subproject, you need to navigate to **Project > Project Settings > Subproject > "Subproject name like Course: ecology 101" > Settings > General** to obtain your subproject SID. Twilio console will indicate that you are viewing settings under a subproject using an orange font on the navigation bar
+
+**Step 2. Set up a Standard API Key**
+
+Click on **Create new API Key**.
+
+![Create new api key](https://s3-ap-southeast-1.amazonaws.com/misc.form.gov.sg/create-new-api-keys.jpg)
+
+Create a new **standard** API key. You can rename the friendly name.
+
+![New Api Key](https://s3-ap-southeast-1.amazonaws.com/misc.form.gov.sg/new-api-key.png)
+
+We need your **SID** and **secret** for FormSG. Please keep these safe. Remember to save the **secret** somewhere before you click on **Done**.
+
+![SID and Secret key](https://s3-ap-southeast-1.amazonaws.com/misc.form.gov.sg/secret-key-twilio.png)
+
+Step 3. Buy a phone number[](#step-3-buy-a-phone-number)
+
+**Upgrade your trial account to buy a number:** If you are using a trial account and did not put a corporate credit card on file then this is as far as you can go. You need to complete the upgrade process to buy a new number.
+
+You can use a US number and mask the number with an [alphanumeric sender ID](https://support.twilio.com/hc/en-us/articles/223181348-Getting-Started-with-Alphanumeric-Sender-ID-for-Twilio-Programmable-SMS/). A Singapore number is only needed for 2-way SMS. Postman will support 1-way SMS at the start.
+
+You need to purchase a phone number to start sending SMS in FormSG.
+
+A Singapore phone number is $75 per month. We recommend that you buy a US phone number which is $1 per month if you are not doing 2-way messaging. SMS cost depends on the country code of the phone number. Please take note that a US phone number might cost more to send SMS.
+
+![Sending Sms](https://s3-ap-southeast-1.amazonaws.com/misc.form.gov.sg/phone-numbers.jpg)
+
+![Buy a number](https://s3-ap-southeast-1.amazonaws.com/misc.form.gov.sg/buy-number.jpg)
+
+You can change the country code to USA and click on search to purchase a phone number
+
+Once you have bought a phone number, you can configure the Alpha Sender ID to mask it with your agency info. See **Step 5 on how to configure your Alpha Sender ID**.
+
+Step 4. Set up your messaging service[](#step-4-set-up-your-messaging-service)
+
+Click on **Create new Messaging Service**.
+
+![Create Messaging Service](https://s3-ap-southeast-1.amazonaws.com/misc.form.gov.sg/msg-service.jpg)
+
+Once you click on the button, you can enter a name for your messaging service and click ok.
+
+![Add Senders](https://s3-ap-southeast-1.amazonaws.com/misc.form.gov.sg/sender-pool.jpg)
+
+Click on Add Senders
+
+![Add Senders 2](https://s3-ap-southeast-1.amazonaws.com/misc.form.gov.sg/add-sender-1.png)
+
+Select Phone Number for Sender Type and click Continue
+
+missing image
+
+Your purchased number should appear here. Select the number and click Add Phone Numbers
+
+Now your phone number will be added to the messaging service. Go back to the messaging services landing page
+
+![msg service 2](https://s3-ap-southeast-1.amazonaws.com/misc.form.gov.sg/msg-service-2.jpg)
+📌 Item 4: Your messaging SID is what you need for FormSG
+
+Step 5. Alphanumeric Sender ID[](#step-5-alphanumeric-sender-id)
+
+You can go to **Programmable SMS > Messaging Service > Select the name of the Messaging Service > Features > Add sender > Add Alpha sender**
+
+You can watch the video on [Postman.gov.sg's workplace group](https://onepublicservice.workplace.com/groups/postman.gov.sg/permalink/2716726868596347/) to **add in your alpha sender ID.**
+
+**Do not release your number**: Releasing a number means that you are returning the number you have purchased back to Twilio. This is irreversible. They will charge you for a new number when you purchase it again.
+
+
+
 ## Other
 
 ### I did not receive my OTP. Where is it?
