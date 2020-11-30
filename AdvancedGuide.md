@@ -343,36 +343,33 @@ Pre-requisite: You must be able to expose a HTTPS endpoint that is accessible ov
 Your responses are not lost as all Storage mode responses are stored encrypted in Form's database. As with all Storage mode forms, you can retrieve your data by simply logging in to Form and using your secret key to decrypt and export responses in .csv format.
 
 
-## Onboarding Twilio to send SMS
+## Twilio Onboarding
 
-**What is Twilio?**
+### What is Twilio?
 
-[Twilio](https://www.twilio.com/) is a cloud communication service that allows the users to send messages through an Application Program Interface (API). You can go to [Twilio.com](https://www.twilio.com/) to sign up for an account.
+[Twilio](https://www.twilio.com/) is the paid SMS service that Form uses to send OTP verification SMSes for mobile numbers. 
 
-**The basics**[](#the-basics)
--   **Send rate**: 10 SMSes per second
--   **Agency's own resource:** SMS uses your Twilio account to send SMS so each agency has its own SMS account.
--   **Record**: 30k SMS in one batch
--   **Max number of recipient**: No limit
--   **SMS character limit**: 160 characters (Twilio [link](https://www.twilio.com/docs/glossary/what-sms-character-limit) for more info)
+### When will I need to sign up for Twilio?
 
-**Prerequisite**[](#prerequisite)
+If your form uses SMS OTP verification for mobile numbers and you expect to receive more than 10,000 responses, you will exceed Form's free tier of 10,000 free SMSes per form.
 
-You need a Twilio account in order to send SMS.
+Therefore, your agency will have to arrange billing for SMS usage with Twilio. You will need to sign up for a Twilio account, and link your Twilio account with your form (see below for instructions). 
+
+### How do I link Twilio with my form?
+
+Sign up for an account at [Twilio.com](https://www.twilio.com/). 
 
 **Find Twilio credentials on Twilio console**
 
-You may follow the list of steps to find your Twilio credentials 
+You will need to copy the following details and share them with the Form team. 
 
-Step 1. Account SID
-Step 2. Set up a Standard API Key
-Step 3. Buy a phone number
-Step 4. Set up your messaging service
-Step 5. Alphanumeric Sender ID
+1. Account SID
+2. Set up a Standard API Key
+3. Buy a phone number
+4. Set up your messaging service
+5. Alphanumeric Sender ID
 
-##
-
-Step 1. Account SID[](#step-1-account-sid)
+### 1. Account SID[](#step-1-account-sid)
 
 Your account SID should be on the dashboard when you log in to Twilio's console.
 
@@ -386,7 +383,7 @@ This is particularly useful for a large agency with many users. Your agency migh
 
 If you fall under a subproject, you need to navigate to **Project > Project Settings > Subproject > "Subproject name like Course: ecology 101" > Settings > General** to obtain your subproject SID. Twilio console will indicate that you are viewing settings under a subproject using an orange font on the navigation bar
 
-**Step 2. Set up a Standard API Key**
+### 2. Set up a Standard API Key
 
 Click on **Create new API Key**.
 
@@ -400,7 +397,7 @@ We need your **SID** and **secret** for FormSG. Please keep these safe. Remember
 
 ![SID and Secret key](https://s3-ap-southeast-1.amazonaws.com/misc.form.gov.sg/secret-key-twilio.png)
 
-Step 3. Buy a phone number[](#step-3-buy-a-phone-number)
+### 3. Buy a phone number
 
 **Upgrade your trial account to buy a number:** If you are using a trial account and did not put a corporate credit card on file then this is as far as you can go. You need to complete the upgrade process to buy a new number.
 
@@ -418,7 +415,7 @@ You can change the country code to USA and click on search to purchase a phone n
 
 Once you have bought a phone number, you can configure the Alpha Sender ID to mask it with your agency info. See **Step 5 on how to configure your Alpha Sender ID**.
 
-Step 4. Set up your messaging service[](#step-4-set-up-your-messaging-service)
+### 4. Set up your messaging service
 
 Click on **Create new Messaging Service**.
 
@@ -443,7 +440,7 @@ Now your phone number will be added to the messaging service. Go back to the mes
 ![msg service 2](https://s3-ap-southeast-1.amazonaws.com/misc.form.gov.sg/msg-service-2.jpg)
 📌 Item 4: Your messaging SID is what you need for FormSG
 
-Step 5. Alphanumeric Sender ID[](#step-5-alphanumeric-sender-id)
+### 5. Alphanumeric Sender ID
 
 You can go to **Programmable SMS > Messaging Service > Select the name of the Messaging Service > Features > Add sender > Add Alpha sender**
 
