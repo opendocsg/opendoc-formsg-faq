@@ -369,7 +369,7 @@ You may link Twilio with your form by following the steps below.
 
 **1. Account SID**
 
-Sign up for an account at [Twilio.com](https://www.twilio.com/) and after you have login, your account SID should be on the dashboard when you log in to Twilio's console. 
+Sign up for an account at [Twilio.com](https://www.twilio.com/) and after you have login, you should be able to see your account SID on the dashboard when you arrived on Twilio's console. 
 
 ![Twilio Dashboard](https://s3-ap-southeast-1.amazonaws.com/misc.form.gov.sg/twilio-dashboard.png)
 
