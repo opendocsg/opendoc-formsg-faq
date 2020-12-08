@@ -359,9 +359,8 @@ Therefore, your agency will have to arrange billing for SMS usage with Twilio. Y
 
 Sign up for an account at [Twilio.com](https://www.twilio.com/). 
 
-### Find Twilio credentials on Twilio console
 
-You will need to copy the following details and share them with the Form team. 
+You will need to follow the 5 points shared below and share the information with the Form team. 
 
 1. Account SID
 2. Set up a Standard API Key
@@ -369,7 +368,7 @@ You will need to copy the following details and share them with the Form team.
 4. Set up your messaging service
 5. Alphanumeric Sender ID
 
-**1. Account SID[](#step-1-account-sid)**
+**1. Account SID[]**
 
 Your account SID should be on the dashboard when you log in to Twilio's console.
 
