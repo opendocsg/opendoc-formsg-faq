@@ -359,7 +359,7 @@ Therefore, your agency will have to arrange billing for SMS usage with Twilio. Y
 
 Sign up for an account at [Twilio.com](https://www.twilio.com/). 
 
-**Find Twilio credentials on Twilio console**
+### Find Twilio credentials on Twilio console**
 
 You will need to copy the following details and share them with the Form team. 
 
@@ -369,7 +369,7 @@ You will need to copy the following details and share them with the Form team.
 4. Set up your messaging service
 5. Alphanumeric Sender ID
 
-### 1. Account SID[](#step-1-account-sid)
+**1. Account SID[](#step-1-account-sid)**
 
 Your account SID should be on the dashboard when you log in to Twilio's console.
 
@@ -383,7 +383,7 @@ This is particularly useful for a large agency with many users. Your agency migh
 
 If you fall under a subproject, you need to navigate to **Project > Project Settings > Subproject > "Subproject name like Course: ecology 101" > Settings > General** to obtain your subproject SID. Twilio console will indicate that you are viewing settings under a subproject using an orange font on the navigation bar
 
-### 2. Set up a Standard API Key
+**2. Set up a Standard API Key**
 
 Click on **Create new API Key**.
 
@@ -397,7 +397,7 @@ We need your **SID** and **secret** for FormSG. Please keep these safe. Remember
 
 ![SID and Secret key](https://s3-ap-southeast-1.amazonaws.com/misc.form.gov.sg/secret-key-twilio.png)
 
-### 3. Buy a phone number
+**3. Buy a phone number**
 
 **Upgrade your trial account to buy a number:** If you are using a trial account and did not put a corporate credit card on file then this is as far as you can go. You need to complete the upgrade process to buy a new number.
 
@@ -415,7 +415,7 @@ You can change the country code to USA and click on search to purchase a phone n
 
 Once you have bought a phone number, you can configure the Alpha Sender ID to mask it with your agency info. See **Step 5 on how to configure your Alpha Sender ID**.
 
-### 4. Set up your messaging service
+**4. Set up your messaging service**
 
 Click on **Create new Messaging Service**.
 
@@ -440,7 +440,7 @@ Now your phone number will be added to the messaging service. Go back to the mes
 ![msg service 2](https://s3-ap-southeast-1.amazonaws.com/misc.form.gov.sg/msg-service-2.jpg)
 📌 Item 4: Your messaging SID is what you need for FormSG
 
-### 5. Alphanumeric Sender ID
+**5. Alphanumeric Sender ID**
 
 You can go to **Programmable SMS > Messaging Service > Select the name of the Messaging Service > Features > Add sender > Add Alpha sender**
 
