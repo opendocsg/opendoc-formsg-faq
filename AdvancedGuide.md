@@ -357,10 +357,9 @@ Therefore, your agency will have to arrange billing for SMS usage with Twilio. Y
 
 ### How do I link Twilio with my form?
 
-Sign up for an account at [Twilio.com](https://www.twilio.com/). 
+You may link Twilio with your form by following the steps below.
 
-
-You will need to follow the 5 points shared below and share the information with the Form team. 
+### You will need to follow the 5 points shared below and share the information with the Form team. 
 
 1. Account SID
 2. Set up a Standard API Key
@@ -370,7 +369,7 @@ You will need to follow the 5 points shared below and share the information with
 
 **1. Account SID[]**
 
-Your account SID should be on the dashboard when you log in to Twilio's console.
+Sign up for an account at [Twilio.com](https://www.twilio.com/) and after you have login, your account SID should be on the dashboard when you log in to Twilio's console. 
 
 ![Twilio Dashboard](https://s3-ap-southeast-1.amazonaws.com/misc.form.gov.sg/twilio-dashboard.png)
 
@@ -384,7 +383,7 @@ If you fall under a subproject, you need to navigate to **Project > Project Sett
 
 **2. Set up a Standard API Key**
 
-Click on **Create new API Key**.
+Click on the **Settings**>**API Keys**> on the left side menu and click on **Create new API Key**.
 
 ![Create new api key](https://s3-ap-southeast-1.amazonaws.com/misc.form.gov.sg/create-new-api-keys.jpg)
 
@@ -406,6 +405,8 @@ You need to purchase a phone number to start sending SMS in FormSG.
 
 A Singapore phone number is $75 per month. We recommend that you buy a US phone number which is $1 per month if you are not doing 2-way messaging. SMS cost depends on the country code of the phone number. Please take note that a US phone number might cost more to send SMS.
 
+Click on the button with 3 dots on the left side menu and then click on **Phone Numbers**
+
 ![Sending Sms](https://s3-ap-southeast-1.amazonaws.com/misc.form.gov.sg/phone-numbers.jpg)
 
 ![Buy a number](https://s3-ap-southeast-1.amazonaws.com/misc.form.gov.sg/buy-number.jpg)
@@ -416,7 +417,7 @@ Once you have bought a phone number, you can configure the Alpha Sender ID to ma
 
 **4. Set up your messaging service**
 
-Click on **Create new Messaging Service**.
+Click on the button with a text icon on the left side menu and then click on **Programmable Messaging>Messaging Services>Create new Messaging Service**.
 
 ![Create Messaging Service](https://s3-ap-southeast-1.amazonaws.com/misc.form.gov.sg/msg-service-.jpg)
 
