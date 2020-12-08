@@ -391,7 +391,7 @@ Create a new **standard** API key. You can rename the friendly name.
 
 ![New Api Key](https://s3-ap-southeast-1.amazonaws.com/misc.form.gov.sg/new-api-key.png)
 
-We need your **SID** and **secret** for FormSG. Please keep these safe. Remember to save the **secret** somewhere before you click on **Done**.
+We need your **SID** and **secret** for FormSG. Please keep these safe. Remember to save the **secret** somewhere before you click on **Done**. Or else you will not be able to view your **secret key** again and you will have to recreate a new API key.
 
 ![SID and Secret key](https://s3-ap-southeast-1.amazonaws.com/misc.form.gov.sg/secret-key-twilio.png)
 
