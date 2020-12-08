@@ -359,7 +359,7 @@ Therefore, your agency will have to arrange billing for SMS usage with Twilio. Y
 
 Sign up for an account at [Twilio.com](https://www.twilio.com/). 
 
-### Find Twilio credentials on Twilio console**
+### Find Twilio credentials on Twilio console
 
 You will need to copy the following details and share them with the Form team. 
 
