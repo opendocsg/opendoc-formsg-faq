@@ -444,7 +444,7 @@ Now your phone number will be added to the messaging service. Go back to the mes
 
 You can go to **Programmable SMS > Messaging Service > Select the name of the Messaging Service > Features > Add sender > Add Alpha sender**
 
-You can watch the video on [Postman.gov.sg's workplace group](https://onepublicservice.workplace.com/groups/postman.gov.sg/permalink/2716726868596347/) to **add in your alpha sender ID.**
+Alternatively, you may wish to watch the video on [Postman.gov.sg's workplace group](https://onepublicservice.workplace.com/groups/postman.gov.sg/permalink/2716726868596347/) to **add in your alpha sender ID.**
 
 **Do not release your number**: Releasing a number means that you are returning the number you have purchased back to Twilio. This is irreversible. They will charge you for a new number when you purchase it again.
 
@@ -452,7 +452,7 @@ You can watch the video on [Postman.gov.sg's workplace group](https://onepublics
 
 ## Other
 
-### I did not receive my OTP. Where is it?
+I did not receive my OTP. Where is it?
 
 The OTP is sent immediately, but might take a while to arrive in your government email if there is high traffic on the government network. OTPs expire in 15 minutes, after which you have to resend another one. After logging in, you will remain logged in for 24 hours. This means you need not have both Intranet and Internet devices at all times; you can log in to your Internet device before you leave your office, and for 24 hours be able to create forms from one Internet device.
 
