@@ -359,7 +359,7 @@ Therefore, your agency will have to arrange billing for SMS usage with Twilio. Y
 
 You may link Twilio with your form by following the steps below.
 
-### You will need to follow the 5 points shared below and share the information with the Form team. 
+### You will need to follow the 5 steps shared below and share the information with the Form team towards the end. 
 
 1. Account SID
 2. Set up a Standard API Key
@@ -367,7 +367,7 @@ You may link Twilio with your form by following the steps below.
 4. Set up your messaging service
 5. Alphanumeric Sender ID
 
-**1. Account SID[]**
+**1. Account SID**
 
 Sign up for an account at [Twilio.com](https://www.twilio.com/) and after you have login, your account SID should be on the dashboard when you log in to Twilio's console. 
 
