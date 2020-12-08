@@ -419,11 +419,11 @@ Once you have bought a phone number, you can configure the Alpha Sender ID to ma
 
 Click on **Create new Messaging Service**.
 
-![Create Messaging Service](https://s3-ap-southeast-1.amazonaws.com/misc.form.gov.sg/msg-service.jpg)
+![Create Messaging Service](https://s3-ap-southeast-1.amazonaws.com/misc.form.gov.sg/msg-service-.jpg)
 
 Once you click on the button, you can enter a name for your messaging service and click ok.
 
-![Add Senders](https://s3-ap-southeast-1.amazonaws.com/misc.form.gov.sg/sender-pool.jpg)
+![Add Senders](https://s3-ap-southeast-1.amazonaws.com/misc.form.gov.sg/sender-pool-.jpg)
 
 Click on Add Senders
 
