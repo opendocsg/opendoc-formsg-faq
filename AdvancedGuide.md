@@ -347,7 +347,7 @@ Your responses are not lost as all Storage mode responses are stored encrypted i
 
 ### What is Twilio?
 
-[Twilio](https://www.twilio.com/) is the paid SMS service that Form uses to send OTP verification SMSes for mobile numbers. 
+[Twilio](https://www.twilio.com/) is the paid SMS service that FormSG uses to send OTP verification SMSes for mobile numbers. 
 
 ### When will I need to sign up for Twilio?
 
@@ -359,7 +359,7 @@ Therefore, your agency will have to arrange billing for SMS usage with Twilio. Y
 
 You may link Twilio with your form by following the steps below.
 
-### You will need to follow the 5 steps shared below and share the information with the Form team towards the end. 
+### You will need to follow the 5 steps shared below and share the information with the FormSG team towards the end. 
 
 1. Account SID
 2. Set up a Standard API Key
