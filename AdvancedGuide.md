@@ -419,21 +419,21 @@ Once you have bought a phone number, you can configure the Alpha Sender ID to ma
 
 Click on the button with a text icon on the left side menu and then click on **Programmable Messaging>Messaging Services>Create new Messaging Service**.
 
-![Create Messaging Service](https://s3-ap-southeast-1.amazonaws.com/misc.form.gov.sg/msg-service-.jpg)
-
 Once you click on the button, you can enter a name for your messaging service and click ok.
 
-![Add Senders](https://s3-ap-southeast-1.amazonaws.com/misc.form.gov.sg/sender-pool-.jpg)
+![Create Messaging Service](https://s3-ap-southeast-1.amazonaws.com/misc.form.gov.sg/msg-service-.jpg)
 
 Click on Add Senders
 
-![Add Senders 2](https://s3-ap-southeast-1.amazonaws.com/misc.form.gov.sg/add-sender-1.png)
+![Add Senders](https://s3-ap-southeast-1.amazonaws.com/misc.form.gov.sg/sender-pool-.jpg)
 
 Select Phone Number for Sender Type and click Continue
 
-missing image
+![Add Senders 2](https://s3-ap-southeast-1.amazonaws.com/misc.form.gov.sg/add-sender-1.png)
 
 Your purchased number should appear here. Select the number and click Add Phone Numbers
+
+![Purchase Number](https://s3-ap-southeast-1.amazonaws.com/misc.form.gov.sg/purchased-number.jpg)
 
 Now your phone number will be added to the messaging service. Go back to the messaging services landing page
 
