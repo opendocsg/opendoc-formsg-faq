@@ -343,47 +343,45 @@ Pre-requisite: You must be able to expose a HTTPS endpoint that is accessible ov
 Your responses are not lost as all Storage mode responses are stored encrypted in Form's database. As with all Storage mode forms, you can retrieve your data by simply logging in to Form and using your secret key to decrypt and export responses in .csv format.
 
 
-## Twilio Onboarding
+## Verified SMS Paid Service
 
-### What is Twilio?
+The Verified SMS feature on the Mobile Phone field triggers an SMS containing a One-Time Password (OTP) to the entered mobile phone number, so that form respondents can verify that the entered number belongs to them. 
 
-[Twilio](https://www.twilio.com/) is the paid SMS service that FormSG uses to send OTP verification SMSes for mobile numbers. 
+### Do I have to pay for Verified SMS?
 
-### When will I need to sign up for Twilio?
+Verified SMS is free up to 10,000 responses per form. 
 
-If your form uses SMS OTP verification for mobile numbers and you expect to receive more than 10,000 responses, you will exceed Form's free tier of 10,000 free SMSes per form.
+**However, if your form might receive over 10,000 responses, your agency will have to pay for verified SMS by setting up your own Twilio account** (see instructions below). To be safe, please arrange payment before activating your form. Once your form has exceeded 10,000 responses, either the Verified SMS feature or the form itself will have to be deactivated, and Form reserves the right to charge your agency for past SMS expenditure. 
 
-Therefore, your agency will have to arrange billing for SMS usage with Twilio. You will need to sign up for a Twilio account, and link your Twilio account with your form (see below for instructions). 
+### How do I arrange payment for Verified SMS?
 
-### How do I link Twilio with my form?
+We recommend that you arrange payment before activating your form, in case a high volume of responses are submitted and bust your free tier. Once your form has exceeded 10,000 responses, either the Verified SMS feature or the form itself will have to be deactivated, and Form reserves the right to charge your agency for past SMS expenditure. 
 
-You may link Twilio with your form by following the steps below.
+**Step 1**. Obtain approval within your agency to pay for verified SMS through Twilio. [Twilio](https://www.twilio.com/) is the paid SMS service that Form uses to send OTP verification SMSes to mobile numbers. Twilio is the only SMS service provider that Form is integrated with, and provides paid SMS at a competitive price. Twilio's SMSes cost 0.03 USD (3 cents USD) per SMS. 
 
-### You will need to follow the 5 steps shared below and share the information with the FormSG team towards the end. 
+**Step 2**. Create an account at https://twilio.com, and set up payment to your agency. Set up the rest of your account according to the instructions below in the 'Twilio account setup' section.
 
-1. Account SID
-2. Set up a Standard API Key
-3. Buy a phone number
-4. Set up your messaging service
-5. Alphanumeric Sender ID
+**Step 3** Email us at formsg@tech.gov.sg but **do not include any Twilio account details** in your email. We will advise you on how to securely pass the following 4 items to us:
 
-**1. Account SID**
+i. Account SID
+ii. API Key SID
+iii. API Key 
+iv. Messaging Service SID
 
-Sign up for an account at [Twilio.com](https://www.twilio.com/) and after you have login, you should be able to see your account SID on the dashboard when you arrived on Twilio's console. 
+
+### Twilio account setup
+
+#### Account SID
+
+Upon logging in, you should be able to see your **account SID** on the dashboard when you arrived on Twilio's console. 
 
 ![Twilio Dashboard](https://s3-ap-southeast-1.amazonaws.com/misc.form.gov.sg/twilio-dashboard.png)
+📌 Item 1: We will need your Account SID from this step.
 
-**Project level vs. subproject level credentials**: Agencies will be billed at the project level, but subproject level allows you to track usage specifically for your group.
 
-This is particularly useful for a large agency with many users. Your agency might ask you to create a subproject in Twilio to track your usage. An example would be **MOE** at the **project level** and **Course: ecology 101** at the **subproject level** for ecology 101's teacher to send SMS to parents.
+#### Set up API Key
 
-![Master Sub Acct](https://s3-ap-southeast-1.amazonaws.com/misc.form.gov.sg/master-sub-acct.png)
-
-If you fall under a subproject, you need to navigate to **Project > Project Settings > Subproject > "Subproject name like Course: ecology 101" > Settings > General** to obtain your subproject SID. Twilio console will indicate that you are viewing settings under a subproject using an orange font on the navigation bar
-
-**2. Set up a Standard API Key**
-
-Click on the **Settings**>**API Keys**> on the left side menu and click on **Create new API Key**.
+Click on Settings > API Keys on the left-side menu and select **Create new API Key**.
 
 ![Create new api key](https://s3-ap-southeast-1.amazonaws.com/misc.form.gov.sg/create-new-api-keys.jpg)
 
@@ -391,19 +389,17 @@ Create a new **standard** API key. You can rename the friendly name.
 
 ![New Api Key](https://s3-ap-southeast-1.amazonaws.com/misc.form.gov.sg/new-api-key.png)
 
-We need your **SID** and **secret** for FormSG. Please keep these safe. Remember to save the **secret** somewhere before you click on **Done**. Or else you will not be able to view your **secret key** again and you will have to recreate a new API key.
+You will need to pass us your **SID** and **secret**. Please keep these safe. Remember to save the **secret** somewhere before you click on **Done**! Or else you will not be able to view your **secret** again and will have to recreate a new API key.
 
 ![SID and Secret key](https://s3-ap-southeast-1.amazonaws.com/misc.form.gov.sg/secret-key-twilio.png)
+📌 Items 2 and 3: We will need your API Key SID and Secret from this step.
 
-**3. Buy a phone number**
 
-**Upgrade your trial account to buy a number:** If you are using a trial account and did not put a corporate credit card on file then this is as far as you can go. You need to complete the upgrade process to buy a new number.
+#### Buy a phone number
 
-You can use a US number and mask the number with an [alphanumeric sender ID](https://support.twilio.com/hc/en-us/articles/223181348-Getting-Started-with-Alphanumeric-Sender-ID-for-Twilio-Programmable-SMS/). A Singapore number is only needed for 2-way SMS. Postman will support 1-way SMS at the start.
+You need to purchase a phone number to start sending SMSes. 
 
-You need to purchase a phone number to start sending SMS in FormSG.
-
-A Singapore phone number is $75 per month. We recommend that you buy a US phone number which is $1 per month if you are not doing 2-way messaging. SMS cost depends on the country code of the phone number. Please take note that a US phone number might cost more to send SMS.
+We recommend buying a US number ($1 a month) and masking the number with an [alphanumeric sender ID](https://support.twilio.com/hc/en-us/articles/223181348-Getting-Started-with-Alphanumeric-Sender-ID-for-Twilio-Programmable-SMS/). A Singapore phone number is $75 per month but a Singapore number is not required to send Singapore SMSes. 
 
 Click on the button with 3 dots on the left side menu and then click on **Phone Numbers**
 
@@ -411,15 +407,24 @@ Click on the button with 3 dots on the left side menu and then click on **Phone 
 
 ![Buy a number](https://s3-ap-southeast-1.amazonaws.com/misc.form.gov.sg/buy-number.jpg)
 
-You can change the country code to USA and click on search to purchase a phone number
+You can change the country code to USA, and click on search to purchase a phone number
 
-Once you have bought a phone number, you can configure the Alpha Sender ID to mask it with your agency info. See **Step 5 on how to configure your Alpha Sender ID**.
+**Do not release your number**: Releasing a number means that you are returning the number you have purchased back to Twilio. This is irreversible. They will charge you for a new number when you purchase it again.
 
-**4. Set up your messaging service**
+**Optional**: Alphanumeric Sender ID
 
-Click on the button with a text icon on the left side menu and then click on **Programmable Messaging>Messaging Services>Create new Messaging Service**.
+Once you have bought a phone number, you can configure the Alphanumeric Sender ID to mask it with your agency info. This means SMS recipients will see the SMS as coming from the name (Alpha Sender ID) you specify instead of a phone number.
 
-Once you click on the button, you can enter a name for your messaging service and click ok.
+You can do this by navigating to Programmable SMS > Messaging Service > Select the name of the Messaging Service > Features > Add sender > Add Alpha Sender
+
+Alternatively, you may wish to watch the video on [Postman.gov.sg's workplace group](https://onepublicservice.workplace.com/groups/postman.gov.sg/permalink/2716726868596347/) on adding an Alpha Sender ID.
+
+
+#### Set up Messaging Service
+
+Click on the button with the "chat message" icon on the left side menu and then click on Programmable Messaging > Messaging Services > Create new Messaging Service.
+
+Once you click on the button, you can enter a name for your messaging service and click OK.
 
 ![Create Messaging Service](https://s3-ap-southeast-1.amazonaws.com/misc.form.gov.sg/msg-service-.jpg)
 
@@ -435,19 +440,10 @@ Your purchased number should appear here. Select the number and click Add Phone 
 
 ![Purchase Number](https://s3-ap-southeast-1.amazonaws.com/misc.form.gov.sg/purchased-number.jpg)
 
-Now your phone number will be added to the messaging service. Go back to the messaging services landing page
+Now, your phone number will be added to the messaging service. Go back to the messaging services landing page.
 
 ![msg service 2](https://s3-ap-southeast-1.amazonaws.com/misc.form.gov.sg/msg-service-2.jpg)
-📌 Item 4: Your messaging SID is what you need for FormSG
-
-**5. Alphanumeric Sender ID**
-
-You can go to **Programmable SMS > Messaging Service > Select the name of the Messaging Service > Features > Add sender > Add Alpha sender**
-
-Alternatively, you may wish to watch the video on [Postman.gov.sg's workplace group](https://onepublicservice.workplace.com/groups/postman.gov.sg/permalink/2716726868596347/) to **add in your alpha sender ID.**
-
-**Do not release your number**: Releasing a number means that you are returning the number you have purchased back to Twilio. This is irreversible. They will charge you for a new number when you purchase it again.
-
+📌 Item 4: We will need your Messaging Service SID from this step.
 
 
 ## Other
