@@ -367,8 +367,11 @@ We recommend that you arrange payment before activating your form, in case a hig
 **Step 3** Email us at formsg@tech.gov.sg but **do not include any Twilio account details** in your email. We will advise you on how to securely pass the following 4 items to us:
 
 i. Account SID
+
 ii. API Key SID
-iii. API Key 
+
+iii. API Key Secret
+
 iv. Messaging Service SID
 
 
