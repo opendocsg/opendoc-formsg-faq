@@ -22,7 +22,7 @@
 - reCaptcha spam protection is now available for respondents accessing from WOG Intranet as well as from the Internet
 
 
-## Feature roadmap
+## Roadmap
 
 #### Q1 2021
 
