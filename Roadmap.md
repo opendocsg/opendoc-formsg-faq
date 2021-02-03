@@ -24,6 +24,10 @@
 
 ## Roadmap
 
+In the past 3 years, we prioritised delivering critical form management features so that public officers could digitalize paper forms and reduce manual work as quickly as possible. By end 2020, Form had been used to launch over 60k Singapore government forms and collect over 80 million responses. 
+
+From end 2020 to 2021, we are turning our focus to urgently needed technical improvements. These are necessary for Form to run reliably at our current scale, and allow us to deliver future features quickly and without many bugs. During this time, we will continue to deliver the most important features to our users, albeit at a slower rate. Our improvement work is targeted to be complete in Q3/2021, and feature-focused development will likely resume in Q4. 
+
 #### Q1 2021
 
 Features
