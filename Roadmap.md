@@ -1,6 +1,9 @@
-# What's New
+# Feature Roadmap
 
-## Latest features and improvements
+## Latest features
+
+#### Bulk download attachments on Storage mode
+- Click 'Export' for the option to download both CSV and all attachments in separate zip files per response
 
 #### Transfer form ownership
 - On collaborator button at top right hand corner of your form, useful for form admins changing roles or handing over portfolios
@@ -12,17 +15,54 @@
 #### Date field
 - Limit date selection to disallow past dates, disallow future dates or a custom date range
 
-#### Response data
-- Download all attachments for a single response in a zip file
-- Search responses by reference number
-
-#### Secret keys
+#### Secret key safeguarding
 - Email secret key to collaborators for safekeeping at form creation and activation
 
-#### reCaptcha
+#### reCaptcha on Intranet
 - reCaptcha spam protection is now available for respondents accessing from WOG Intranet as well as from the Internet
 
-## Development updates
+
+## Roadmap
+
+In the past 3 years, we prioritised delivering critical form management features so that public officers could digitalize paper forms and reduce manual work as quickly as possible. By end 2020, Form had been used to launch over 60k Singapore government forms and collect over 80 million responses. 
+
+From end 2020 to 2021, we are turning our focus to urgently needed technical improvements. These are necessary for Form to run reliably at our current scale, and allow us to deliver future features quickly and without many bugs. During this time, we will continue to deliver the most important features to our users, albeit at a slower rate. Our improvement work is targeted to be complete in Q3/2021, and feature-focused development will likely resume in Q4. 
+
+#### Q1 2021
+
+Features
+- Copy & paste the options for Checkbox field in a list, similar to current Dropdown field
+- Limit number of responses per form
+- Display response summary on Thank You page
+
+Technical improvements
+- MyInfo migration
+- Complete Typescript server migration
+- MongoDB upgrade
+- Elastic Beanstalk migration
+
+#### Q2 2021
+
+Features
+- Webhook retries
+- Webhook attachments
+- Logic for Checkbox options
+
+Technical improvements
+- API migration
+- AngularJS services migration
+
+
+#### Q3 2021
+
+Features
+- Accessibility for public forms
+
+Technical improvements
+- React migration
+
+
+## Old development updates
 
 For releases after 12 Jun 2020, check out our [release log on GitHub](https://github.com/opengovsg/FormSG/pulls?q=is%3Apr+base%3Arelease). We typically release features, improvements or fixes every Tuesday or Wednesday afternoon.
 
