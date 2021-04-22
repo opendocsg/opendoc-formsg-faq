@@ -30,6 +30,37 @@ Yes it can. Form title has to be in English, but instructions and fields can be 
 
 The current size limit is 7 MB for the entire form. We auto-compress images to 1024x768 resolution, which is typically less than 1 MB. This is a hard limit because the email service we use has a fixed 10 MB outgoing size, and we buffer 3 MB for email fields and metadata. Because the smallest unit you can attach per attachment field is 1 MB, you can have a max of 7 attachments on your form. If your user has to submit more than 7 documents, you may create just one attachment field of 7 MB, and advise your user to zip documents up and submit as one attachment. Now that Storage mode is launched, we have plans in Q3 2020 to increase attachment size limit to 20 MB.
 
+## Prefill
+
+### What is prefill?
+
+Prefill is a convenience feature that allows you to pre-populate fields for your form user. This adds convenience and reduces the chance of mistakes in manual entry. Examples where prefill has been used include populating form serial numbers.
+
+### How do I use it?
+
+Step 1: In the short text field, activate the Enable pre-fill toggle. Note that the Field ID is only generated after the field has been saved for the first time.
+
+![FormSG FAQ Prefill Admin Console](https://s3-ap-southeast-1.amazonaws.com/misc.form.gov.sg/faq-admin-prefill.png "FormSG FAQ Prefill Admin Console")
+
+Step 2: In your form url, append ?<Field ID>=<Your prefilled value> to the end of the URL. For example, if your form URL is https://www.forms.gov.sg/6079216d5efcf5002c523299 and the Field ID is 6080d2ab13daf3002bfcd32d, then the prefilled URL would be https://www.forms.gov.sg/6079216d5efcf5002c523299?6080d2ab13daf3002bfcd32d=someprefilledvalue.
+
+Step 3: Share the prefilled URL with your user. The prefilled fields will be highlighted in the form.
+
+![FormSG FAQ Prefill Form](https://s3-ap-southeast-1.amazonaws.com/misc.form.gov.sg/faq-prefilled-form-sample.png "FormSG FAQ Prefill Form")
+
+### Can I have more than one prefilled value?
+
+Yes. In that case, you should separate the Field ID / Prefilled Value pairs with an ampersand &. For example, if there are two prefilled values, then append ?<Field ID 1>=<Your prefilled value 1>&<Field ID 2>=<Your prefilled value 2> to the end of the form URL.
+
+### Can form users modify the prefilled value(s)?
+
+Yes, form users are able to change the prefilled value(s), similar to all other text fields. Therefore, you should not rely on prefill for any form of authentication / verification.
+
+### Is prefill available for all fields?
+
+Prefill is currently available for short text fields. We may extend this to other field types in future.
+
+
 ## Form logic
 
 ### How do I know if the logic for the form is correct?
