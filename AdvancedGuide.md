@@ -30,6 +30,63 @@ Yes it can. Form title has to be in English, but instructions and fields can be 
 
 The current size limit is 7 MB for the entire form. We auto-compress images to 1024x768 resolution, which is typically less than 1 MB. This is a hard limit because the email service we use has a fixed 10 MB outgoing size, and we buffer 3 MB for email fields and metadata. Because the smallest unit you can attach per attachment field is 1 MB, you can have a max of 7 attachments on your form. If your user has to submit more than 7 documents, you may create just one attachment field of 7 MB, and advise your user to zip documents up and submit as one attachment. Now that Storage mode is launched, we have plans in Q3 2020 to increase attachment size limit to 20 MB.
 
+## Pre-fill
+
+### What is pre-fill?
+
+Selecting 'Enable pre-fill' on a form field allows the field value to be pre-filled or pre-populated when a public form is loaded, before the respondent has entered any value. This is done by adding the pre-filled value in a specific format to the public form's URL which the respondent accesses.
+
+e.g. For a pre-filled value "Yew Tee Primary School", the URL would look like the following. Spaces are allowed in the pre-filled value.
+
+https://form.gov.sg/60879eb7bdb1e20012f0a5d3?6087cae5c873820012830619=Yew%20Tee%20Primary%20School
+
+Pre-filling adds convenience for the respondent when field values are known beforehand. For example, a customer service ID can be pre-filled and added to a URL before sending it to a customer for feedback; or the form URL made available to respondents from a specific school or location can be customised to pre-fill that school or location in the relevant field.
+
+Note that anyone, not just the form admin, can pre-fill values in a form URL and disseminate it. This is an important security consideration and should be taken into account when deciding which fields to enable pre-fill on. You might not want to enable pre-fill on certain fields if doing so could allow your form to be used for scams.
+
+Pre-fill is currently only available on Short Text fields and may be released for other fields in future, depending on demand.
+
+
+### How do I use it?
+
+Step 1: Activate 'Enable pre-fill' on your Short Text field. After saving the field for the first time, a Field ID will be generated. You will need this to pre-fill your value in the form URL.
+
+![FormSG FAQ Prefill Admin Console](https://s3-ap-southeast-1.amazonaws.com/misc.form.gov.sg/faq-admin-prefill.png "FormSG FAQ Prefill Admin Console")
+
+Step 2: Add the Field ID and value you want to pre-fill behind your regular form link in this format: ?&lt;Field ID&gt;=&lt;Your pre-filled value&gt;. For example, if:
+- Your form URL is https://www.forms.gov.sg/60879eb7bdb1e20012f0a5d3
+- The Field ID is 6087cae5c873820012830619
+- The pre-filled value is Yew Tee Primary School
+
+Then the pre-filled URL would be https://form.gov.sg/60879eb7bdb1e20012f0a5d3?6087cae5c873820012830619=Yew%20Tee%20Primary%20School
+
+Spaces are allowed for the pre-filled value.
+
+![FormSG FAQ Prefill Form](https://s3-ap-southeast-1.amazonaws.com/misc.form.gov.sg/faq-prefilled-form-sample.png "FormSG FAQ Prefill Form")
+
+### Can I have more than one pre-filled value?
+
+Yes. In that case, you should separate the Field ID / Pre-filled Value pairs with an ampersand &. For example, if:
+
+- Your form URL is https://www.forms.gov.sg/60879eb7bdb1e20012f0a5d3
+- The first Field ID is 6087cae5c873820012830619
+- The first pre-filled value is Yew Tee Primary School
+- The second Field ID is 608800e140ea4700110c4f0e
+- The second pre-filled value is Class 1A
+
+Then the pre-filled URL would be https://form.gov.sg/60879eb7bdb1e20012f0a5d3?6087cae5c873820012830619=Yew%20Tee%20Primary%20School&608800e140ea4700110c4f0e=Class%201A
+
+### Can form users modify the pre-filled value(s)?
+
+Yes, respondents are able to edit any values that have been pre-filled. Editability ensures that all field values are truly what form respondents intend to submit, and is a form of protection against scams.
+
+If you do not want your respondent to edit the pre-filled value, such as a tracking ID, please inform them not to do so in the field instructions. This method has been proven effective in national-scale operations with over 1 million responses.
+
+### Is pre-fill available for all fields?
+
+Pre-fill is currently only available on Short Text fields and may be released for other fields in future, depending on demand.
+
+
 ## Form logic
 
 ### How do I know if the logic for the form is correct?
