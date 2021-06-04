@@ -91,7 +91,6 @@ chang_jin_peng@schools.gov.sg
 **MOM**  
 adrian_wong@mom.gov.sg  
 christen_lim@mom.gov.sg  
-joann_lim@mom.gov.sg  
 
 **MPA**  
 cherie_lim@mpa.gov.sg  
