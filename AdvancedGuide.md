@@ -402,6 +402,34 @@ Pre-requisite: You must be able to expose a HTTPS endpoint that is accessible ov
 
 Your responses are not lost as all Storage mode responses are stored encrypted in Form's database. As with all Storage mode forms, you can retrieve your data by simply logging in to Form and using your secret key to decrypt and export responses in .csv format.
 
+### What are webhook retries? Should I enable them?
+
+If you switch on "Enable retries" under the Settings tab, Form will resend webhooks if your IT system fails to receive them. In order to safely receive webhook retries, your system **must** be able to:
+- **Process duplicate webhooks.** A webhook for a given submission may be re-attempted multiple times, even if the earlier attempts were successful. Receiving systems must be able to process such duplicate webhooks.
+- **Receive submissions out of order.** Retries may not be delivered in order of the time that the form was submitted.
+- **Receive submissions even after the form is no longer active.** If your form is submitted successfully while it is active, the webhook for that submission will be retried for up to 24 hours after the time of submission, even if the form is made inactive during that time.
+- **Process non-realtime submissions.** A webhook may be reattempted up to 24 hours after the form is submitted, so retries may not be appropriate for a system which relies on real-time webhooks.
+
+#### How does Form determine whether my system received the webhook successfully?
+
+If your IT system returns any [HTTP-2xx response code](https://developer.mozilla.org/en-US/docs/Web/HTTP/Status#successful_responses), the webhook is considered to have been successful and will most likely no longer be retried. However, due to technical limitations, there is a small chance that even if your system returns a HTTP-2xx response, a duplicate webhook may be subsequently sent for the same submission. Your system must be able to process such duplicates if you wish to enable retries.
+
+Conversely, if your system returns any non-2xx response code, the webhook will be retried if the form has retries enabled.
+
+#### How many times does Form retry the webhook for each submission?
+
+The webhook is first attempted once immediately after the form is submitted. If this first attempt fails, the webhook will be retried up to 6 additional times over the next 24 hours, at the following intervals from the time of submission:
+- Between 4-6 minutes later
+- Between 45-75 minutes later
+- Between 1.5-2.5 hours later
+- Between 3-5 hours later
+- Between 6-10 hours later
+- Between 16-24 hours later
+
+Retries will cease whenever the webhook is successful. For example, if the initial webhook attempt fails but the attempt 4-6 minutes later succeeds, there will most likely be no more retries. Again, there is a small chance of duplicate webhooks even when previous attempts were successful, and your IT system must be able to handle these duplicates.
+
+If your system fails to receive the final retry 16-24 hours after the form is submitted, the webhook will no longer be attempted. You can still retrieve the submission data under the Data tab.
+
 
 ## Verified SMS Paid Service
 
