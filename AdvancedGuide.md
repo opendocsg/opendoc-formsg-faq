@@ -419,16 +419,16 @@ Conversely, the webhook will be retried if your system returns any non-2xx respo
 #### How many times does Form retry the webhook for each submission?
 
 The webhook is first attempted once immediately after the form is submitted. If this first attempt fails, the webhook will be retried up to 6 additional times over the next 24 hours, at the following intervals from the time of submission:
-- Between 4-6 minutes later
-- Between 45-75 minutes later
-- Between 1.5-2.5 hours later
-- Between 3-5 hours later
-- Between 6-10 hours later
-- Between 16-24 hours later
+- 5 ± 1 minutes
+- 60 ± 15 minutes
+- 2 ± 0.5 hours
+- 4 ± 1 hours
+- 8 ± 2 hours
+- 20 ± 4 hours
 
-Retries will cease whenever the webhook is successful. For example, if the initial webhook attempt fails but the attempt 4-6 minutes later succeeds, there will most likely be no more retries. Again, there is a small chance of duplicate webhooks even when previous attempts were successful, and your IT system must be able to handle these duplicates.
+Retries will cease whenever the webhook is successful. For example, if the initial webhook attempt fails but the first retry attempt 4-6 minutes later succeeds, there will most likely be no more retries. Again, there is a small chance of duplicate webhooks even when previous attempts were successful, and your IT system must be able to handle these duplicates.
 
-If your system fails to receive the final retry 16-24 hours after the form is submitted, the webhook will no longer be attempted. You can still retrieve the submission data under the Data tab.
+If your system fails to receive the final retry 16-24 hours after the form is submitted, the webhook will no longer be attempted. You may still retrieve the submission data under the Data tab.
 
 
 ## Verified SMS Paid Service
