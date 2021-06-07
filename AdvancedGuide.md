@@ -412,9 +412,9 @@ If you switch on "Enable retries" under the Settings tab, Form will resend webho
 
 #### How does Form determine whether my system received the webhook successfully?
 
-If your IT system returns any [HTTP-2xx response code](https://developer.mozilla.org/en-US/docs/Web/HTTP/Status#successful_responses), the webhook is considered to have been successful and will most likely no longer be retried. However, due to technical limitations, there is a small chance that even if your system returns a HTTP-2xx response, a duplicate webhook may be subsequently sent for the same submission. Your system must be able to process such duplicates if you wish to enable retries.
+If your IT system returns any [HTTP-2xx response code](https://developer.mozilla.org/en-US/docs/Web/HTTP/Status#successful_responses), the webhook is considered to have been successful. However, due to [technical limitations](https://en.wikipedia.org/wiki/Two_Generals%27_Problem), there is a small chance that even when your system returns an HTTP-2xx response, a duplicate webhook may be subsequently sent for the same submission. Your system should account for such duplicates if you wish to enable retries.
 
-Conversely, if your system returns any non-2xx response code, the webhook will be retried if the form has retries enabled.
+Conversely, the webhook will be retried if your system returns any non-2xx response code.
 
 #### How many times does Form retry the webhook for each submission?
 
