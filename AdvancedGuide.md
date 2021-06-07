@@ -404,11 +404,11 @@ Your responses are not lost as all Storage mode responses are stored encrypted i
 
 ### What are webhook retries? Should I enable them?
 
-If you switch on "Enable retries" under the Settings tab, Form will resend webhooks if your IT system fails to receive them. In order to safely receive webhook retries, your system **must** be able to:
-- **Process duplicate webhooks.** A webhook for a given submission may be re-attempted multiple times, even if the earlier attempts were successful. Receiving systems must be able to process such duplicate webhooks.
-- **Receive submissions out of order.** Retries may not be delivered in order of the time that the form was submitted.
-- **Receive submissions even after the form is no longer active.** If your form is submitted successfully while it is active, the webhook for that submission will be retried for up to 24 hours after the time of submission, even if the form is made inactive during that time.
-- **Process non-realtime submissions.** A webhook may be reattempted up to 24 hours after the form is submitted, so retries may not be appropriate for a system which relies on real-time webhooks.
+If you switch on "Enable retries" under the Settings tab, Form will resend webhooks if your IT system fails to receive them. In order to safely receive webhook retries, your system _should_ be designed to:
+- **Duplicate webhooks.** A webhook for a given submission may be re-attempted multiple times, even if the earlier attempts were successful. We advise you to guard against duplicate webhooks by making your submission processing _idempotent_. One way of doing this is storing the submission IDs you’ve already processed, and then not processing already-logged events.
+- **Out-of-order delivery** Retries may not be delivered in order of the time that the form was submitted, but you may use the `created` property on the decrypted body to determine when the submission was made.
+- **Process non-realtime submissions.** Retries may not be appropriate for a system that relies on real-time behavior for user interactions.
+- **Expect submissions even after the form is no longer active.** If your form is submitted successfully while it is active, the webhook for that submission will be retried for up to 24 hours after the time of submission, even if the form is made inactive during that time.
 
 #### How does Form determine whether my system received the webhook successfully?
 
