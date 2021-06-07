@@ -404,11 +404,11 @@ Your responses are not lost as all Storage mode responses are stored encrypted i
 
 ### What are webhook retries? Should I enable them?
 
-If you switch on "Enable retries" under the Settings tab, Form will resend webhooks if your IT system fails to receive them. In order to safely receive webhook retries, your system _should_ be designed to:
+If you switch on "Enable retries" under the Settings tab, Form will resend webhooks if your IT system fails to receive them. In order to safely receive webhook retries, your system _should_ be designed to handle:
 - **Duplicate webhooks.** A webhook for a given submission may be re-attempted multiple times, even if the earlier attempts were successful. We advise you to guard against duplicate webhooks by making your submission processing _idempotent_. One way of doing this is storing the submission IDs you’ve already processed, and then not processing already-logged events.
-- **Out-of-order delivery** Retries may not be delivered in order of the time that the form was submitted, but you may use the `created` property on the decrypted body to determine when the submission was made.
-- **Process non-realtime submissions.** Retries may not be appropriate for a system that relies on real-time behavior for user interactions.
-- **Expect submissions even after the form is no longer active.** If your form is submitted successfully while it is active, the webhook for that submission will be retried for up to 24 hours after the time of submission, even if the form is made inactive during that time.
+- **Out-of-order delivery.** Retries may not be delivered in order of the time that the form was submitted, but you may use the `created` property on the decrypted body to determine when the submission was made.
+- **Non-realtime submissions.** Retries may not be appropriate for a system that relies on real-time behavior for user interactions.
+- **Submissions even after the form is no longer active.** If your form is submitted successfully while it is active, the webhook for that submission will be retried for up to 24 hours after the time of submission, even if the form is made inactive during that time.
 
 #### How does Form determine whether my system received the webhook successfully?
 
@@ -419,7 +419,7 @@ Conversely, the webhook will be retried if your system returns any non-2xx respo
 #### How many times does Form retry the webhook for each submission?
 
 The webhook is first attempted once immediately after the form is submitted. If this first attempt fails, the webhook will be retried up to 6 additional times over the next 24 hours, at the following intervals from the time of submission:
-- 5 ± 1 minutes
+- 5 ± 1 minute
 - 60 ± 15 minutes
 - 2 ± 0.5 hours
 - 4 ± 1 hours
