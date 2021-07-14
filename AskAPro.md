@@ -146,7 +146,6 @@ joshua_chua@sgo.gov.sg
 ang_wai_how@pris.gov.sg  
 
 **SPF**  
-muhammad_zahari@spf.gov.sg  
 tan_hong_han@spf.gov.sg  
 xie_zhirong@spf.gov.sg  
 
