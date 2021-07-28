@@ -30,9 +30,6 @@ lau_guanyi@customs.gov.sg
 **Elections Department**  
 gerry_gewi@eld.gov.sg  
 
-**Enterprise Singapore**  
-clement_chua@enterprisesg.gov.sg  
-
 **HPB**  
 eugene_aw@hpb.gov.sg  
 karthikayen_jayasundar@hpb.gov.sg  
