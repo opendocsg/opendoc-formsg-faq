@@ -31,7 +31,6 @@ lau_guanyi@customs.gov.sg
 gerry_gewi@eld.gov.sg  
 
 **HPB**  
-eugene_aw@hpb.gov.sg  
 karthikayen_jayasundar@hpb.gov.sg  
 
 **HSA**  
