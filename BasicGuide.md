@@ -83,10 +83,6 @@ Some of our forms already have a high number of responses. In January 2020, more
 
 As long as you have an Internet/WOG Intranet connection you can access form.gov.sg from all around the world. Note that to log in to create forms you will also need access to your government email to retrieve the OTP.
 
-## Are there slides for me to read or share with my peers?
-
-Yes there are! Feel free to view, comment on and share these slides that is viewable on the Internet: [https://go.gov.sg/formsg-sharing-slides](https://go.gov.sg/formsg-sharing-slides).
-
 ## Who do you ask for help or keep updated?
 
 The fastest way to get help is to join our [Workplace@Facebook group](https://onepublicservice.facebook.com/groups/299464690543915/) and post a question there. Our group name is [WOG] form.gov.sg. Fellow form creators and ourselves will readily respond within hours if not minutes. 
