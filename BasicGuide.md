@@ -90,3 +90,9 @@ The fastest way to get help is to join our [Workplace@Facebook group](https://on
 You may also consult experts in your agency, or "Agency Pros" for help via [this list](/AskAPro.html).
 
 For bug reports or technical issues happening to your live form, please fill in our [Support Form](https://go.gov.sg/formsg-support).
+
+## Is support@formsg.zendesk.com under the FormSG team?
+
+Yes. The email support@formsg.zendesk.com is under the FormSG team so please do not be alarmed if you have received emails from this email address. 
+
+Formsg@tech.gov.sg will remain active in the meantime. 
