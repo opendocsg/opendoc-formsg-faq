@@ -76,7 +76,6 @@ tan_ying_yang@moe.edu.sg
 tiffany_lim@moe.gov.sg  
 
 **MOE Schools**  
-chew_chee_yong@schools.gov.sg  
 fauziah_othman@schools.gov.sg  
 germain_kang_yin_ga@schools.gov.sg  
 mohammed_azhar_mohd_shariff@schools.gov.sg  
