@@ -94,7 +94,6 @@ cherie_lim@mpa.gov.sg
 du_yanchao@msf.gov.sg  
 
 **Ngee Ann Polytechnic**  
-cheryl_lee@np.edu.sg  
 cleo_chiang@np.edu.sg  
 
 **Nanyang Polytechnic**  
