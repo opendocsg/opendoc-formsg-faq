@@ -396,7 +396,6 @@ Pre-requisite: You must be able to expose a HTTPS endpoint that is accessible ov
 3. Test that responses are received at your endpoint URL.
 
 **Important to note**
-- Webhooks are still in **beta**, meaning users should expect bugs as we work on smoothing out the rough edges. **If you are unable to accept this risk, please do not use this feature until its mainstream release (end Q3 CY2020).**
 - Please lock down the version of the SDK you are using and disable automatic upgrades to avoid disruption from breaking changes.
 - You are responsible for correctly setting up your system to receive, verify and decrypt Form responses using our SDK. Form is not responsible for your setup, and only bears responsibility for ensuring our servers are correctly routing responses in accordance with our SDK. 
 
