@@ -366,7 +366,9 @@ Webhooks are a standard means for applications like Form to send real-time data 
 
 Webhooks are useful for agencies who wish to have form response data sent directly to existing IT systems. This removes the need for a human user to periodically export form response data from form.gov.sg, then upload it to an internally-used application.
 
-While webhooks have been tried and tested on high-volume applications, this feature is still in **beta**, meaning users should expect bugs as we work on smoothing out the rough edges. **If you are unable to accept this risk, please do not use this feature until its mainstream release.**
+Update on 1st December 2021:
+Webhooks has been taken out of beta as it has been stable for over a year
+
 
 ### Who should use webhooks?
 
