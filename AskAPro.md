@@ -43,9 +43,6 @@ Jayden_SHIH@iras.gov.sg
 **ISEAS**  
 swee_yew_pin@iseas.edu.sg  
 
-**LTA**  
-jonn_tan@lta.gov.sg   
-
 **MFA**    
 ong_wei_jie@mfa.gov.sg  
 seri_nur_haziqah_nor_azamm@mfa.gov.sg  
