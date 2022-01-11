@@ -150,7 +150,6 @@ tay_kai_boon@statecourts.gov.sg
 
 **Temasek Polytechnic**  
 asklib@tp.edu.sg  
-scott@tp.edu.sg  
 
 **Vital Shared Services**  
 lim_yi_jun@vital.gov.sg  
