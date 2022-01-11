@@ -105,7 +105,7 @@ chua_gek_fong@pa.gov.sg
 jenna_goh@pa.gov.sg  
 
 **PUB**  
-sherilyn_lee_from.pubtemp@pub.gov.sg  
+sherilyn_lee@pub.gov.sg
 
 **Republic Polytechnic**  
 tan_lee_kiat@rp.edu.sg   
