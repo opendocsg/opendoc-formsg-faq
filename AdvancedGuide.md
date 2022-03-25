@@ -568,9 +568,7 @@ To prevent such incidents from occurring, we strongly recommend that all IT depa
 
 ### My forms are particularly sensitive and I do not want other public officers to see them on the Examples tab.
 
-Note that only forms that are active, and have at least 10 responses will be searchable on the Examples tab. And that the Examples tab is only viewable by authenticated public officers, not the general public. Furthermore, only your form fields are viewable, not your form data.
-
-But if there is still a need to unlist your form from the Examples tab because the form fields alone are already sensitive to be viewed by fellow public officers, then you may submit our [Support Form](https://go.gov.sg/formsg-support), and attach an email approval from your MIC (DD/Dir) stating justifications for unlisting specific form links from the Examples tab.
+We no longer list forms on the Example tab since January 2021. That means if you have created any forms after this period, they will not be listed. 
 
 ### How do I restrict access to my form to selected users to submit?
 
