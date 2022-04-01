@@ -17,7 +17,6 @@ brindha_natarajan@bca.gov.sg
 lay_poh_leng@cea.gov.sg  
 
 **CS College**  
-charmaine_lim@cscollege.gov.sg  
 tan_hwee_eng@cscollege.gov.sg  
 phua_chui_ying@cscollege.gov.sg  
 
