@@ -41,6 +41,9 @@ Alaine_lau@iras.gov.sg
 **ISEAS**  
 swee_yew_pin@iseas.edu.sg  
 
+**MAS**
+low_weijian@mas.gov.sg
+
 **MFA**    
 ong_wei_jie@mfa.gov.sg  
 seri_nur_haziqah_nor_azamm@mfa.gov.sg  
@@ -80,7 +83,6 @@ chang_jin_peng@schools.gov.sg
 
 **MOM**  
 adrian_wong@mom.gov.sg  
-
 
 **MPA**  
 cherie_lim@mpa.gov.sg  
