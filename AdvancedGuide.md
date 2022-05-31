@@ -368,11 +368,16 @@ It is up to you to decide if you want 2FA or 1FA e-service ID. For CorpPass, it 
 
 Webhooks are a standard means for applications like Form to send real-time data to other applications and servers. As of May 2020, webhooks are available on Storage mode and can be used by agencies to securely integrate form data collection into the rest of their existing IT workflows. 
 
-Webhooks are useful for agencies who wish to have form response data sent directly to existing IT systems. This removes the need for a human user to periodically export form response data from form.gov.sg, then upload it to an internally-used application.
+Webhooks are useful for agencies who wish to have form response data sent directly to existing IT systems. This removes the need for a human user to periodically export form response data from form.gov.sg, then upload it to an internally-used application. The permissions of that webhook handler, including which databases/tables it can write to are left up to respective agencies. Agencies should follow the usual security practices of software development to limit the reach of the handler.
 
 Update on 1st December 2021:
 Webhooks has been taken out of beta as it has been stable for over a year
 
+### Examples of Webhooks used 
+
+1. TemperatureSG: One of the early responses to COVID was to record and report temperature daily. Many agencies did that with formSG forms, but sifting through the data, to figure out who had a fever or who had not responded was too onerous. TemperatureSG was a webhook integration, which made it easy to automate handling temperature responses. It would alert admins when one of their staff had high temperatures, and it would check daily for staff that had not reported their temperature.
+ 
+2. Zendemic operations: When people were tested positive for Covid, a form was sent to them, so they can list their close contacts, and give additional details about their health situation (which would dictate the sorting logic for them under MOH guidelines). As cases grew, handling the form responses became too onerous to do by hand, we implemented webhooks to read and process covid form responses, and inject data into a case management system.
 
 ### Who should use webhooks?
 
@@ -380,6 +385,7 @@ Webhooks are worth considering if your agency
 - expects to receive a high volume of responses
 - needs to integrate internal systems/workflows with form data collection (e.g. sorting responses, and channeling them to specific officers for case management)
 - has IT expertise capable of using our software development kit to prepare an endpoint for receiving response data
+- only requires one way API where FormSG sends responses over
 
 Webhooks are not necessary or beneficial in most form use cases, where officers are following up over email or Excel spreadsheet, since Form already outputs responses in those formats. 
 
@@ -388,6 +394,8 @@ Webhooks are not necessary or beneficial in most form use cases, where officers 
 Yes - as webhooks are a Storage mode feature, your data is [end-to-end encrypted](https://guide.form.gov.sg/AdvancedGuide.html#how-does-end-to-end-encryption-work) as with all Storage mode responses. Our [software development kit](https://github.com/opengovsg/formsg-javascript-sdk) (SDK) provides instructions on setting up your receiving system to 
 - verify that each submission was sent by Form and not any other server
 - decrypt submissions using the secret key that only you own
+
+If you are required to validate webhook calls by whitelisting a fixed origin IP, please whitelist FormSG (52.76.82.38) and provide us your IP addresses through our Form support. If your agency can validate FormSG webhook calls based on payload and signature, there is no action required.
 
 ### How do I set up webhooks for my form?
 
@@ -556,13 +564,13 @@ The OTP is sent immediately, but might take a while to arrive in your government
 
 Prior to the launch of Storage mode, we did not enable draft-saving functionality because there was no good place to store draft form data. Our servers did not store data, and saving data on local machines might leak this out to unintended recipients if form is filled from a library computer. With the launch of Storage mode, we might consider re-enabling Save Draft. Stay tuned!
 
-### I am leaving the organisation or switching over to a new email. How do I transfer ownership of my forms?
+### I am leaving the organisation or switching over to a new email. How do I transfer ownership/add collaborators for my forms?
 
 You can transfer ownership on the top right hand corner of each form by clicking the round Add Collaborator button. 
 
 Note that you might not need to transfer ownership of your form. You may simply add your colleague as a collaborator. Collaborators have the same rights as form creators, except they cannot delete the form.
 
-![Form FAQ Add Collaborators](https://s3-ap-southeast-1.amazonaws.com/misc.form.gov.sg/faq-collaborator.png "Form FAQ Add Collaborators")
+<img src="https://user-images.githubusercontent.com/103998698/171115916-06eefc6a-9ae7-4dcf-a63c-140187fc44ea.gif" width="800" height="300">
 
 ### The previous form administrator has left the department without transferring their forms or adding collaborators. Their email address is no longer valid. How can we regain access to their forms?
 
@@ -593,6 +601,10 @@ Form is built on a MEAN stack (MongoDB, Express.js, AngularJS, Node.js). We will
 We have our NodeJS web servers hosted on AWS Singapore zone. Our NoSQL database that stores only form fields and not form data is managed by MongoDB Atlas, and also hosted on AWS Singapore zone. We use AWS SES to send out mails, which are not open mail relays, have valid SPF and DKIM records, and encrypts form data before sending them over to government SGMail. Our web servers are protected with Cloudflare SSL, their Anti-DDoS protection and Web Application Firewall. We use Pingdom for website performance and availability monitoring, and have AWS CloudWatch alarms, together with CloudTrail that monitors activity and GuardDuty for threat intelligence monitoring. Our Data Collation Tool is built with vanilla Javascript and is a static site on S3. 
 
 We have undergone rigorous penetration testing, vulnerability assessment and infrastructure review by both world renowned security testers and CSG. Our [July 2020 pentest report](https://go.gov.sg/form-pentest) by renowned security firm Cure53 found a solid security standing. We have also written a >74 page NIST security review documenting our security best practices.
+
+## Support for Internet Explorer
+
+Support for internet explorer is no longer available for Forms. Please use alternatives like Chrome, Firefox and Edge.
 
 ### How do I suggest changes to this user guide?
 
