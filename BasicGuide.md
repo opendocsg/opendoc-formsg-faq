@@ -20,7 +20,7 @@ Form provides users with two options for secure form data management - Storage m
 
 In Email mode, form responses are sent directly to user-specified email addresses. Form does not store form response data in our servers. Therefore, it is critical that email addresses are correctly specified and mailboxes are not over-capacity, or else form responses will be lost.
 
-In Storage mode, your responses are encrypted end-to-end and stored in encrypted format, ensuring that only form administrators can access and view responses. During form creation, the user's client generates a private key that is never seen by the Form server, and is used to access and view responses. Upon response submission, the respondent's client encrypts the response using the corresponsing public key, before the encrypted response is sent to Form servers for storage.
+In Storage mode, your responses are encrypted end-to-end and stored in encrypted format, ensuring that only form administrators can access and view responses. During form creation, the user's client generates a secret key that is never seen by the Form server, and is used to access and view responses. The secret key is also used to activate your form. Upon response submission, the respondent's client encrypts the response using the corresponsing public key, before the encrypted response is sent to Form servers for storage.
 
 Both these options ensure that should our servers be compromised, attackers would not be able to view form response data. 
 
@@ -29,6 +29,8 @@ Both these options ensure that should our servers be compromised, attackers woul
 On Email mode, Form can handle up to Restricted-classified individual responses, and Confidential-classified data collections. This is because Form is a Restricted system that can manage Restricted data flowing through it, but ultimately data is stored in your government email, or SGMail, which is a Confidential system that lets you store Confidential collections of data. However, if you specify a non-government email to send responses to, then you are not recommended to accept data that is classified Confidential.
 
 On Storage mode, Form can handle up to Restricted-classified individual responses and data collections.
+
+It is up to respective agencies on how they would classify their data and FormSG does not govern what and how agencies collect the data.
 
 ## What information sensitivity (ISF) can Form handle?
 
@@ -44,7 +46,7 @@ The only exception is having to pay for SingPass or CorpPass authentication. If 
 
 ## Is Form really up 24/7?
 
-Yes, we are up 24/7. There is no planned maintenance window. Typically once a few months we have a 2 hour maintenance window from 12am - 2am, but most features are constantly deployed without downtime. Because we do not charge for the service we do not have an SLA, but have a measured uptime of 99.999% since we launched. The exception is SingPass and CorpPass, which do have planned maintenance, with which you can contact SPCP rep [alvin_wee@tech.gov.sg](mailto:alvin_wee@tech.gov.sg) to find out more.
+Yes, we are up 24/7. There is no planned maintenance window. Typically once a few months we have a 2 hour maintenance window from 12am - 2am, but most features are constantly deployed without downtime. Because we do not charge for the service, we do not have an SLA but have a measured uptime of 99.999% since we launched. The exception is SingPass and CorpPass, which do have planned maintenance, with which you can contact SPCP rep [alvin_wee@tech.gov.sg](mailto:alvin_wee@tech.gov.sg) to find out more.
 
 ## How will I be informed of any issues with my form?
 
@@ -83,12 +85,14 @@ As long as you have an Internet/WOG Intranet connection you can access form.gov.
 
 The fastest way to get help is to join our [Workplace@Facebook group](https://onepublicservice.facebook.com/groups/299464690543915/) and post a question there. Our group name is [WOG] form.gov.sg. Fellow form creators and ourselves will readily respond within hours if not minutes. 
 
-You may also consult experts in your agency, or "Agency Pros" for help via [this list](/AskAPro.html).
+You may also consult experts in your agency, or "Agency Pros" for help via [this list](https://guide.form.gov.sg/AskAPro.html).
 
 For bug reports or technical issues happening to your live form, please fill in our [Support Form](https://go.gov.sg/formsg-support).
+
+For feature requests, please fill in as [Feature Requests](https://form.gov.sg/5fc76b61454d0100111038e6).
 
 ## Is support@formsg.zendesk.com under the FormSG team?
 
 Yes. The email support@formsg.zendesk.com is under the FormSG team so please do not be alarmed if you have received emails from this email address. 
 
-Formsg@tech.gov.sg will remain active in the meantime. 
+Any mails to Formsg@tech.gov.sg will be directed to the email above. 
