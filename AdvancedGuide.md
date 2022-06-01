@@ -32,8 +32,9 @@ The current size limit is 7 MB for the entire form. We auto-compress images to 1
 
 ### How do I send users' responses to them?
 
-You can currently do that in 
-![PDF Response](https://user-images.githubusercontent.com/103998698/171107688-37cbb09d-5d19-41c0-8f89-9895a4a5e894.gif)
+You can currently do that in Email mode, under the "Email" field.
+
+<img src="https://user-images.githubusercontent.com/103998698/171107688-37cbb09d-5d19-41c0-8f89-9895a4a5e894.gif" width="500" height="650">
 
 
 ## Pre-fill
