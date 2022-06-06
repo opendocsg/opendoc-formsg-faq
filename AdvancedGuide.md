@@ -43,9 +43,11 @@ You can currently do that in Email mode, under the "Email" field.
 
 Selecting 'Enable pre-fill' on a form field allows the field value to be pre-filled or pre-populated when a public form is loaded, before the respondent has entered any value. This is done by adding the pre-filled value in a specific format to the public form's URL which the respondent accesses.
 
-e.g. For a pre-filled value "Yew Tee Primary School", the URL would look like the following. Spaces are allowed in the pre-filled value.
+e.g. For a pre-filled value "Yew Tee Primary School", the URL would look like the following. 
 
 https://form.gov.sg/60879eb7bdb1e20012f0a5d3?6087cae5c873820012830619=Yew%20Tee%20Primary%20School
+
+Spaces, represented as %20 in the URL, are allowed in the pre-filled value. For #, please use %23.
 
 Pre-filling adds convenience for the respondent when field values are known beforehand. For example, a customer service ID can be pre-filled and added to a URL before sending it to a customer for feedback; or the form URL made available to respondents from a specific school or location can be customised to pre-fill that school or location in the relevant field.
 
