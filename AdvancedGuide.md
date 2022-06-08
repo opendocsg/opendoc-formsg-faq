@@ -459,7 +459,7 @@ Verified SMS is free up to 10,000 responses per form.
 
 ### How do I arrange payment for Verified SMS?
 
-We recommend that you arrange payment before activating your form, in case a high volume of responses are submitted and bust your free tier. Once your form has exceeded 10,000 responses, either the Verified SMS feature or the form itself will have to be deactivated, and Form reserves the right to charge your agency for past SMS expenditure. 
+We recommend that you arrange payment before activating your form, in case a high volume of responses are submitted and bust your free tier. Once your form has exceeded 10,000 responses, either the Verified SMS feature or the form itself will have to be deactivated, and Form reserves the right to charge your agency for past SMS expenditure. Agencies are also responsible for monitoring their own billing.
 
 **Step 1**. Obtain approval within your agency to pay for verified SMS through Twilio. [Twilio](https://www.twilio.com/) is the paid SMS service that Form uses to send OTP verification SMSes to mobile numbers. Twilio is the only SMS service provider that Form is integrated with, and provides paid SMS at a competitive price. Twilio's SMSes cost 0.0395 USD per SMS. To find out more about the cost of each SMS, you may visit this [link](https://www.twilio.com/sms/pricing/sg).
 
