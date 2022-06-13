@@ -555,10 +555,6 @@ Now, your phone number will be added to the messaging service. Go back to the me
 
 ## Other
 
-I did not receive my OTP. Where is it?
-
-The OTP is sent immediately, but might take a while to arrive in your government email if there is high traffic on the government network. OTPs expire in 15 minutes, after which you have to resend another one. After logging in, you will remain logged in for 24 hours. This means you need not have both Intranet and Internet devices at all times; you can log in to your Internet device before you leave your office, and for 24 hours be able to create forms from one Internet device.
-
 ### I did not receive my OTP. Where is it?
 
 The OTP is sent immediately, but might take a while to arrive in your government email if there is high traffic on the government network. OTPs expire in 15 minutes, after which you have to resend another one. After logging in, you will remain logged in for 24 hours. This means you need not have both Intranet and Internet devices at all times; you can log in to your Internet device before you leave your office, and for 24 hours be able to create forms from one Internet device.
