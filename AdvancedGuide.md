@@ -453,7 +453,7 @@ The Verified SMS feature on the Mobile Phone field triggers an SMS containing a 
 
 ### Do I have to pay for Verified SMS?
 
-Verified SMS is free up to 10,000 responses per form. 
+Verified SMS is free up to 10,000 responses per user. The free smses are tied to owner of the form.  
 
 **However, if your form might receive over 10,000 responses, your agency will have to pay for verified SMS by setting up your own Twilio account** (see instructions below). To be safe, please arrange payment before activating your form. Once your form has exceeded 10,000 responses, either the Verified SMS feature or the form itself will have to be deactivated, and Form reserves the right to charge your agency for past SMS expenditure. 
 
