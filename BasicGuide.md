@@ -65,9 +65,9 @@ There are many features of Form and the best way to learn about them is to [log 
 - Collaborative editing
 - Form feedback
 - Form templates and examples
-- SingPass login
+- Pre-filling
+- SingPass/CorpPass login
 - MyInfo fields
-- CorpPass login
 
 ## How many questions can I put in a form?
 
