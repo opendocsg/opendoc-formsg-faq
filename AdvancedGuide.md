@@ -28,7 +28,7 @@ Yes it can. Form title has to be in English, but instructions and fields can be 
 
 ### How do I increase attachment size limit? And what if there are many attachments for my form?
 
-The current size limit is 7 MB for the entire form. We auto-compress images to 1024x768 resolution, which is typically less than 1 MB. This is a hard limit because the email service we use has a fixed 10 MB outgoing size, and we buffer 3 MB for email fields and metadata. Because the smallest unit you can attach per attachment field is 1 MB, you can have a max of 7 attachments on your form. If your user has to submit more than 7 documents, you may create just one attachment field of 7 MB, and advise your user to zip documents up and submit as one attachment. Now that Storage mode is launched, we have plans in Q3 2020 to increase attachment size limit to 20 MB.
+The current size limit is 20 MB for the entire form. We auto-compress images to 1024x768 resolution, which is typically less than 1 MB. This is a hard limit because the email service we use has a fixed 10 MB outgoing size, and we buffer 3 MB for email fields and metadata. Because the smallest unit you can attach per attachment field is 1 MB, you can have a max of 20 attachments on your form. If your user has to submit more than 20 documents, you may create just one attachment field of 20 MB, and advise your user to zip documents up and submit as one attachment. 
 
 ### How do I send users' responses to them?
 
@@ -43,18 +43,11 @@ You can currently do that in Email mode, under the "Email" field.
 
 Selecting 'Enable pre-fill' on a form field allows the field value to be pre-filled or pre-populated when a public form is loaded, before the respondent has entered any value. This is done by adding the pre-filled value in a specific format to the public form's URL which the respondent accesses.
 
-e.g. For a pre-filled value "Yew Tee Primary School", the URL would look like the following. 
-
-https://form.gov.sg/60879eb7bdb1e20012f0a5d3?6087cae5c873820012830619=Yew%20Tee%20Primary%20School
-
-Spaces, represented as %20 in the URL, are allowed in the pre-filled value. For #, please use %23.
-
 Pre-filling adds convenience for the respondent when field values are known beforehand. For example, a customer service ID can be pre-filled and added to a URL before sending it to a customer for feedback; or the form URL made available to respondents from a specific school or location can be customised to pre-fill that school or location in the relevant field.
 
 Note that anyone, not just the form admin, can pre-fill values in a form URL and disseminate it. This is an important security consideration and should be taken into account when deciding which fields to enable pre-fill on. You might not want to enable pre-fill on certain fields if doing so could allow your form to be used for scams.
 
-Pre-fill is currently only available on Short Text fields and may be released for other fields in future, depending on demand.
-
+Pre-fill is currently only available on Short Text fields and may be released for other fields in future.
 
 ### How do I use it?
 
@@ -69,7 +62,7 @@ Step 2: Add the Field ID and value you want to pre-fill behind your regular form
 
 Then the pre-filled URL would be https://form.gov.sg/60879eb7bdb1e20012f0a5d3?6087cae5c873820012830619=Yew%20Tee%20Primary%20School
 
-Spaces are allowed for the pre-filled value.
+Spaces are allowed for the pre-filled value, represented as %20 in the URL. For #, please use %23.
 
 ![FormSG FAQ Prefill Form](https://s3-ap-southeast-1.amazonaws.com/misc.form.gov.sg/faq-prefilled-form-sample.png "FormSG FAQ Prefill Form")
 
@@ -94,7 +87,6 @@ If you do not want your respondent to edit the pre-filled value, such as a track
 ### Is pre-fill available for all fields?
 
 Pre-fill is currently only available on Short Text fields and may be released for other fields in future, depending on demand.
-
 
 ## Form logic
 
@@ -369,12 +361,9 @@ It is up to you to decide if you want 2FA or 1FA e-service ID. For CorpPass, it 
 
 ### What are webhooks, and why are they useful?
 
-Webhooks are a standard means for applications like Form to send real-time data to other applications and servers. As of May 2020, webhooks are available on Storage mode and can be used by agencies to securely integrate form data collection into the rest of their existing IT workflows. 
+Webhooks are a standard means for applications like Form to send real-time data to other applications and servers. 
 
 Webhooks are useful for agencies who wish to have form response data sent directly to existing IT systems. This removes the need for a human user to periodically export form response data from form.gov.sg, then upload it to an internally-used application. The permissions of that webhook handler, including which databases/tables it can write to are left up to respective agencies. Agencies should follow the usual security practices of software development to limit the reach of the handler.
-
-Update on 1st December 2021:
-Webhooks has been taken out of beta as it has been stable for over a year
 
 ### Examples of Webhooks used 
 
