@@ -2,9 +2,11 @@
 
 This is a 5 minute read that helps you understand most of the in-and-outs of Form.
 
-test 1
+test 2
 
-<iframe width="560" height="315" src="https://www.youtube.com/watch?v=szkPJuDV9Kg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<div class="opendoc-video">
+[<iframe width="560" height="315" src="https://www.youtube.com/embed/BBcR4KGDdL0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>]
+</div>
 
 ## What is form.gov.sg?
 
