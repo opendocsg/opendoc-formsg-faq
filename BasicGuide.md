@@ -5,7 +5,7 @@ This is a 5 minute read that helps you understand most of the in-and-outs of For
 test 2
 
 <div class="opendoc-video">
-[<iframe width="560" height="315" src="https://www.youtube.com/embed/BBcR4KGDdL0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>]
+[[<iframe width="560" height="315" src="https://www.youtube.com/watch?v=4b3UbjZk0Cw" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>]]
 </div>
 
 ## What is form.gov.sg?
