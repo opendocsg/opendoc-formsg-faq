@@ -51,6 +51,10 @@ Pre-fill is currently only available on Short Text fields and may be released fo
 
 ### How do I use it?
 
+<div class="opendoc-video">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/4b3UbjZk0Cw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+
 Step 1: Activate 'Enable pre-fill' on your Short Text field. After saving the field for the first time, a Field ID will be generated. You will need this to pre-fill your value in the form URL.
 
 ![FormSG FAQ Prefill Admin Console](https://s3-ap-southeast-1.amazonaws.com/misc.form.gov.sg/faq-admin-prefill.png "FormSG FAQ Prefill Admin Console")
