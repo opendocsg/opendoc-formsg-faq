@@ -24,15 +24,17 @@ In Storage mode, your responses are encrypted end-to-end and stored in encrypted
 
 Both these options ensure that should our servers be compromised, attackers would not be able to view form response data. 
 
-## What data classification (RCST) can Form handle?
+## Data Classification and Information Sensitivty
 
-On Email mode, Form can handle up to Restricted-classified individual responses, and Confidential-classified data collections. This is because Form is a Restricted system that can manage Restricted data flowing through it, but ultimately data is stored in your government email, or SGMail, which is a Confidential system that lets you store Confidential collections of data. However, if you specify a non-government email to send responses to, then you are not recommended to accept data that is classified Confidential.
+### What data classification (RCST) can Form handle?
+
+As a general rule, all forms should only handle up to Restricted-classified *individual* responses. It is up to respective agencies on how they would classify their data and FormSG does not govern what and how agencies collect the data. However, the detailed breakdown is as follows:
+
+On Email mode, Form can handle up to Restricted-classified *individual* responses, and Confidential-classified *data collections*. This is because Form is a Restricted system that can manage Restricted data flowing through it, but ultimately data is stored in your government email, or SGMail, which is a Confidential system that lets you store Confidential collections of data. However, if you specify a non-government email to send responses to, then you are not recommended to accept data that is classified as Confidential.
 
 On Storage mode, Form can handle up to Restricted-classified individual responses and data collections.
 
-It is up to respective agencies on how they would classify their data and FormSG does not govern what and how agencies collect the data.
-
-## What information sensitivity (ISF) can Form handle?
+### What information sensitivity (ISF) can Form handle?
 
 Form's Email mode has in-principle approval from the Smart Nation and Digital Government Office (SNDGO) to support Sensitive High data. 
 
