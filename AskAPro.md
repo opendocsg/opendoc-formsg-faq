@@ -90,15 +90,18 @@ cherie_lim@mpa.gov.sg
 **MSF**  
 du_yanchao@msf.gov.sg  
 
-**Ngee Ann Polytechnic**  
-cleo_chiang@np.edu.sg  
-
 **Nanyang Polytechnic**  
 andy_chia@nyp.edu.sg  
 karen_chin@nyp.edu.sg  
 viridis_liew@nyp.edu.sg    
 tay_mia_eng@nyp.edu.sg      
 tay_li_leng@nyp.edu.sg  
+
+**Ngee Ann Polytechnic**  
+cleo_chiang@np.edu.sg  
+
+**NHGP**
+hock_chye_gan@nhgp.com.sg
 
 **People's Association**  
 alvin_goh@pa.gov.sg  
