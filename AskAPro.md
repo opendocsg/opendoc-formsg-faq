@@ -32,9 +32,6 @@ gerry_gewi@eld.gov.sg
 **HPB**  
 karthikayen_jayasundar@hpb.gov.sg  
 
-**HSA**  
-katerina_tan@hsa.gov.sg  
-
 **IRAS**  
 Alaine_lau@iras.gov.sg
 
