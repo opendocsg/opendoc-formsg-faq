@@ -30,7 +30,7 @@ Both these options ensure that should our servers be compromised, attackers woul
 
 As a general rule, all forms should only handle up to Restricted-classified *individual* responses. It is up to respective agencies on how they would classify their data and FormSG does not govern what and how agencies collect the data. However, the detailed breakdown is as follows:
 
-On Email mode, Form can handle up to Restricted-classified *individual* responses, and Confidential-classified *data collections*. This is because Form is a Restricted system that can manage Restricted data flowing through it, but ultimately data is stored in your government email, or SGMail, which is a Confidential system that lets you store Confidential collections of data. However, if you specify a non-government email to send responses to, then you are not recommended to accept data that is classified as Confidential.
+On Email mode, Form can handle up to Restricted-classified *individual* responses, and Confidential-classified *data collections*. This is because Form is a Restricted system that can manage Restricted data flowing through it, but ultimately data is stored in your government email, or SGMail, which is a Confidential system that lets you store Confidential collections of data.
 
 On Storage mode, Form can handle up to Restricted-classified individual responses and data collections.
 
