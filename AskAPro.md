@@ -59,7 +59,7 @@ lin_peixin@mnd.gov.sg
 chen_yingjie_jason@moe.edu.sg  
 dennis_koh@moe.gov.sg   
 hamshala_ariaratnam@moe.gov.sg   
-jesslyn_ng@moe.gov.sg  
+ng_jie_ling_jesslyn@schools.gov.sg  
 nur_zuhailah_hanafi@moe.gov.sg    
 ong_liting@moe.gov.sg  
 ong_yu_ling@moe.gov.sg   
