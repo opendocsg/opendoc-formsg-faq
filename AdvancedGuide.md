@@ -148,7 +148,7 @@ You will have to duplicate your Email mode form and recreate it as a Storage mod
 
 **1. Create a new form and select Storage mode**
 
-![FormSG FAQ Storage Create](https://s3-ap-southeast-1.amazonaws.com/misc.form.gov.sg/faq-storage-create.png "FormSG FAQ Storage Create")
+<img width="694" alt="image" src="https://user-images.githubusercontent.com/103998698/188066387-6ab9315b-c8c1-4fb0-87b3-e830e8f482df.png">
 
 **2. Download your secret key**
 
