@@ -16,8 +16,7 @@ brindha_natarajan@bca.gov.sg
 **CEA**  
 lay_poh_leng@cea.gov.sg  
 
-**CS College**  
-tan_hwee_eng@cscollege.gov.sg  
+**CS College**   
 phua_chui_ying@cscollege.gov.sg  
 
 **Cyber Security Agency**  
