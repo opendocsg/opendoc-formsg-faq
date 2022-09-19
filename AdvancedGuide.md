@@ -36,6 +36,15 @@ You can currently do that in Email mode, under the "Email" field.
 
 <img src="https://user-images.githubusercontent.com/103998698/171107688-37cbb09d-5d19-41c0-8f89-9895a4a5e894.gif" width="500" height="650">
 
+### What are the different form rights?
+
+<img width="694" alt="image" src="https://user-images.githubusercontent.com/103998698/190936748-ca6f8a97-5ecf-40ce-bc3b-68536f6eb5b0.png">
+
+Owner: Full rights
+
+Editor: Same rights as form owner, but is unable to delete the form. 
+
+Viewer: Can view results and share form. Unable to add/remove collaborators.
 
 ## Pre-fill
 
