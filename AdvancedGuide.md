@@ -137,6 +137,7 @@ Note: The following features are currently **not available** in Storage mode. If
 - MyInfo fields
 - Emailed copy of response to respondent
 
+Exports have also been updated to contain a security enhancement that prevents malicious injection into form responses. 
 ### What browsers are compatible with Storage mode?
 
 Respondents can use any browser to submit a form on Storage mode. For form admins, we strongly recommend using Chrome, Edge or any browser other than Internet Explorer (IE) for quicker response retrieval, as IE tends to have low processing power and will take a longer time to decrypt responses.
