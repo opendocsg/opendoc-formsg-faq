@@ -1,0 +1,893 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Advanced Guide</title>
+  <meta name="description" content="Advanced Guide
+
+This advanced guide includes tips and tricks, and also solutions to common issues yo">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta property="og:image" content="/opendoc-formsg-faq/site.styling_options.logo_path">
+
+  <link rel="icon" href="/opendoc-formsg-faq/assets/images/favicon.ico">
+  <link href="https://fonts.googleapis.com/css?family=Fira+Mono&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Noto+Serif:400,700" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Noto+Sans:400,700" rel="stylesheet" type="text/css">
+  <link rel="stylesheet" href="/opendoc-formsg-faq/assets/styles/normalize.css">
+  <link rel="stylesheet" href="/opendoc-formsg-faq/assets/styles/main.css">
+  <link rel="alternate" type="application/rss+xml" title="Form User Guide"
+    href="/opendoc-formsg-faq/feed.xml">
+  <!-- Polyfill for corejs functions, promises, array.includes, array.from, etc. -->
+  <script src="/opendoc-formsg-faq/assets/vendor/babel-polyfill.min.js"></script>
+  <!-- Polyfill for dom functions -->
+  <script src="/opendoc-formsg-faq/assets/vendor/dom4.js" charset="utf-8"></script>
+  <!-- Polyfill for fetch API -->
+  <script src="/opendoc-formsg-faq/assets/vendor/fetch.umd.js"></script>
+  <!-- Priority Queue library for promises -->
+  <script src="/opendoc-formsg-faq/assets/js/pqueue.js"></script>
+  <!-- Helper functions that should be preloaded go here -->
+  <script src="/opendoc-formsg-faq/assets/js/helpers.js"></script><script src="/opendoc-formsg-faq/assets/js/google_analytics.js"></script></head>
+
+<body>
+  <div class="site-header no-print">
+    <div class="site-header-left">
+      <a href="/opendoc-formsg-faq/">
+        <h1 class="site-header-text">
+          Form User Guide
+        </h1>
+      </a>
+      <span class="site-last-updated">
+        LAST UPDATED: 10 OCTOBER 2022
+      <span>
+    </div>
+    <div class="site-header-right"><a id="contact-us" href="https://go.gov.sg/formsg-support" target="_blank">
+        <span>Contact Us</span>
+      </a>
+      <a href="" class="desktop">
+        <img class="agency-logo" src="/opendoc-formsg-faq/assets/logo-horizontal-color.svg">
+      </a>
+      <a href="/opendoc-formsg-faq/" class="mobile">
+        <img class="agency-logo" src="/opendoc-formsg-faq/assets/logo-horizontal-color.svg">
+      </a>
+      <a class="search-btn top-mobile-btn">
+        <img src="/opendoc-formsg-faq/assets/images/search-icon-dark.svg">
+      </a>
+    </div>
+  </div>
+
+  <nav class="site-nav no-print">
+    <div class="nav-header no-print">
+      <div class="search-box">
+        <div class="search-icon-container search-btn">
+          <img class="search-icon mobile" src="/opendoc-formsg-faq/assets/images/search-icon-dark.svg"/>
+          <img class="search-icon" src="/opendoc-formsg-faq/assets/images/search-icon-white.svg"/>
+          <img class="close-icon" src="/opendoc-formsg-faq/assets/images/close.svg"/>
+        </div>
+        <span class="search-filter hidden">Form User Guide</span>
+        <div class="search-input-container">
+          <p class="search-header">search entire site</p>
+          <input id="search-box" placeholder="Search titles or keywords" type="text" />
+        </div>
+        <label class="clear-button">
+          <svg class="clear-icon" viewBox="0 0 18 18" width="18" height="18">
+            <path d="M2.42755 1L17.0331 15.60554l-1.41423 1.4142L1 2.38402"></path>
+            <path d="M1 15.51932L15.51933 1l1.4142 1.4142L2.2978 17.0331"></path>
+          </svg>
+        </label>
+      </div>
+      <div class="search-results">
+      </div>
+    </div>
+    <div class="nav-main no-print">
+
+    
+
+
+<section class="navigation">
+
+
+
+
+    
+    
+    
+    <section class="contents lonely" id="toc_/">
+    
+    
+
+
+            
+
+    
+        
+            
+
+            
+
+            
+
+    
+        
+
+
+    
+        
+            
+        
+            
+        
+            
+                
+                
+    
+        
+            
+                
+                
+    
+        
+            
+        
+            
+        
+            
+        
+    
+        
+            
+        
+            
+                
+                
+    
+
+
+
+<ul class="table-of-contents">  <li class="nav-branch"><a href="/opendoc-formsg-faq/BasicGuide.html" class="nav-link"><span class="directory-item"> Basic Guide </span></a>    <ul>      <li class="nav-branch"><a href="/opendoc-formsg-faq/BasicGuide.html#what-is-formgovsg" class="nav-link"><span class="directory-item"> What is form.gov.sg? </span></a></li>      <li class="nav-branch"><a href="/opendoc-formsg-faq/BasicGuide.html#who-can-use-form" class="nav-link"><span class="directory-item"> Who can use Form? </span></a></li>      <li class="nav-branch"><a href="/opendoc-formsg-faq/BasicGuide.html#is-form-accessible-on-the-intranet" class="nav-link"><span class="directory-item"> Is Form accessible on the Intranet? </span></a></li>      <li class="nav-branch"><a href="/opendoc-formsg-faq/BasicGuide.html#how-does-form-keep-my-data-secure" class="nav-link"><span class="directory-item"> How does Form keep my data secure? </span></a></li>      <li class="nav-branch"><a href="/opendoc-formsg-faq/BasicGuide.html#data-classification-and-information-sensitivty" class="nav-link"><span class="directory-item"> Data Classification and Information Sensitivty </span></a></li>      <li class="nav-branch"><a href="/opendoc-formsg-faq/BasicGuide.html#is-form-free-to-use-for-public-agencies" class="nav-link"><span class="directory-item"> Is Form free to use for public agencies? </span></a></li>      <li class="nav-branch"><a href="/opendoc-formsg-faq/BasicGuide.html#is-form-really-up-247" class="nav-link"><span class="directory-item"> Is Form really up 24/7? </span></a></li>      <li class="nav-branch"><a href="/opendoc-formsg-faq/BasicGuide.html#how-will-i-be-informed-of-any-issues-with-my-form" class="nav-link"><span class="directory-item"> How will I be informed of any issues with my form? </span></a></li>      <li class="nav-branch"><a href="/opendoc-formsg-faq/BasicGuide.html#what-are-some-features-of-form" class="nav-link"><span class="directory-item"> What are some features of Form? </span></a></li>      <li class="nav-branch"><a href="/opendoc-formsg-faq/BasicGuide.html#how-many-questions-can-i-put-in-a-form" class="nav-link"><span class="directory-item"> How many questions can I put in a form? </span></a></li>      <li class="nav-branch"><a href="/opendoc-formsg-faq/BasicGuide.html#can-form-manage-a-high-volume-of-responses" class="nav-link"><span class="directory-item"> Can Form manage a high volume of responses? </span></a></li>      <li class="nav-branch"><a href="/opendoc-formsg-faq/BasicGuide.html#can-i-access-form-from-anywhere-in-the-world" class="nav-link"><span class="directory-item"> Can I access Form from anywhere in the world? </span></a></li>      <li class="nav-branch"><a href="/opendoc-formsg-faq/BasicGuide.html#who-do-you-ask-for-help-or-keep-updated" class="nav-link"><span class="directory-item"> Who do you ask for help or keep updated? </span></a></li>      <li class="nav-branch"><a href="/opendoc-formsg-faq/BasicGuide.html#is-supportformsgzendeskcom-under-the-formsg-team" class="nav-link"><span class="directory-item"> Is support@formsg.zendesk.com under the FormSG team? </span></a></li>    </ul>  </li>  <li class="nav-branch"><a href="/opendoc-formsg-faq/AdvancedGuide.html" class="nav-link"><span class="directory-item"> Advanced Guide </span></a>    <ul>      <li class="nav-branch"><a href="/opendoc-formsg-faq/AdvancedGuide.html#input-fields" class="nav-link"><span class="directory-item"> Input fields </span></a></li>      <li class="nav-branch"><a href="/opendoc-formsg-faq/AdvancedGuide.html#pre-fill" class="nav-link"><span class="directory-item"> Pre-fill </span></a></li>      <li class="nav-branch"><a href="/opendoc-formsg-faq/AdvancedGuide.html#form-logic" class="nav-link"><span class="directory-item"> Form logic </span></a></li>      <li class="nav-branch"><a href="/opendoc-formsg-faq/AdvancedGuide.html#storage-mode" class="nav-link"><span class="directory-item"> Storage mode </span></a></li>      <li class="nav-branch"><a href="/opendoc-formsg-faq/AdvancedGuide.html#email-mode" class="nav-link"><span class="directory-item"> Email mode </span></a></li>      <li class="nav-branch"><a href="/opendoc-formsg-faq/AdvancedGuide.html#data-collation-tool" class="nav-link"><span class="directory-item"> Data Collation Tool </span></a></li>      <li class="nav-branch"><a href="/opendoc-formsg-faq/AdvancedGuide.html#singpass-corppass-and-myinfo" class="nav-link"><span class="directory-item"> SingPass, CorpPass and MyInfo </span></a></li>      <li class="nav-branch"><a href="/opendoc-formsg-faq/AdvancedGuide.html#webhooks" class="nav-link"><span class="directory-item"> Webhooks </span></a></li>      <li class="nav-branch"><a href="/opendoc-formsg-faq/AdvancedGuide.html#verified-sms-paid-service" class="nav-link"><span class="directory-item"> Verified SMS Paid Service </span></a></li>      <li class="nav-branch"><a href="/opendoc-formsg-faq/AdvancedGuide.html#other" class="nav-link"><span class="directory-item"> Other </span></a></li>      <li class="nav-branch"><a href="/opendoc-formsg-faq/AdvancedGuide.html#support-for-internet-explorer" class="nav-link"><span class="directory-item"> Support for Internet Explorer </span></a></li>    </ul>  </li>  <li class="nav-branch"><a href="/opendoc-formsg-faq/AskAPro.html" class="nav-link"><span class="directory-item"> Ask a Pro </span></a></li></ul>
+    </section>
+
+</section></div>
+  </nav><div id="index-div">
+  <header class="doc-header no-print">
+    <div class=description-container>
+      <h2 id="document-title">
+        Form User Guide
+      </h2>
+      <div>
+        <div id="document-subtitle">
+          
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <div class="toolbar-container no-print">
+    <label for="menu-toggle" class="toolbar-button" id="menu-toggle-btn">
+            <input type="checkbox" id="menu-toggle" hidden>
+            <img class="btn-icon" src="/opendoc-formsg-faq/assets/images/sidebar.svg">
+            <img class="btn-icon hover" src="/opendoc-formsg-faq/assets/images/sidebar-hover.svg">
+            <img class="mobile-btn-icon " src="/opendoc-formsg-faq/assets/images/menu.svg">
+            <img class="mobile-btn-icon close" src="/opendoc-formsg-faq/assets/images/x-mobile.svg">
+            <div class="tooltip">Toggle Sidebar</div>
+        </label><div class="toolbar-button print-btn">
+            <img class="btn-icon" src="/opendoc-formsg-faq/assets/images/pdf.svg">
+            <img class="btn-icon hover" src="/opendoc-formsg-faq/assets/images/pdf-hover.svg">
+            <div class="tooltip">Save as PDF</div>
+        </div></div>
+
+<div class="fab no-print" id="fab">
+    <div class="overlay" id="fab-overlay"></div>
+    <div class="back-to-top hidden" id="back-to-top" href="#">
+        <img class="btn-icon" src="/opendoc-formsg-faq/assets/images/chevron-up-white.svg">
+    </div>
+    <div class="trigger" id="fab-trigger">
+        <img class="btn-icon" src="/opendoc-formsg-faq/assets/images/vertical-dots.svg">
+        <img class="btn-icon close" src="/opendoc-formsg-faq/assets/images/x-mobile.svg">
+    </div>
+    <div class="actions"><a class="action feedback-btn" href="https://go.gov.sg/formsg-support" target="_blank">
+            <img class="btn-icon" src="/opendoc-formsg-faq/assets/images/feedback.svg">
+            <div class="tooltip">Feedback</div>
+        </a>
+        <div class="action share-btn">
+            <img class="btn-icon" src="/opendoc-formsg-faq/assets/images/share.svg">
+            <div class="tooltip">Share</div>
+        </div>
+        <div class="action print-btn">
+                <img class="btn-icon" src="/opendoc-formsg-faq/assets/images/pdf.svg">
+                <div class="tooltip">Save as PDF</div>
+            </div></div>
+</div>
+  </div>
+
+  <main class="site-main" id="main-content" aria-label="Content"><h1 id="advanced-guide">Advanced Guide</h1>
+
+<p>This advanced guide includes tips and tricks, and also solutions to common issues you may face when using Form. This section is updated regularly, so feel free to check back once in a while.</p>
+
+<h2 id="input-fields">Input fields</h2>
+
+<h3 id="where-is-the-signature-field">Where is the signature field?</h3>
+
+<p>There are a few variants of electronic signatures available on Form, all of which, according to the Electronic Transactions Act, are not legally weaker than a wet ink signature. Agencies such as IRAS and MOM have used the following for electronic signatures: a) an NRIC field, b) an attachment of a wet ink signature and c) SingPass Login.</p>
+
+<h3 id="is-there-an-address-field-how-can-i-auto-populate-one">Is there an address field? How can I auto-populate one?</h3>
+
+<p>You may create a Postal code field with Short Text that validates 6 characters, together with a few more fields for block and unit numbers. Do not use a Number field for Postal code as Numbers cannot start with zero. If verified addresses are needed, you may enable SingPass on your form, and drag in a Registered Address MyInfo field.</p>
+
+<h3 id="when-should-i-use-a-radio-button-vs-a-dropdown-field">When should I use a radio button vs a dropdown field?</h3>
+
+<p>For 6 or fewer choices, it is advised to use a radio button, as there are only a few options to display:</p>
+
+<p><img src="https://s3-ap-southeast-1.amazonaws.com/misc.form.gov.sg/faq-radio.png" alt="FormSG FAQ Radio Button" title="FormSG FAQ Radio Button" /></p>
+
+<p>For &gt;6 choices, you should use a dropdown field:</p>
+
+<p><img src="https://s3-ap-southeast-1.amazonaws.com/misc.form.gov.sg/faq-dropdown.png" alt="FormSG FAQ Dropdown" title="FormSG FAQ Dropdown" /></p>
+
+<h3 id="can-my-forms-support-multiple-languages">Can my forms support multiple languages?</h3>
+
+<p>Yes it can. Form title has to be in English, but instructions and fields can be in any language. For example, you can specify form fields in English, and provide translations in field descriptions. Your users can also submit your form in any language they want - they just have to switch to the respective keyboard on their device.</p>
+
+<h3 id="how-do-i-increase-attachment-size-limit-and-what-if-there-are-many-attachments-for-my-form">How do I increase attachment size limit? And what if there are many attachments for my form?</h3>
+
+<p>The current attachment size limit for one form is 7MB for email mode and 20 MB for storage mode. We auto-compress images to 1024x768 resolution, which is typically less than 1 MB. Because the smallest unit you can attach per attachment field is 1 MB, you can have a max of 7 (email) and 20 (storage) attachments on your form. Zip files are considered one attachment.</p>
+
+<h3 id="how-do-i-send-users-responses-to-them">How do I send users’ responses to them?</h3>
+
+<p>You can currently do that in Email mode, under the “Email” field.</p>
+
+<p><img src="https://user-images.githubusercontent.com/103998698/171107688-37cbb09d-5d19-41c0-8f89-9895a4a5e894.gif" width="500" height="650" /></p>
+
+<h3 id="what-are-the-different-form-rights">What are the different form rights?</h3>
+
+<p><img width="694" alt="image" src="https://user-images.githubusercontent.com/103998698/190936748-ca6f8a97-5ecf-40ce-bc3b-68536f6eb5b0.png" /></p>
+
+<p>Owner: Full rights</p>
+
+<p>Editor: Same rights as form owner, but is unable to delete the form.</p>
+
+<p>Viewer: Can view results and share form. Unable to add/remove collaborators.</p>
+
+<h2 id="pre-fill">Pre-fill</h2>
+
+<h3 id="what-is-pre-fill">What is pre-fill?</h3>
+
+<p>Selecting ‘Enable pre-fill’ on a form field allows the field value to be pre-filled or pre-populated when a public form is loaded, before the respondent has entered any value. This is done by adding the pre-filled value in a specific format to the public form’s URL which the respondent accesses.</p>
+
+<p>Pre-filling adds convenience for the respondent when field values are known beforehand. For example, a customer service ID can be pre-filled and added to a URL before sending it to a customer for feedback; or the form URL made available to respondents from a specific school or location can be customised to pre-fill that school or location in the relevant field.</p>
+
+<p>Note that anyone, not just the form admin, can pre-fill values in a form URL and disseminate it. This is an important security consideration and should be taken into account when deciding which fields to enable pre-fill on. You might not want to enable pre-fill on certain fields if doing so could allow your form to be used for scams.</p>
+
+<p>Pre-fill is currently only available on Short Text fields and may be released for other fields in future.</p>
+
+<h3 id="how-do-i-use-it">How do I use it?</h3>
+
+<div class="opendoc-video">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/4b3UbjZk0Cw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+</div>
+
+<p>Step 1: Activate ‘Enable pre-fill’ on your Short Text field. After saving the field for the first time, a Field ID will be generated. You will need this to pre-fill your value in the form URL.</p>
+
+<p><img src="https://s3-ap-southeast-1.amazonaws.com/misc.form.gov.sg/faq-admin-prefill.png" alt="FormSG FAQ Prefill Admin Console" title="FormSG FAQ Prefill Admin Console" /></p>
+
+<p>Step 2: Add the Field ID and value you want to pre-fill behind your regular form link in this format: ?&lt;Field ID&gt;=&lt;Your pre-filled value&gt;. For example, if:</p>
+<ul>
+  <li>Your form URL is https://www.forms.gov.sg/60879eb7bdb1e20012f0a5d3</li>
+  <li>The Field ID is 6087cae5c873820012830619</li>
+  <li>The pre-filled value is Yew Tee Primary School</li>
+</ul>
+
+<p>Then the pre-filled URL would be https://form.gov.sg/60879eb7bdb1e20012f0a5d3?6087cae5c873820012830619=Yew%20Tee%20Primary%20School</p>
+
+<p>Spaces are allowed for the pre-filled value, represented as %20 in the URL. For #, please use %23.</p>
+
+<p><img src="https://s3-ap-southeast-1.amazonaws.com/misc.form.gov.sg/faq-prefilled-form-sample.png" alt="FormSG FAQ Prefill Form" title="FormSG FAQ Prefill Form" /></p>
+
+<h3 id="can-i-have-more-than-one-pre-filled-value">Can I have more than one pre-filled value?</h3>
+
+<p>Yes. In that case, you should separate the Field ID / Pre-filled Value pairs with an ampersand &amp;. For example, if:</p>
+
+<ul>
+  <li>Your form URL is https://www.forms.gov.sg/60879eb7bdb1e20012f0a5d3</li>
+  <li>The first Field ID is 6087cae5c873820012830619</li>
+  <li>The first pre-filled value is Yew Tee Primary School</li>
+  <li>The second Field ID is 608800e140ea4700110c4f0e</li>
+  <li>The second pre-filled value is Class 1A</li>
+</ul>
+
+<p>Then the pre-filled URL would be https://form.gov.sg/60879eb7bdb1e20012f0a5d3?6087cae5c873820012830619=Yew%20Tee%20Primary%20School&amp;608800e140ea4700110c4f0e=Class%201A</p>
+
+<h3 id="can-form-users-modify-the-pre-filled-values">Can form users modify the pre-filled value(s)?</h3>
+
+<p>Yes, respondents are able to edit any values that have been pre-filled. Editability ensures that all field values are truly what form respondents intend to submit, and is a form of protection against scams.</p>
+
+<p>If you do not want your respondent to edit the pre-filled value, such as a tracking ID, please inform them not to do so in the field instructions. This method has been proven effective in national-scale operations with over 1 million responses.</p>
+
+<h3 id="is-pre-fill-available-for-all-fields">Is pre-fill available for all fields?</h3>
+
+<p>Pre-fill is currently only available on Short Text fields and may be released for other fields in future, depending on demand.</p>
+
+<h2 id="form-logic">Form logic</h2>
+
+<h3 id="how-do-i-know-if-the-logic-for-the-form-is-correct">How do I know if the logic for the form is correct?</h3>
+
+<p>When you implement a new logic, you should test it yourself via the preview page. Note that the onus is on you to verify the correct logic for your form.</p>
+
+<p><img src="https://s3-ap-southeast-1.amazonaws.com/misc.form.gov.sg/faq-logic.png" alt="FormSG FAQ Logic" title="FormSG FAQ Logic" /></p>
+
+<h3 id="how-do-i-route-responses-to-different-emails-based-on-form-option-selected">How do I route responses to different emails based on form option selected?</h3>
+
+<p>This might apply for an enquiry form. If user chooses “Complaint” response should route to Complaints Department, but if user chooses “IT” response should route to IT Department. There’s no such feature within the Form interface, but you can set mail forwarding rules on your email. For example, one such rule can detect “Complaint” in the form response email, and forward this to the Complaints Department automatically.</p>
+
+<p>To set such mail forwarding rules, you have to Create Rule, then select Advanced Options. Next, select the condition as “with specific words in the body”:</p>
+
+<p><img src="https://s3-ap-southeast-1.amazonaws.com/misc.form.gov.sg/faq-mailforwarding-guide-1.jpg" alt="FormSG FAQ Specify Condition" title="FormSG FAQ Specify Condition" /></p>
+
+<p>Click on the underlined “specific words”, and specify “IT department”. Next, select the action as “forward it to people or public group”:</p>
+
+<p><img src="https://s3-ap-southeast-1.amazonaws.com/misc.form.gov.sg/faq-mailforwarding-guide-2.jpg" alt="FormSG FAQ Forward Mail" title="FormSG FAQ Forward Mail" /></p>
+
+<p>Click on the underlined “people or public group” and specify the IT department’s email.</p>
+
+<h2 id="storage-mode">Storage mode</h2>
+
+<h3 id="what-is-storage-mode">What is Storage mode?</h3>
+
+<p>Storage mode is a method of receiving form responses. Form admins can choose between <code class="language-plaintext highlighter-rouge">Storage mode</code> and <code class="language-plaintext highlighter-rouge">Email mode</code> for each form.</p>
+
+<p>Under Storage mode, form administrators can view responses within form.gov.sg and export collated responses in spreadsheet format. To access these responses, form administrators must first enter a secret key that was generated upon form creation.</p>
+
+<p>All responses are stored in encrypted format, meaning no one except form administrators will be able to view or download responses. Storage mode is permissible for data up to “Restricted” classification and “Sensitive Normal” sensitivity.</p>
+
+<p>Note: The following features are currently <strong>not available</strong> in Storage mode. If you need to use these features with your form, please select Email mode.</p>
+<ul>
+  <li>MyInfo fields</li>
+  <li>Emailed copy of response to respondent</li>
+</ul>
+
+<p>Exports have also been updated to contain a security enhancement that prevents malicious injection into form responses.</p>
+<h3 id="what-browsers-are-compatible-with-storage-mode">What browsers are compatible with Storage mode?</h3>
+
+<p>Respondents can use any browser to submit a form on Storage mode. For form admins, we strongly recommend using Chrome, Edge or any browser other than Internet Explorer (IE) for quicker response retrieval, as IE tends to have low processing power and will take a longer time to decrypt responses.</p>
+
+<h3 id="when-should-i-choose-storage-mode">When should I choose Storage mode?</h3>
+
+<p>Storage mode will be more convenient for the majority of users, especially when there is a high volume of anticipated responses. You will no longer have to manage or manually collate your form responses from your email inbox. Storage mode is permissible for data with “Restricted” classification and “Sensitive Normal” sensitivity.</p>
+
+<p>However, you should choose Email mode if</p>
+<ul>
+  <li>your data is classified “Confidential” or “Sensitive High”</li>
+  <li>you require MyInfo fields or emailed response copies to respondents</li>
+</ul>
+
+<h3 id="how-do-i-switch-my-form-from-email-mode-to-storage-mode">How do I switch my form from Email mode to Storage mode?</h3>
+
+<p>You will have to duplicate your Email mode form and recreate it as a Storage mode form. On your dashboard, hover over your Email mode form and click the duplicate icon. Then select ‘Storage mode’ and follow the steps below to create a duplicate form in Storage mode.</p>
+
+<h3 id="how-do-i-use-storage-mode">How do I use Storage mode?</h3>
+
+<p><strong>1. Create a new form and select Storage mode</strong></p>
+
+<p><img width="694" alt="image" src="https://user-images.githubusercontent.com/103998698/188066387-6ab9315b-c8c1-4fb0-87b3-e830e8f482df.png" /></p>
+
+<p><strong>2. Download your secret key</strong></p>
+
+<p>You and any collaborators will need this secret key to activate your form and access form responses. <a href="https://guide.form.gov.sg/AdvancedGuide.html#what-is-a-secret-key">Learn more about secret keys</a>.</p>
+
+<p>Note that if you lose your secret key, your form responses will be <strong>permanently lost</strong>. <a href="https://guide.form.gov.sg/AdvancedGuide.html#how-do-i-make-sure-i-dont-lose-my-secret-key">Here’s how to avoid accidentally losing your secret key.</a></p>
+
+<p><img src="https://s3-ap-southeast-1.amazonaws.com/misc.form.gov.sg/faq-storage-downloadkey.png" alt="FormSG FAQ Storage Download Key" title="FormSG FAQ Storage Download Key" /></p>
+
+<p><strong>3. Share your secret key with collaborators</strong> (if any)</p>
+
+<p>Any collaborators you invite will need the secret key to view form responses. Share your secret key with collaborators through a secure channel, according to your agency’s security policies.</p>
+
+<p><strong>4. Build your form as per usual</strong></p>
+
+<p><strong>5. Activate your form</strong></p>
+
+<p>To activate your form and start sharing it with respondents, enter or upload the secret key you downloaded at form creation.</p>
+
+<p><img src="https://s3-ap-southeast-1.amazonaws.com/misc.form.gov.sg/faq-storage-activate.png" alt="Form FAQ Storage Activate" title="Form FAQ Storage Activate" /></p>
+
+<p><strong>6. Unlock form responses</strong></p>
+
+<p>With Storage mode, you can access form responses and feedback within Form in the new ‘Data’ tab (previously ‘Results’).</p>
+
+<p>To unlock your responses, enter or upload the secret key you downloaded at form creation. This will give you access to view and export your form responses.</p>
+
+<p><img src="https://s3-ap-southeast-1.amazonaws.com/misc.form.gov.sg/faq-storage-accessresponse.png" alt="Form FAQ Storage Access Response" title="Form FAQ Storage Access Response" /></p>
+
+<p><strong>7. View and export responses</strong></p>
+
+<p>Once you have unlocked your responses with your secret key, you will be able to view your collated form responses within Form. Download your form responses by clicking the Export button.</p>
+
+<p><img src="https://s3-ap-southeast-1.amazonaws.com/misc.form.gov.sg/faq-storage-viewresponse.png" alt="Form FAQ Storage View Response" title="Form FAQ Storage View Response" /></p>
+
+<p>Click on each list item to view the full response.</p>
+
+<p><img src="https://s3-ap-southeast-1.amazonaws.com/misc.form.gov.sg/faq-storage-clickresponse.png" alt="Form FAQ Storage Click Response" title="Form FAQ Storage Click Response" /></p>
+
+<p>You can also view and download your feedback data in the Feedback tab.</p>
+
+<p><img src="https://s3-ap-southeast-1.amazonaws.com/misc.form.gov.sg/faq-storage-viewfeedback.png" alt="Form FAQ Storage View Feedback" title="Form FAQ Storage View Feedback" /></p>
+
+<h3 id="what-is-a-secret-key">What is a secret key?</h3>
+
+<p>Your secret key is a string of text and numbers used to encrypt and decrypt your form responses. Each secret key unlocks the responses to <strong>one</strong> form only. No one will be able to view your form responses unless they have your Secret Key.</p>
+
+<p>You will need your secret key at 3 points in your Form journey:</p>
+<ul>
+  <li>Form creation: download secret key</li>
+  <li>Form activation: enter/upload secret key</li>
+  <li>Access responses: enter/upload Secret Key</li>
+</ul>
+
+<p>Your secret key is generated by your browser during form creation, and downloaded to your computer or mobile phone. We do not save or store your secret key, and it is the <strong>only way</strong> to access your response data. This is why you should be careful not to lose your secret key, as if you do we will not be able to help you regain access to your response data.</p>
+
+<h3 id="i-am-encountering-a-secret-key-error-or-i-have-lost-my-secret-key-are-you-able-to-help-me-recover-the-secret-key-or-my-response-data">I am encountering a secret key error or I have lost my secret key! Are you able to help me recover the secret key or my response data?</h3>
+
+<p>If you have lost your secret key, take these steps immediately:</p>
+
+<ol>
+  <li>
+    <p>If your form is live, duplicate your form, save the new secret key securely and replace the original form’s link with the new form’s link to continue collecting responses. Deactivate the original form as soon as possible to avoid losing further responses. Do note that duplicating your form only copies all the fields but not existing responses.</p>
+  </li>
+  <li>
+    <p>On the computer you used to create the original form, search for ‘Form Secret Key’. Secret keys typically downloaded into your Downloads folder as .txt files with ‘Form Secret Key’ in the filename.</p>
+  </li>
+  <li>
+    <p>If you have created multiple forms with similar titles in the past, it is possible that you have confused the different forms’ secret keys with each other, as form titles are in the secret keys’ filenames. Try all secret keys with similar filenames on your form.</p>
+  </li>
+  <li>
+    <p>If you remember sending an email to share your secret key with collaborators, search the Sent folder in your email for the keyword ‘secret key’ and your form title.</p>
+  </li>
+  <li>
+    <p>If you are still unable to find your secret key, you will not be able to access your existing response data. Additionally, it’s not possible for us to recover your lost secret key or response data on your behalf. This is because Form does not retain your secret key or any other way to unlock your encrypted data - the only way to ensure response data is truly private to agencies only. This is an important security benefit, because that means even if our server were to be compromised, an attacker would never be able to unlock your encrypted responses.</p>
+  </li>
+</ol>
+
+<h3 id="how-do-i-make-sure-i-dont-lose-my-secret-key">How do I make sure I don’t lose my secret key?</h3>
+
+<p>To make sure you don’t lose your secret key(s), and permanently lose access to your form responses, you can</p>
+<ul>
+  <li>Share secret key(s) with colleagues that are also authorised to view form responses;</li>
+  <li>Store secret key(s) in a third-party password manager tool, if your agency uses one;</li>
+  <li>Store multiple secret keys and associated form links on a spreadsheet in your government-issued laptop;</li>
+  <li>Regularly check in on your form responses to make sure that you still have your secret key.</li>
+</ul>
+
+<h3 id="what-if-my-secret-key-has-been-accidentally-circulated">What if my secret key has been accidentally circulated?</h3>
+
+<ol>
+  <li>Promptly back-up your form data by downloading form responses and feedback from Form.</li>
+  <li>Duplicate your old form and publish a new form with a new secret key, and continue gathering responses with this new form.</li>
+  <li>When you have done Steps 1-2, email us to delete encrypted responses from the old form so that no one will be able to access your responses with the leaked secret key.</li>
+</ol>
+
+<h3 id="is-there-a-storage-limit-for-storage-mode">Is there a storage limit for Storage mode?</h3>
+
+<p>No. There have been forms with over a million submissions on Storage mode. In the future with the release of attachment, we will still not impose a limit on number of responses for Storage mode.</p>
+
+<h3 id="can-i-delete-my-responses-in-storage-mode">Can I delete my responses in Storage mode?</h3>
+
+<p>For audit reasons, deleting responses is not allowed. However, if you wish to reset your response count to zero after testing your form, you can simply duplicate your test form and create another Storage mode form. You can then use your new form as your live form instead.</p>
+
+<h3 id="what-is-the-storage-duration-how-long-will-my-responses-be-stored-for">What is the storage duration? How long will my responses be stored for?</h3>
+
+<p>Form will store your encrypted responses permanently, and they will be accessible as long as you have the secret key.</p>
+
+<p>If you no longer need to access your form responses, you can simply discard your secret key. Without your secret key, your form responses cannot be decrypted, and are as good as gibberish.</p>
+
+<h3 id="how-does-end-to-end-encryption-work">How does end-to-end encryption work?</h3>
+
+<p>When a respondent submits a response, response data is encrypted in the respondent’s browser before being sent to our servers for storage. This means that by the time Form’s servers receive responses, they have already been scrambled and are stored in this unreadable form. Your response data remains in this encrypted state until you decrypt your responses with your secret key, transforming them into a readable format.</p>
+
+<p>The benefit of end-to-end encryption is that response data enters and remains in Form’s servers in an encrypted state. This ensures that even if our servers are compromised by an attack, attackers will still not be able to decrypt and view your response data, as they do not possess your secret key.</p>
+
+<p><img src="https://s3-ap-southeast-1.amazonaws.com/misc.form.gov.sg/faq-storage-encrypted.png" alt="Form FAQ Storage Encrypted" title="Form FAQ Storage Encrypted" /></p>
+
+<h3 id="who-can-see-my-form-responses-in-storage-mode">Who can see my form responses in Storage mode?</h3>
+
+<p>To view responses from Storage mode forms, you have to</p>
+<ul>
+  <li>be a form owner or collaborator, <strong>and</strong></li>
+  <li>know the secret key generated at form creation</li>
+</ul>
+
+<p>The secret key is the <strong>only way</strong> to view your responses in a readable format. As Form’s servers do not store your secret key, no one can view your response data, except you and collaborators that you share the secret key with. Even Form developers and administrators with full access to the server cannot view your response data, as we do not possess your secret key.</p>
+
+<h3 id="can-i-enable-both-storage-and-email-mode">Can I enable both Storage and Email mode?</h3>
+
+<p>You may select either Storage or Email mode for a single form, but not both.</p>
+
+<h2 id="email-mode">Email mode</h2>
+
+<h3 id="what-is-email-mode">What is Email mode?</h3>
+
+<p>Storage mode is a method of receiving form responses. Form admins can choose between <code class="language-plaintext highlighter-rouge">Storage mode</code> and <code class="language-plaintext highlighter-rouge">Email mode</code> for each form.</p>
+
+<p>If you select Email mode, your form responses will be sent to email addresses that you specify. Form will not store your form responses for security purposes.</p>
+
+<p>Email mode is permissible for individual responses classified Restricted Sensitive High and below, and collated data classified Confidential and below.</p>
+
+<h3 id="when-should-i-choose-email-mode">When should I choose Email mode?</h3>
+
+<p>You should choose Email mode if</p>
+<ul>
+  <li>your data is Confidential or Sensitive High</li>
+  <li>you require MyInfo fields, or emailed response copies to your respondent</li>
+</ul>
+
+<p>In most other situations, Storage mode is expected to be more convenient,  especially for forms with a high volume of anticipated responses.</p>
+
+<h3 id="how-do-i-ensure-my-form-responses-will-not-bounce">How do I ensure my form responses will not bounce?</h3>
+
+<p>If your mailbox is full or your email address is no longer valid, form responses will bounce and be permanently lost. Here are some ways to prevent this:</p>
+
+<ol>
+  <li>
+    <p>Set up auto-archiving on your mailbox to ensure that your mailbox will never hit full capacity.</p>
+
+    <p>You can set up auto-archiving in your Outlook by navigating to <code class="language-plaintext highlighter-rouge">File</code> &gt; <code class="language-plaintext highlighter-rouge">Options</code> (left) &gt; <code class="language-plaintext highlighter-rouge">Advanced</code> (left) &gt; <code class="language-plaintext highlighter-rouge">AutoArchive Settings</code> (right). Run <code class="language-plaintext highlighter-rouge">AutoArchive</code> as often as you expect your mailbox to be full - if you expect high response volume, you can run <code class="language-plaintext highlighter-rouge">AutoArchive</code> every day.</p>
+  </li>
+  <li>
+    <p>Enter 2 or more email addresses where responses will be sent, for all your Email mode forms.</p>
+
+    <p>You can find this setting by logging in to form.gov.sg, clicking on your form, navigating to <code class="language-plaintext highlighter-rouge">Settings</code> &gt; <code class="language-plaintext highlighter-rouge">Emails where responses will be sent</code>.</p>
+  </li>
+  <li>
+    <p>If you are leaving your department, make sure to update “Emails where responses will be sent” so that form responses will go to a colleague after you leave.</p>
+  </li>
+</ol>
+
+<h3 id="my-form-responses-are-lost-can-forms-help-me-recover-them">My form responses are lost! Can Forms help me recover them?</h3>
+
+<p>If your form is on Email mode, Forms does not store your response data for security purposes. We cannot recover any form data that you have lost.</p>
+
+<p>If you cannot find your email responses, they might have been routed to an obscure Outlook folder set by your mail forwarding rules. Or they might have been quarantined by your agency firewall, which you can contact your AFM/IT department for. If you accidentally delete your email responses, they might still be on the email server, which you should contact your AFM/IT department for help.</p>
+
+<h3 id="will-my-emails-be-blocked">Will my emails be blocked?</h3>
+
+<p>If emails are non-malicious, they typically will not be blocked. There are two junctures where they might be blocked, but the form submitter will know about it and will be able to retry:</p>
+
+<ul>
+  <li>
+    <p>When a user clicks Submit on his form, the response first goes to our server. Before reaching our server, we have a web application firewall that detects for malicious content and might block the submission. If blocked, a user will see a “Please try again later” message on the form.</p>
+  </li>
+  <li>
+    <p>If the form passes the web application firewall, it goes to our server, and we email it to your government email (SGMail) without storing it on our servers. If the government email does not exist then your response will bounce and the user will see a “Please try again later” message on the form.</p>
+  </li>
+</ul>
+
+<p>From here on out, if the email is blocked, your user will not be aware. But there is still a way for you as the form creator to retrieve the blocked responses:</p>
+
+<ul>
+  <li>If the government email exists, it proceeds to SGMail servers. Before it enters SGMail, it will arrive at SGMail’s firewall. This firewall will block out emails if there are attachments with non-whitelisted file extensions, for e.g. “.abc” or “.mov”. We are not aware of the full list of file extensions that SGMail whitelists, but most of the file extensions that are whitelisted can be viewed here on <a href="https://go.gov.sg/email-cwl">our spreadsheet</a>. If your email gets blocked due to non-whitelisted attachment file extensions, you will receive a mail hygiene notification. You may contact SPEAR (spear@tech.gov.sg) within 1 month from receiving the mail hygiene notification to retrieve the dropped mail.</li>
+</ul>
+
+<h3 id="how-do-i-recover-my-mail-when-i-receive-a-mail-hygiene-notification">How do I recover my mail when I receive a mail hygiene notification?</h3>
+
+<p>You may recover your blocked email within 1 month if you email SPEAR (spear@tech.gov.sg) and attach the mail hygiene notification.</p>
+
+<h3 id="is-there-any-way-to-receive-my-responses-in-an-excel-spreadsheet">Is there any way to receive my responses in an Excel spreadsheet?</h3>
+
+<p>Yes! Other than using Storage mode to download a spreadsheet of your responses directly, you can also collate your Email mode responses into a spreadsheet using the Data Collation Tool.</p>
+
+<h2 id="data-collation-tool">Data Collation Tool</h2>
+
+<h3 id="where-is-the-data-collation-tool-i-cant-find-it">Where is the Data Collation Tool? I can’t find it.</h3>
+
+<p>Since we moved to the Intranet start of 2020, Data Collation Tool has shifted from the old link of <a href="https://form.app.gov.sg">https://form.app.gov.sg</a> to the new link of <a href="https://collate.form.gov.sg">https://collate.form.gov.sg</a>.</p>
+
+<p>If you are not able to access the new link, visit Proxy Settings, toggle “Use setup script” on, and insert: http://proxy.sgnet.gov.sg:4714/files/proxy.pac. Appreciate if you can also approach your agency IT to push this proxy setup to your colleagues.</p>
+
+<p>If this does not work, use the old link of https://form.app.gov.sg on the Intranet. If you are not able to access it, get your IT team to whitelist 10.54.9.38, 10.54.9.34 and 10.54.9.57 on your agency firewall</p>
+
+<p>As a last resort, you can use our Internet collation tool at https://collate.form.gov.sg. Transfer your .pst file of responses to your Internet machine via a secure thumb-drive, visit the link, and follow the instructions to collate your responses. Note that your data is not exposed to the Internet as the tool does not upload data to a server. Data is collated offline on the browser.</p>
+
+<h3 id="excel-responses-from-table-style-questions-are-clumped-into-one-line-how-do-i-separate-them">Excel responses from table style questions are clumped into one line, how do I separate them?</h3>
+
+<ol>
+  <li>Open the excel sheet generated from our Data Collation Tool</li>
+  <li>Select the entire column of the responses</li>
+  <li>Go to the Data tab and choose Text to Columns &gt; Delimit by comma (,).</li>
+</ol>
+
+<h3 id="does-my-data-go-to-your-server-when-i-use-the-data-collation-tool">Does my data go to your server when I use the Data Collation Tool?</h3>
+
+<p>No, your data is not seen by our server during the Data Collation Tool process. Aggregation of your email responses happens offline on your browser.</p>
+
+<h2 id="singpass-corppass-and-myinfo">SingPass, CorpPass and MyInfo</h2>
+
+<h3 id="how-do-you-enable-singpass-or-corppass">How do you enable SingPass or CorpPass?</h3>
+
+<p>All you have to do is enter an e-service ID on the Settings tab of your form to enable SPCP:</p>
+
+<p><img src="https://s3-ap-southeast-1.amazonaws.com/misc.form.gov.sg/faq-singpass.png" alt="Form FAQ E-service ID" title="Form FAQ E-service ID" /></p>
+
+<p>An e-service ID is a unique billing ID given by the SingPass/CorpPass office to your department’s finance team. An invalid e-service ID will yield a 138 error for SingPass and 328 error for CorpPass. If you don’t already have an e-service ID, you can either ask your agency IT department to find an e-service ID to reuse, or contact SPCP rep <a href="mailto:alvin_wee@tech.gov.sg">alvin_wee@tech.gov.sg</a> to create a new one. When testing your e-service ID you may log in to our UAT server, https://uat.form.gov.sg and create test forms there. Note that accounts and forms are separate on UAT and Live servers and cannot be transferred over.</p>
+
+<p>To track number of submissions at your e-service ID you may visit the Billing Panel tab on the top right of your forms dashboard:</p>
+
+<p><img src="https://s3-ap-southeast-1.amazonaws.com/misc.form.gov.sg/faq-billing-eservice.png" alt="Form FAQ Billing Panel E-service ID" title="Form FAQ Billing Panel E-service ID" /></p>
+
+<p>It is up to you to decide if you want 2FA or 1FA e-service ID. For CorpPass, it is also up to you to decide whether you want authorisation work flows at your e-service ID. Consult SPCP rep on this if you have concerns.</p>
+
+<h2 id="webhooks">Webhooks</h2>
+
+<h3 id="what-are-webhooks-and-why-are-they-useful">What are webhooks, and why are they useful?</h3>
+
+<p>Webhooks are a standard means for applications like Form to send real-time data to other applications and servers.</p>
+
+<p>Webhooks are useful for agencies who wish to have form response data sent directly to existing IT systems. This removes the need for a human user to periodically export form response data from form.gov.sg, then upload it to an internally-used application. The permissions of that webhook handler, including which databases/tables it can write to are left up to respective agencies. Agencies should follow the usual security practices of software development to limit the reach of the handler.</p>
+
+<h3 id="examples-of-webhooks-used">Examples of Webhooks used</h3>
+
+<ol>
+  <li>
+    <p>TemperatureSG: One of the early responses to COVID was to record and report temperature daily. Many agencies did that with formSG forms, but sifting through the data, to figure out who had a fever or who had not responded was too onerous. TemperatureSG was a webhook integration, which made it easy to automate handling temperature responses. It would alert admins when one of their staff had high temperatures, and it would check daily for staff that had not reported their temperature.</p>
+  </li>
+  <li>
+    <p>Zendemic operations: When people were tested positive for Covid, a form was sent to them, so they can list their close contacts, and give additional details about their health situation (which would dictate the sorting logic for them under MOH guidelines). As cases grew, handling the form responses became too onerous to do by hand, we implemented webhooks to read and process covid form responses, and inject data into a case management system.</p>
+  </li>
+</ol>
+
+<h3 id="who-should-use-webhooks">Who should use webhooks?</h3>
+
+<p>Webhooks are worth considering if your agency</p>
+<ul>
+  <li>expects to receive a high volume of responses</li>
+  <li>needs to integrate internal systems/workflows with form data collection (e.g. sorting responses, and channeling them to specific officers for case management)</li>
+  <li>has IT expertise capable of using our software development kit to prepare an endpoint for receiving response data</li>
+  <li>only requires one way API where FormSG sends responses over</li>
+</ul>
+
+<p>Webhooks are not necessary or beneficial in most form use cases, where officers are following up over email or Excel spreadsheet, since Form already outputs responses in those formats.</p>
+
+<h3 id="are-webhooks-secure">Are webhooks secure?</h3>
+
+<p>Yes - as webhooks are a Storage mode feature, your data is <a href="https://guide.form.gov.sg/AdvancedGuide.html#how-does-end-to-end-encryption-work">end-to-end encrypted</a> as with all Storage mode responses. Our <a href="https://github.com/opengovsg/formsg-javascript-sdk">software development kit</a> (SDK) provides instructions on setting up your receiving system to</p>
+<ul>
+  <li>verify that each submission was sent by Form and not any other server</li>
+  <li>decrypt submissions using the secret key that only you own</li>
+</ul>
+
+<p>If you are required to validate webhook calls by whitelisting a fixed origin IP, please whitelist FormSG (52.76.82.38) and provide us your IP addresses through our Form support. If your agency can validate FormSG webhook calls based on payload and signature, there is no action required.</p>
+
+<h3 id="how-do-i-set-up-webhooks-for-my-form">How do I set up webhooks for my form?</h3>
+
+<p>Pre-requisite: You must be able to expose a HTTPS endpoint that is accessible over the Internet.</p>
+
+<ol>
+  <li>
+    <p>Follow <a href="https://github.com/opengovsg/formsg-javascript-sdk">these instructions</a> to prepare your system to receive, verify and decrypt form responses. Please lock down the version of the SDK you are using and disable automatic upgrades to avoid disruption from breaking changes.</p>
+  </li>
+  <li>
+    <p>Navigate to the form you want to set up a webhook for. In the Settings tab, enter your endpoint URL in the ‘Webhook Endpoint URL’ field and save changes.</p>
+  </li>
+  <li>
+    <p>Test that responses are received at your endpoint URL.</p>
+  </li>
+</ol>
+
+<p><strong>Important to note</strong></p>
+<ul>
+  <li>Please lock down the version of the SDK you are using and disable automatic upgrades to avoid disruption from breaking changes.</li>
+  <li>You are responsible for correctly setting up your system to receive, verify and decrypt Form responses using our SDK. Form is not responsible for your setup, and only bears responsibility for ensuring our servers are correctly routing responses in accordance with our SDK.</li>
+</ul>
+
+<h3 id="there-is-a-problem-and-my-system-is-not-receiving-data-from-form-are-my-responses-lost">There is a problem and my system is not receiving data from Form. Are my responses lost?</h3>
+
+<p>Your responses are not lost as all Storage mode responses are stored encrypted in Form’s database. As with all Storage mode forms, you can retrieve your data by simply logging in to Form and using your secret key to decrypt and export responses in .csv format.</p>
+
+<h3 id="what-are-webhook-retries-should-i-enable-them">What are webhook retries? Should I enable them?</h3>
+
+<p>If you switch on “Enable retries” under the Settings tab, Form will resend webhooks if your IT system fails to receive them. In order to safely receive webhook retries, your system <em>should</em> be designed to handle:</p>
+<ul>
+  <li><strong>Duplicate webhooks.</strong> A webhook for a given submission may be re-attempted multiple times, even if the earlier attempts were successful. We advise you to guard against duplicate webhooks by making your submission processing <em>idempotent</em>. One way of doing this is storing the submission IDs you’ve already processed, and then not processing already-logged events.</li>
+  <li><strong>Out-of-order delivery.</strong> Retries may not be delivered in order of the time that the form was submitted, but you may use the <code class="language-plaintext highlighter-rouge">created</code> property on the decrypted body to determine when the submission was made.</li>
+  <li><strong>Non-realtime submissions.</strong> Retries may not be appropriate for a system that relies on real-time behavior for user interactions.</li>
+  <li><strong>Submissions even after the form is no longer active.</strong> If your form is submitted successfully while it is active, the webhook for that submission will be retried for up to 24 hours after the time of submission, even if the form is made inactive during that time.</li>
+</ul>
+
+<h4 id="how-does-form-determine-whether-my-system-received-the-webhook-successfully">How does Form determine whether my system received the webhook successfully?</h4>
+
+<p>If your IT system returns any <a href="https://developer.mozilla.org/en-US/docs/Web/HTTP/Status#successful_responses">HTTP-2xx response code</a>, the webhook is considered to have been successful. However, due to <a href="https://en.wikipedia.org/wiki/Two_Generals%27_Problem">technical limitations</a>, there is a small chance that even when your system returns an HTTP-2xx response, a duplicate webhook may be subsequently sent for the same submission. Your system should account for such duplicates if you wish to enable retries.</p>
+
+<p>Conversely, the webhook will be retried if your system returns any non-2xx response code.</p>
+
+<h4 id="how-many-times-does-form-retry-the-webhook-for-each-submission">How many times does Form retry the webhook for each submission?</h4>
+
+<p>The webhook is first attempted once immediately after the form is submitted. If this first attempt fails, the webhook will be retried up to 6 additional times over the next 24 hours, at the following intervals from the time of submission:</p>
+<ul>
+  <li>5 ± 1 minute</li>
+  <li>60 ± 15 minutes</li>
+  <li>2 ± 0.5 hours</li>
+  <li>4 ± 1 hours</li>
+  <li>8 ± 2 hours</li>
+  <li>20 ± 4 hours</li>
+</ul>
+
+<p>Retries will cease whenever the webhook is successful. For example, if the initial webhook attempt fails but the first retry attempt 4-6 minutes later succeeds, there will most likely be no more retries. Again, there is a small chance of duplicate webhooks even when previous attempts were successful, and your IT system must be able to handle these duplicates.</p>
+
+<p>If your system fails to receive the final retry 16-24 hours after the form is submitted, the webhook will no longer be attempted. You may still retrieve the submission data under the Data tab.</p>
+
+<h2 id="verified-sms-paid-service">Verified SMS Paid Service</h2>
+
+<p>The Verified SMS feature on the Mobile Phone field triggers an SMS containing a One-Time Password (OTP) to the entered mobile phone number, so that form respondents can verify that the entered number belongs to them.</p>
+
+<h3 id="do-i-have-to-pay-for-verified-sms">Do I have to pay for Verified SMS?</h3>
+
+<p>Verified SMS is free up to 10,000 responses per user. The free smses are tied to owner of the form.</p>
+
+<p><strong>However, if your form might receive over 10,000 responses, your agency will have to pay for verified SMS by setting up your own Twilio account</strong> (see instructions below). To be safe, please arrange payment before activating your form. Once your form has exceeded 10,000 responses, either the Verified SMS feature or the form itself will have to be deactivated, and Form reserves the right to charge your agency for past SMS expenditure.</p>
+
+<h3 id="how-do-i-arrange-payment-for-verified-sms">How do I arrange payment for Verified SMS?</h3>
+
+<p>We recommend that you arrange payment before activating your form, in case a high volume of responses are submitted and bust your free tier. Once your form has exceeded 10,000 responses, either the Verified SMS feature or the form itself will have to be deactivated, and Form reserves the right to charge your agency for past SMS expenditure. Agencies are also responsible for monitoring their own billing.</p>
+
+<p><strong>Step 1</strong>. Obtain approval within your agency to pay for verified SMS through Twilio. <a href="https://www.twilio.com/">Twilio</a> is the paid SMS service that Form uses to send OTP verification SMSes to mobile numbers. Twilio is the only SMS service provider that Form is integrated with, and provides paid SMS at a competitive price. Twilio’s SMSes cost 0.0395 USD per SMS. To find out more about the cost of each SMS, you may visit this <a href="https://www.twilio.com/sms/pricing/sg">link</a>.</p>
+
+<p><strong>Step 2</strong>. Create an account at https://twilio.com, and set up payment to your agency. Set up the rest of your account according to the instructions below in the ‘Twilio account setup’ section.</p>
+
+<p><strong>Step 3</strong> Email us at formsg@tech.gov.sg but <strong>do not include any Twilio account details</strong> in your email. We will advise you on how to securely pass the following 4 items to us:</p>
+
+<p>i. Account SID</p>
+
+<p>ii. API Key SID</p>
+
+<p>iii. API Key Secret</p>
+
+<p>iv. Messaging Service SID</p>
+
+<h3 id="twilio-account-setup">Twilio account setup</h3>
+
+<h4 id="account-sid">Account SID</h4>
+
+<p>Upon logging in, you should be able to see your <strong>account SID</strong> on the dashboard when you arrived on Twilio’s console.</p>
+
+<p><img src="https://s3-ap-southeast-1.amazonaws.com/misc.form.gov.sg/twilio-dashboard.png" alt="Twilio Dashboard" />
+📌 Item 1: We will need your Account SID from this step.</p>
+
+<h4 id="set-up-api-key">Set up API Key</h4>
+
+<p>Click on Settings &gt; API Keys on the left-side menu and select <strong>Create new API Key</strong>.</p>
+
+<p><img src="https://s3-ap-southeast-1.amazonaws.com/misc.form.gov.sg/create-new-api-keys.jpg" alt="Create new api key" /></p>
+
+<p>Create a new <strong>standard</strong> API key. You can rename the friendly name.</p>
+
+<p><img src="https://s3-ap-southeast-1.amazonaws.com/misc.form.gov.sg/new-api-key.png" alt="New Api Key" /></p>
+
+<p>You will need to pass us your <strong>SID</strong> and <strong>secret</strong>. Please keep these safe. Remember to save the <strong>secret</strong> somewhere before you click on <strong>Done</strong>! Or else you will not be able to view your <strong>secret</strong> again and will have to recreate a new API key.</p>
+
+<p><img src="https://s3-ap-southeast-1.amazonaws.com/misc.form.gov.sg/secret-key-twilio.png" alt="SID and Secret key" />
+📌 Items 2 and 3: We will need your API Key SID and Secret from this step.</p>
+
+<h4 id="buy-a-phone-number">Buy a phone number</h4>
+
+<p>You need to purchase a phone number to start sending SMSes.</p>
+
+<p>We recommend buying a US number ($1 a month) and masking the number with an <a href="https://support.twilio.com/hc/en-us/articles/223181348-Getting-Started-with-Alphanumeric-Sender-ID-for-Twilio-Programmable-SMS/">alphanumeric sender ID</a>. A Singapore phone number is $75 per month but a Singapore number is not required to send Singapore SMSes.</p>
+
+<p>Click on the button with 3 dots on the left side menu and then click on <strong>Phone Numbers</strong></p>
+
+<p><img src="https://s3-ap-southeast-1.amazonaws.com/misc.form.gov.sg/phone-numbers.jpg" alt="Sending Sms" /></p>
+
+<p><img src="https://s3-ap-southeast-1.amazonaws.com/misc.form.gov.sg/buy-number.jpg" alt="Buy a number" /></p>
+
+<p>You can change the country code to USA, and click on search to purchase a phone number</p>
+
+<p><strong>Do not release your number</strong>: Releasing a number means that you are returning the number you have purchased back to Twilio. This is irreversible. They will charge you for a new number when you purchase it again.</p>
+
+<p><strong>Optional</strong>: Alphanumeric Sender ID</p>
+
+<p>Once you have bought a phone number, you can configure the Alphanumeric Sender ID to mask it with your agency info. This means SMS recipients will see the SMS as coming from the name (Alpha Sender ID) you specify instead of a phone number.</p>
+
+<p>You can do this by navigating to Programmable SMS &gt; Messaging Service &gt; Select the name of the Messaging Service &gt; Features &gt; Add sender &gt; Add Alpha Sender</p>
+
+<p>Alternatively, you may wish to watch the video on <a href="https://onepublicservice.workplace.com/groups/postman.gov.sg/permalink/2716726868596347/">Postman.gov.sg’s workplace group</a> on adding an Alpha Sender ID.</p>
+
+<h4 id="set-up-messaging-service">Set up Messaging Service</h4>
+
+<p>Click on the button with the “chat message” icon on the left side menu and then click on Programmable Messaging &gt; Messaging Services &gt; Create new Messaging Service.</p>
+
+<p>Once you click on the button, you can enter a name for your messaging service and click OK.</p>
+
+<p><img src="https://s3-ap-southeast-1.amazonaws.com/misc.form.gov.sg/msg-service-.jpg" alt="Create Messaging Service" /></p>
+
+<p>Click on Add Senders</p>
+
+<p><img src="https://s3-ap-southeast-1.amazonaws.com/misc.form.gov.sg/sender-pool-.jpg" alt="Add Senders" /></p>
+
+<p>Select Phone Number for Sender Type and click Continue</p>
+
+<p><img src="https://s3-ap-southeast-1.amazonaws.com/misc.form.gov.sg/add-sender-1.png" alt="Add Senders 2" /></p>
+
+<p>Your purchased number should appear here. Select the number and click Add Phone Numbers</p>
+
+<p><img src="https://s3-ap-southeast-1.amazonaws.com/misc.form.gov.sg/purchased-number.jpg" alt="Purchase Number" /></p>
+
+<p>Now, your phone number will be added to the messaging service. Go back to the messaging services landing page.</p>
+
+<p><img src="https://s3-ap-southeast-1.amazonaws.com/misc.form.gov.sg/msg-service-2.jpg" alt="msg service 2" />
+📌 Item 4: We will need your Messaging Service SID from this step.</p>
+
+<h2 id="other">Other</h2>
+
+<h3 id="i-did-not-receive-my-otp-where-is-it">I did not receive my OTP. Where is it?</h3>
+
+<p>The OTP is sent immediately, but might take a while to arrive in your government email if there is high traffic on the government network. OTPs expire in 15 minutes, after which you have to resend another one. After logging in, you will remain logged in for 24 hours. This means you need not have both Intranet and Internet devices at all times; you can log in to your Internet device before you leave your office, and for 24 hours be able to create forms from one Internet device.</p>
+
+<h3 id="my-form-is-really-long-why-cant-users-save-draft">My form is really long. Why can’t users save draft?</h3>
+
+<p>Prior to the launch of Storage mode, we did not enable draft-saving functionality because there was no good place to store draft form data. Our servers did not store data, and saving data on local machines might leak this out to unintended recipients if form is filled from a library computer. With the launch of Storage mode, we might consider re-enabling Save Draft. Stay tuned!</p>
+
+<h3 id="i-am-leaving-the-organisation-or-switching-over-to-a-new-email-how-do-i-transfer-ownershipadd-collaborators-for-my-forms">I am leaving the organisation or switching over to a new email. How do I transfer ownership/add collaborators for my forms?</h3>
+
+<p>You can transfer ownership on the top right hand corner of each form by clicking the round Add Collaborator button.</p>
+
+<p>Note that you might not need to transfer ownership of your form. You may simply add your colleague as a collaborator. Collaborators have the same rights as form creators, except they cannot delete the form.</p>
+
+<p><img src="https://user-images.githubusercontent.com/103998698/171115916-06eefc6a-9ae7-4dcf-a63c-140187fc44ea.gif" width="800" height="300" /></p>
+
+<h3 id="the-previous-form-administrator-has-left-the-department-without-transferring-their-forms-or-adding-collaborators-their-email-address-is-no-longer-valid-how-can-we-regain-access-to-their-forms">The previous form administrator has left the department without transferring their forms or adding collaborators. Their email address is no longer valid. How can we regain access to their forms?</h3>
+
+<p>Obtain internal approval and make a request to your IT Department to temporarily reinstate the email address of the previous form admin, so that you can log in to form.gov.sg using their email to transfer their forms. You can transfer ownership on the top right hand corner of each form by clicking the round Add Collaborator button.</p>
+
+<p>To prevent such incidents from occurring, we strongly recommend that all IT departments add form ownership transfer in offboarding steps for staff leaving the organisation.</p>
+
+<h3 id="my-forms-are-particularly-sensitive-and-i-do-not-want-other-public-officers-to-see-them-on-the-examples-tab">My forms are particularly sensitive and I do not want other public officers to see them on the Examples tab.</h3>
+
+<p>We no longer list forms on the Example tab since January 2021. That means if you have created any forms after this period, they will not be listed.</p>
+
+<h3 id="how-do-i-restrict-access-to-my-form-to-selected-users-to-submit">How do I restrict access to my form to selected users to submit?</h3>
+
+<p>The unguessable form link acts as a password. You can circulate the form link to only users that you intend to gather responses from. As long as you don’t add the form link to public channels such as on your agency’s Internet website, the form link will not be indexed by search engines. If the form link ends up widely circulated with non-authorised users submitting the form, you may then filter off such non-authorised submissions.</p>
+
+<h3 id="how-can-i-split-the-form-into-multiple-pages">How can I split the form into multiple pages?</h3>
+
+<p>We don’t support multiple pages, because &gt;70% of our users fill in forms from their phones, and are used to navigate through content by scrolling not tabbing through pages, such as when they scroll through their social media feeds. Hence we built the Header field to separate your form into sections that your user can scroll through.</p>
+
+<p><img src="https://s3-ap-southeast-1.amazonaws.com/misc.form.gov.sg/faq-section.png" alt="Form FAQ Create Section" title="Form FAQ Create Section" /></p>
+
+<h3 id="what-tech-stack-is-form-built-on">What tech stack is Form built on?</h3>
+
+<p>Form is built on a MEAN stack (MongoDB, Express.js, AngularJS, Node.js). We will be migrating from AngularJS to React (MERN stack) in Feb 2021.</p>
+
+<h3 id="what-is-forms-infrastructure-how-secure-is-form">What is Form’s infrastructure? How secure is Form?</h3>
+
+<p>We have our NodeJS web servers hosted on AWS Singapore zone. Our NoSQL database that stores only form fields and not form data is managed by MongoDB Atlas, and also hosted on AWS Singapore zone. We use AWS SES to send out mails, which are not open mail relays, have valid SPF and DKIM records, and encrypts form data before sending them over to government SGMail. Our web servers are protected with Cloudflare SSL, their Anti-DDoS protection and Web Application Firewall. We use Pingdom for website performance and availability monitoring, and have AWS CloudWatch alarms, together with CloudTrail that monitors activity and GuardDuty for threat intelligence monitoring. Our Data Collation Tool is built with vanilla Javascript and is a static site on S3.</p>
+
+<p>We have undergone rigorous penetration testing, vulnerability assessment and infrastructure review by both world renowned security testers and CSG. Our <a href="https://go.gov.sg/form-pentest">July 2020 pentest report</a> by renowned security firm Cure53 found a solid security standing. We have also written a &gt;74 page NIST security review documenting our security best practices.</p>
+
+<h2 id="support-for-internet-explorer">Support for Internet Explorer</h2>
+
+<p>Support for internet explorer is no longer available for Forms. Please use alternatives like Chrome, Firefox and Edge.</p>
+
+<h3 id="how-do-i-suggest-changes-to-this-user-guide">How do I suggest changes to this user guide?</h3>
+
+<p>Our user guide is hosted by <a href="https://opendoc.sg">OpenDoc</a> and is written in <a href="https://www.markdownguide.org/">Markdown</a>, which is a laymen-friendly language. The code for our user guide is open-sourced, and you may visit our <a href="https://github.com/opendocsg/opendoc-formsg-faq">Github repository</a>, and send us a <a href="https://help.github.com/en/articles/creating-a-pull-request">Pull Request</a> if you have corrections or suggestions to the guide.</p>
+
+
+  </main>
+  <div class="site-branding no-print">
+    Powered by <a href="https://opendoc.sg"><img src="/opendoc-formsg-faq/assets/images/opendoc-logo-full.svg"></a>
+  </div>
+
+  <script src="/opendoc-formsg-faq/assets/vendor/jump.min.js" charset="utf-8"></script>
+  <script src="/opendoc-formsg-faq/assets/vendor/headroom.min.js" charset="utf-8"></script>
+  <script src="/opendoc-formsg-faq/assets/vendor/mark.min.js" charset="utf-8"></script>
+  <script src="/opendoc-formsg-faq/assets/vendor/web-share-shim.bundle.min.js"></script>
+  <script src="/opendoc-formsg-faq/assets/js/toolbar.js"></script>
+  <script src="/opendoc-formsg-faq/assets/js/page-index.js"></script>
+  <script src="/opendoc-formsg-faq/assets/js/pre-loader.js"></script>
+  <script src="/opendoc-formsg-faq/assets/js/lunr.min.js"></script>
+  <script src="/opendoc-formsg-faq/assets/js/search.js"></script>
+  <script src="/opendoc-formsg-faq/assets/js/header.js"></script>
+  <script src="/opendoc-formsg-faq/assets/js/navigation.js"></script>
+</body>
+
+</html>
